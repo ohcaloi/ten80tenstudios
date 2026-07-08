@@ -1,63 +1,64 @@
-# Ten80Ten — Marketing Website
+# Ten80Ten — Marketing Website (v2)
 
-A fast, fully responsive, animated multi-page marketing site for **Ten80Ten** (*Systems + Specialists*).
-Every page is a **single self-contained `.html` file** — all CSS, JS, and the logo mark are inlined.
-**No build step, no framework, no dependencies.** Drop a file on any host, or open it by double-click.
+A fast, responsive, animated marketing site for **Ten80Ten** (*Systems + Specialists*).
+Static HTML with a **shared design system** — no build step, no framework, no JS dependencies.
 
-> Visual direction: calm warm-white "AI/automation agency" aesthetic with elevated, lightweight motion and a deep-orange accent. Inspired by the Automora template, sourced from the Ten80Ten marketing bible.
+> Visual direction: monochrome ink-on-white premium aesthetic — rounded panel sections,
+> dark "curtain" sections, mono-font eyebrows, pill buttons with icon chips, giant marquee
+> headings, and reveal-on-scroll motion. Ten80Ten's hourglass mark provides the orange
+> accent. All copy is original, built around the 10/80/10 method.
 
-## Pages
-| File | Purpose |
-|------|---------|
-| `index.html` | Home — hero + live-automation mock, the problem, Systems + Specialists model, 10/80/10 framework, offer-ladder bento, stats, testimonial, CTA |
-| `services.html` | What we install, the Car/Engine/Driver model, the engagement ladder, 10/80/10 timeline, what gets handled |
-| `pricing.html` | VA retainers + custom platform tiers, Founding Client Program, FAQ accordion |
-| `about.html` | Belief & story, the 10/80/10 method (`#framework`), differentiators, who we serve |
-| `contact.html` | Book-a-call (Calendly placeholder) + validated contact form with success state |
+## Structure
 
 ```
 ten80ten/
-├── index.html  services.html  pricing.html  about.html  contact.html   ← self-contained
-├── assets/
-│   └── img/                    # brand logos + og-image.png (social share card)
-└── README.md
+├── index.html                     Home — hero (floating system cards + photo strip +
+│                                  logo ticker), 10/80/10 bento, works grid, capabilities
+│                                  (horizontal accordion), testimonials, demo feature,
+│                                  process + team, pricing (billing toggle), FAQ,
+│                                  insights, contact form, footer w/ ghost wordmark
+├── services.html                  Three service deep-dives + process strip
+├── pricing.html                   Four tiers, comparison, Founding Client, FAQ
+├── about.html                     Story, values, stats, team
+├── contact.html                   Free-audit form + FAQ
+├── case-studies.html              All case cards
+├── case-real-estate-portal.html   ┐
+├── case-call-center-platform.html │
+├── case-social-engine.html        │ case studies (dark hero, 10/80/10 narrative,
+├── case-healthcare-automation.html│ results band, related work)
+├── case-bcj-learn.html            ┘
+└── assets/
+    ├── css/styles.css   design tokens + every component (edit :root to re-theme)
+    ├── js/main.js       reveals, tickers, horizontal accordion, slider, billing
+    │                    toggle, FAQ accordion, nav state, forms, counters
+    └── img/             logo marks + photos/
 ```
 
-Each HTML file inlines its own `<style>`, `<script>`, and the SVG hourglass mark, so it renders standalone.
-The only external requests are Google Fonts (needs internet) and the `og:image` (used by social crawlers).
-
-> **Editing tip:** because each page is self-contained, the design system CSS lives inside a `<style>` block
-> near the top of every page. To restyle globally, edit the `:root` tokens in each file — or keep the
-> maintainable **shared-assets** version from git history (`git checkout redesign/automora-style~1 -- assets`)
-> if you'd prefer to edit one `styles.css`/`app.js` and re-inline.
-
-## Wire up before going live (2 things)
-
-**1. Booking link** — replace the Calendly placeholder with your real URL.
-In `contact.html`, search for `calendly.com/ten80ten/audit` and swap it. To embed an inline calendar,
-drop your Calendly/Cal.com embed into the `.booking-embed` container (replace the `.booking-placeholder` block).
-
-**2. Contact form** — fully validated client-side; the submit is a demo (no backend).
-To make it send, point it at a form service like [Formspree](https://formspree.io):
-- In `contact.html`, set `<form ... action="https://formspree.io/f/XXXX" method="POST">`
-- In the inlined `<script>` (the `contactForm()` function), replace the `setTimeout(...)` demo block with
-  `fetch(form.action, { method:'POST', body:new FormData(form), headers:{Accept:'application/json'} })`
-  and show `.form-success` on a successful response.
-
-Also update the email (`hello@ten80ten.com`) and social links (`#`) in each page footer.
-
 ## Design system
-All theming is via CSS custom properties in each page's `:root` block:
-- **Color** — `--accent` (`#EA5518` deep orange), `--bg` (`#FAFAF7` calm warm white), `--ink` (text). Change `--accent` to re-skin.
-- **Type** — Plus Jakarta Sans (display) · Inter (body) · JetBrains Mono (labels/numbers), via Google Fonts with `font-display:swap`.
-- **Radius / shadow / spacing / motion** tokens are all defined there too.
-- **Brand mark** — a clean vector rebuild of the hourglass logo (inlined + `assets/img/ten80ten-mark.svg`); swap the gradient stops to retune.
 
-## Built-in quality
-- **Responsive** mobile-first; verified at 375px and 1280px+, no horizontal scroll.
-- **Accessible** — semantic landmarks, labelled icon buttons, visible focus rings, ≥4.5:1 text contrast, keyboard-operable nav/FAQ/form, `aria-live` on form success.
-- **Performant** — zero JS dependencies; animations use only `transform`/`opacity`; reveals via `IntersectionObserver`; space reserved (no layout shift).
-- **`prefers-reduced-motion`** fully respected — reveals, counters, marquee, parallax and float all disable gracefully.
+All theming lives in `assets/css/styles.css` under `:root`:
+- **Color** — `--ink` `#1a1a1a`, `--white`, `--panel` `#f0f0f0`, alpha ramps for both
+  ink and white; `--accent` `#f97316` (logo orange) used sparingly (status dots, flags).
+- **Type** — Inter (display + body, tight -0.04em tracking on headings) + Geist Mono
+  (uppercase eyebrows/labels) via Google Fonts.
+- **Layout** — 12px page gutter; sections are rounded 20px panels (white / #f0f0f0 / ink);
+  dark sections end in rounded "curtain" connectors.
+- **Motion** — IntersectionObserver reveals (`.rv .rv-up/-left/-right/-scale` +
+  `data-delay`), CSS marquee tickers (duplicated by JS), horizontal accordion,
+  auto-advancing testimonial slider, count-up metrics. All `transform`/`opacity` only;
+  `prefers-reduced-motion` fully respected.
+
+## Wire up before going live
+
+1. **Contact form** — submits via `mailto:hello@ten80ten.com` (no backend). To use a form
+   service, set `action` (e.g. Formspree) and remove the `data-contact` mailto handler
+   in `main.js`.
+2. **Social links** — footer icons currently `href="#"`.
+3. **Demo video** — the play button on the feature section links to `#contact`; point it
+   at the real demo video when ready.
+4. **Testimonials** — role-attributed quotes; swap in named clients as they land.
 
 ## Deploy
-Drag the `ten80ten/` folder into Netlify Drop, or connect the repo to Vercel/Cloudflare Pages/GitHub Pages. No configuration needed.
+
+Drag the folder into Netlify Drop, or connect to Vercel / Cloudflare Pages / GitHub Pages.
+No configuration needed. Local preview: `npx serve -l 4321 ten80ten`

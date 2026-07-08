@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Posting Engine — Case Study — Ten80Ten</title>
+  <meta name="description" content="How Ten80Ten’s social posting engine automates ~70% of publishing: drafts queue themselves, approvals stay human, posts ship on schedule.">
+  <link rel="icon" type="image/png" href="assets/img/ten80ten-mark-512.png">
+  <meta property="og:title" content="Social Posting Engine — Ten80Ten Case Study">
+  <meta property="og:description" content="Roughly 70% of publishing automated end-to-end — approvals stay human.">
+  <meta property="og:image" content="assets/img/og-image.png">
+  <meta property="og:type" content="article">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Geist+Mono:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+    .case-meta { position: sticky; top: 110px; display: flex; flex-direction: column; }
+    .case-meta .cm-row { display: flex; flex-direction: column; gap: 6px; padding: 20px 0; border-bottom: 1px solid var(--ink-06); }
+    .case-meta .cm-row:first-child { border-top: 1px solid var(--ink-06); }
+    .case-meta .cm-row span { font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; color: var(--ink-40); }
+    .case-meta .cm-row strong { font-size: 15px; font-weight: 500; }
+    .dark-aside { display: flex; flex-direction: column; gap: 24px; }
+    .dark-aside .mono-note { color: var(--w-40); }
+    .cta-panel { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 28px; padding: 110px var(--pad-x); }
+    .cta-panel p { max-width: 480px; color: var(--w-70); }
+    .cta-panel .display-2 { color: var(--white); max-width: 640px; }
+  </style>
+</head>
+<body>
+
+  <!-- ======================= NAV ======================= -->
+  <header class="nav" id="top">
+    <a class="nav-logo" href="index.html" aria-label="Ten80Ten home">
+      <img src="assets/img/ten80ten-mark-512.png" alt="Ten80Ten mark">
+      <span>TEN80TEN</span>
+    </a>
+    <nav class="nav-menu" aria-label="Main">
+      <a href="index.html#works">Works</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#process">Process</a>
+      <a href="index.html#pricing">Pricing</a>
+      <a href="about.html">Company</a>
+    </nav>
+    <a class="btn nav-cta" href="index.html#contact">
+      <span class="btn-chip"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      Book a Call
+    </a>
+    <button class="nav-burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </header>
+  <div class="mobile-menu">
+    <a href="index.html#works">Works</a>
+    <a href="index.html#services">Services</a>
+    <a href="index.html#process">Process</a>
+    <a href="index.html#pricing">Pricing</a>
+    <a href="about.html">Company</a>
+    <a href="index.html#contact">Book a Call</a>
+  </div>
+
+  <!-- ======================= SUBHERO (dark) ======================= -->
+  <section class="subhero">
+    <div class="subhero-panel subhero-panel--dark">
+      <div class="kicker kicker--light rv rv-up">
+        <span class="kicker-pill"></span>
+        <span class="kicker-line"></span>
+        <span class="eyebrow">Case Study // Marketing</span>
+      </div>
+      <h1 class="display-1 rv rv-up" data-delay="0.05">Social Posting Engine</h1>
+      <p class="sub body-lg rv rv-up" data-delay="0.1">Roughly 70% of publishing automated end-to-end. Posts ship daily, on schedule — and the approval stays human, on purpose.</p>
+      <div class="subhero-media rv rv-scale" data-delay="0.2">
+        <img src="assets/img/photos/cs-social.jpg" alt="A phone screen full of social media apps — the channels the engine publishes to">
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= OVERVIEW + META ======================= -->
+  <section class="section-pad">
+    <div class="two-col">
+      <aside>
+        <div class="case-meta rv rv-up">
+          <div class="cm-row"><span>Industry</span><strong>Content Operations / Marketing</strong></div>
+          <div class="cm-row"><span>Service Type</span><strong>Automation Install · Content Engine</strong></div>
+          <div class="cm-row"><span>Cadence</span><strong>Daily scheduled posts, multi-channel</strong></div>
+          <div class="cm-row"><span>System</span><strong>Draft queue · Per-channel formatting · Human approval gate</strong></div>
+        </div>
+      </aside>
+      <div class="prose">
+        <div class="kicker rv rv-up">
+          <span class="kicker-pill"></span>
+          <span class="kicker-line"></span>
+          <span class="eyebrow">Overview</span>
+        </div>
+        <h2 class="display-2 rv rv-up">Consistent publishing compounds. It's also the first thing that dies in a busy week.</h2>
+        <p class="rv rv-up">The problem is never ideas. It's the pipeline: drafting, formatting for each channel, scheduling — and remembering to actually hit post.</p>
+        <p class="rv rv-up">We built an engine that runs the pipeline. Drafts queue themselves, channel formatting happens automatically, and posts ship on schedule across platforms. Roughly 70% of the process is automated end-to-end. The approval step is deliberately kept human.</p>
+
+        <h2 class="rv rv-up">The first 10% — the voice and the rules</h2>
+        <p class="rv rv-up">The engine only works because the judgment came first: what the brand sounds like, what gets posted where, and what never goes out without a second look. Those rules were documented before anything was automated — they're the engine's guardrails.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= THE 80% (dark) ======================= -->
+  <section class="section-pad section-pad--dark">
+    <div class="two-col">
+      <aside class="dark-aside">
+        <div class="kicker kicker--light rv rv-up">
+          <span class="kicker-pill"></span>
+          <span class="kicker-line"></span>
+          <span class="eyebrow">The 80%</span>
+        </div>
+        <p class="mono-note rv rv-up" data-delay="0.1">// Nobody babysits a posting queue. Nothing waits in a drafts folder to be remembered.</p>
+      </aside>
+      <div class="prose">
+        <h2 class="display-2 rv rv-up" style="color:var(--white)">Then the pipeline runs itself.</h2>
+        <p class="rv rv-up">Drafts are generated and queued. Each one is formatted for its channel's quirks. The calendar fills itself and posts fire on schedule — daily, without a nightly scramble.</p>
+        <p class="rv rv-up">This is the engine behind our own publishing, and the same install we offer clients as part of content operations: pipeline automated, voice documented, approvals human.</p>
+        <p class="rv rv-up">The final 10% — a person saying "yes, ship it" — is the part we refuse to automate. Your brand, your call, every time.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= RESULTS ======================= -->
+  <section class="works-sheet">
+    <div class="marquee-head">
+      <div class="ticker">
+        <div class="ticker-track">
+          <span class="mq">The Results</span>
+          <img class="spin-badge" src="assets/img/ten80ten-mark-512.png" alt="">
+          <span class="mq">The Results</span>
+          <img class="spin-badge" src="assets/img/ten80ten-mark-512.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="stat-band">
+      <div class="metric rv rv-left"><strong>~70%</strong><span>publishing automated</span></div>
+      <div class="metric rv rv-left" data-delay="0.08"><strong>Daily</strong><span>posts on schedule</span></div>
+      <div class="metric rv rv-left" data-delay="0.16"><strong>100%</strong><span>human approval loop</span></div>
+      <div class="metric rv rv-left" data-delay="0.24"><strong>0</strong><span>calendars babysat</span></div>
+    </div>
+
+    <div class="section-pad" style="padding-top:60px;padding-bottom:20px">
+      <p class="body-lg rv rv-up" style="max-width:640px">Publishing became a system instead of a scramble. The calendar stays full, channels stay consistent, and the only human minutes spent are the ones that matter: reviewing and approving.</p>
+    </div>
+
+    <!-- related -->
+    <div class="marquee-head" style="padding-top:100px">
+      <div class="ticker">
+        <div class="ticker-track">
+          <span class="mq">More Work</span>
+          <img class="spin-badge" src="assets/img/ten80ten-mark-512.png" alt="">
+          <span class="mq">More Work</span>
+          <img class="spin-badge" src="assets/img/ten80ten-mark-512.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="works-grid">
+      <a class="work-card rv rv-up" href="case-call-center-platform.html">
+        <div class="work-media">
+          <img class="photo" src="assets/img/photos/cs-callcenter.jpg" alt="Call-center platform">
+          <span class="work-cat">Operations</span>
+          <span class="work-logo">Call-Center Platform</span>
+        </div>
+        <div class="work-stats">
+          <div class="ws"><strong>0 missed</strong><span>calls to tickets</span></div>
+          <div class="ws"><strong>24 hr</strong><span>coverage</span></div>
+          <div class="ws"><strong>Live</strong><span>recordings + QA</span></div>
+        </div>
+      </a>
+
+      <a class="work-card rv rv-up" data-delay="0.08" href="case-bcj-learn.html">
+        <div class="work-media">
+          <img class="photo" src="assets/img/photos/cs-learn.jpg" alt="BCJ Learn training platform">
+          <span class="work-cat">Education</span>
+          <span class="work-logo">BCJ Learn Platform</span>
+        </div>
+        <div class="work-stats">
+          <div class="ws"><strong>End-to-end</strong><span>custom build</span></div>
+          <div class="ws"><strong>Tracked</strong><span>course delivery</span></div>
+          <div class="ws"><strong>Faster</strong><span>team onboarding</span></div>
+        </div>
+      </a>
+
+      <a class="work-card rv rv-up" data-delay="0.16" href="case-studies.html">
+        <div class="work-media">
+          <img class="photo" src="assets/img/photos/case-ecom.jpg" alt="All Ten80Ten case studies">
+          <span class="work-cat">All Industries</span>
+          <span class="work-logo">View All Case Studies →</span>
+        </div>
+        <div class="work-stats">
+          <div class="ws"><strong>Systems</strong><span>not headcount</span></div>
+          <div class="ws"><strong>Results</strong><span>not hours</span></div>
+          <div class="ws"><strong>Yours</strong><span>you own the build</span></div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ======================= CTA ======================= -->
+  <section class="section-pad--dark cta-panel" style="margin-bottom:12px">
+    <div class="kicker kicker--light rv rv-up" style="max-width:320px">
+      <span class="kicker-pill"></span>
+      <span class="kicker-line"></span>
+      <span class="eyebrow">Your Turn</span>
+    </div>
+    <h2 class="display-2 rv rv-up">Want a system like this?</h2>
+    <p class="body-lg rv rv-up" data-delay="0.1">Start with the free 20-minute audit. One call, and you'll know exactly what to install first — no obligation, and you keep the map.</p>
+    <div class="rv rv-up" data-delay="0.15">
+      <a class="btn btn--light" href="index.html#contact">
+        <span class="btn-chip"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        Get Your Free Audit
+      </a>
+    </div>
+  </section>
+
+  <!-- ======================= FOOTER ======================= -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/img/ten80ten-mark-512.png" alt="Ten80Ten">
+        <p>Systems + Specialists. We install the system that does your repetitive work automatically — and the trained specialist who runs it.</p>
+        <form class="subscribe" onsubmit="event.preventDefault();this.querySelector('button').textContent='Subscribed ✓'">
+          <input type="email" placeholder="Your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+        <div class="footer-social">
+          <span class="eyebrow">Follow us:</span>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.24 8.31h4.52V23H.24zM8.34 8.31h4.33v2h.06c.6-1.14 2.08-2.34 4.28-2.34 4.58 0 5.42 3.01 5.42 6.93V23h-4.51v-7.14c0-1.7-.03-3.89-2.37-3.89-2.37 0-2.73 1.85-2.73 3.77V23H8.34z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24"><path d="M18.9 1.15h3.68l-8.04 9.19L24 22.85h-7.4l-5.8-7.58-6.63 7.58H.48l8.6-9.83L0 1.15h7.59l5.24 6.93zm-1.29 19.5h2.04L6.49 3.24H4.3z"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.09 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.7 4.53-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.89v2.26h3.32l-.53 3.49h-2.79V24C19.61 23.09 24 18.1 24 12.07z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="case-studies.html">Case Studies</a>
+        <a href="pricing.html">Pricing</a>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="index.html#contact">Book a Call</a>
+        <a href="https://www.ten80ten.com" target="_blank" rel="noopener">ten80ten.com</a>
+      </div>
+      <div class="footer-col">
+        <h5>Policies</h5>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Ten80Ten. All rights reserved.</span>
+      <span>Empower your core · Delegate the chore</span>
+    </div>
+    <span class="footer-word" aria-hidden="true">TEN80TEN</span>
+  </footer>
+
+  <!-- fixed corner badge -->
+  <a class="corner-badge" href="index.html#contact">
+    <span class="cb-thumb"><img src="assets/img/photos/service-va.jpg" alt=""></span>
+    <span class="cb-txt">
+      <strong>Book your free audit</strong>
+      <span>20 min · no obligation</span>
+    </span>
+  </a>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
