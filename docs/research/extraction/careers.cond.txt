@@ -1,0 +1,950 @@
+<style> ":root body { background: var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232)); }"
+[Header] <header>
+  [Logo] <div>
+    [Link container] <a> ->./
+      [Logo] <div>
+  [Nav container] <div>
+    [Menu] <div> (x2)
+      [Closed] <div>
+        [Plus] <div> {transform:none}
+          [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+          [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:rotate(90deg)}
+        [Container] <div>
+          <div> "M" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "n" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+[Desktop] <a> ->https://cal.com
+  [A 30-minute call to clarify your next steps. Zero obligations] <div> {transform:none}
+    <p> "Zero obligations"
+      <span> "A 30-minute call to clarify your next steps."
+  [Avatar] <div> {width:5px}
+    <img> IMG:qv5GatDLyXXZ7ZK4a2ffaEG3c.jpg?width=90&height=90 {border-radius:inherit}
+  [Button Background] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(27, 26, 25))}
+    [Vector] <div> {transform:none}
+<style> "html body { background: var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255)); }"
+[Main] <main>
+  [Heading] <section>
+    [Container] <div>
+      [Side text] <div> (x2) {opacity:0; transform:translateY(30px)}
+        [Variant 1] <div>
+          [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+          <p> "We’re hiring" {transform:uppercase}
+      [Items] <div>
+        <h1>
+          <CHAR-ANIM> "CareersatEffica[4]"
+        <CHAR-ANIM> "Ifyouliketurningmessyworkflowsintoclear,dependablesystemsandyoupreferquietwinsoverhype,you’llfeelathomehere."
+    [Grid] <div> (x3)
+      [Desktop] <div>
+        [Container] <div>
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+  [Cards] <section>
+    [Container] <div>
+      [Filler] <div>
+      [Cards] <div>
+        [Desktop] <div> {width:0px; width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Container] <div>
+            [Heading] <div>
+              [Icon] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+                [Frame] <div>
+              [Job Title] <div> {transform:none}
+                <p> "AI Consultant (Workflow & Strategy)"
+            [Tags] <div>
+              [Stroke] <div> (x3) {width:1px; background-color:rgba(255, 255, 255, 0)}
+          [Desktop] <a> ->./about
+            [Container] <div>
+            [Arrow container] <div> {transform:none}
+              [Arrow] <div>
+        [Phone] <div> {width:0px; width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Container] <div>
+            [Heading] <div>
+              [Icon] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+                [Frame] <div>
+              [Job Title] <div> {transform:none}
+                <p> "AI Consultant (Workflow & Strategy)"
+            [Tags] <div>
+              [Stroke] <div> (x3) {width:1px; background-color:rgba(255, 255, 255, 0)}
+          [Phone] <a> ->./about
+            [Container] <div>
+            [Arrow container] <div> {transform:none}
+              [Arrow] <div>
+        [Tablet] <div> {width:0px; width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Container] <div>
+            [Heading] <div>
+              [Icon] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+                [Frame] <div>
+              [Job Title] <div> {transform:none}
+                <p> "AI Consultant (Workflow & Strategy)"
+            [Tags] <div>
+              [Stroke] <div> (x3) {width:1px; background-color:rgba(255, 255, 255, 0)}
+          [Phone] <a> ->./about
+            [Container] <div>
+            [Arrow container] <div> {transform:none}
+              [Arrow] <div>
+        [Desktop] <div> {width:0px; width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Container] <div>
+            [Heading] <div>
+              [Icon] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+                [Frame] <div>
+              [Job Title] <div> {transform:none}
+                <p> "Implementation Specialist (Automation)"
+            [Tags] <div>
+              [Stroke] <div> (x2) {width:1px; background-color:rgba(255, 255, 255, 0)}
+          [Desktop] <a> ->./about
+            [Container] <div>
+            [Arrow container] <div> {transform:none}
+              [Arrow] <div>
+        [Phone] <div> {width:0px; width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Container] <div>
+            [Heading] <div>
+              [Icon] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+                [Frame] <div>
+              [Job Title] <div> {transform:none}
+                <p> "Implementation Specialist (Automation)"
+            [Tags] <div>
+              [Stroke] <div> (x2) {width:1px; background-color:rgba(255, 255, 255, 0)}
+          [Phone] <a> ->./about
+            [Container] <div>
+            [Arrow container] <div> {transform:none}
+              [Arrow] <div>
+        [Tablet] <div> {width:0px; width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Container] <div>
+            [Heading] <div>
+              [Icon] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+                [Frame] <div>
+              [Job Title] <div> {transform:none}
+                <p> "Implementation Specialist (Automation)"
+            [Tags] <div>
+              [Stroke] <div> (x2) {width:1px; background-color:rgba(255, 255, 255, 0)}
+          [Phone] <a> ->./about
+            [Container] <div>
+            [Arrow container] <div> {transform:none}
+              [Arrow] <div>
+        [Desktop] <div> {width:0px; width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Container] <div>
+            [Heading] <div>
+              [Icon] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+                [Frame] <div>
+              [Job Title] <div> {transform:none}
+                <p> "Product Designer (Ops UX)"
+            [Tags] <div>
+              [Stroke] <div> (x3) {width:1px; background-color:rgba(255, 255, 255, 0)}
+          [Desktop] <a> ->./about
+            [Container] <div>
+            [Arrow container] <div> {transform:none}
+              [Arrow] <div>
+        [Phone] <div> {width:0px; width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Container] <div>
+            [Heading] <div>
+              [Icon] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+                [Frame] <div>
+              [Job Title] <div> {transform:none}
+                <p> "Product Designer (Ops UX)"
+            [Tags] <div>
+              [Stroke] <div> (x3) {width:1px; background-color:rgba(255, 255, 255, 0)}
+          [Phone] <a> ->./about
+            [Container] <div>
+            [Arrow container] <div> {transform:none}
+              [Arrow] <div>
+        [Tablet] <div> {width:0px; width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Container] <div>
+            [Heading] <div>
+              [Icon] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+                [Frame] <div>
+              [Job Title] <div> {transform:none}
+                <p> "Product Designer (Ops UX)"
+            [Tags] <div>
+              [Stroke] <div> (x3) {width:1px; background-color:rgba(255, 255, 255, 0)}
+          [Phone] <a> ->./about
+            [Container] <div>
+            [Arrow container] <div> {transform:none}
+              [Arrow] <div>
+        [Desktop] <div> {width:1px; width:0px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Container] <div>
+            [Heading] <div>
+              [Icon] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+                [Frame] <div>
+              [Job Title] <div> {transform:none}
+                <p> "Prompt & Template Specialist"
+            [Tags] <div>
+              [Stroke] <div> (x3) {width:1px; background-color:rgba(255, 255, 255, 0)}
+          [Desktop] <a> ->./about
+            [Container] <div>
+            [Arrow container] <div> {transform:none}
+              [Arrow] <div>
+        [Phone] <div> {width:1px; width:0px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Container] <div>
+            [Heading] <div>
+              [Icon] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+                [Frame] <div>
+              [Job Title] <div> {transform:none}
+                <p> "Prompt & Template Specialist"
+            [Tags] <div>
+              [Stroke] <div> (x3) {width:1px; background-color:rgba(255, 255, 255, 0)}
+          [Phone] <a> ->./about
+            [Container] <div>
+            [Arrow container] <div> {transform:none}
+              [Arrow] <div>
+        [Tablet] <div> {width:1px; width:0px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Container] <div>
+            [Heading] <div>
+              [Icon] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+                [Frame] <div>
+              [Job Title] <div> {transform:none}
+                <p> "Prompt & Template Specialist"
+            [Tags] <div>
+              [Stroke] <div> (x3) {width:1px; background-color:rgba(255, 255, 255, 0)}
+          [Phone] <a> ->./about
+            [Container] <div>
+            [Arrow container] <div> {transform:none}
+              [Arrow] <div>
+    [Grid] <div> (x3)
+      [Desktop] <div>
+        [Container] <div>
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+  [Steps] <section>
+    [Process] <div>
+      [Side text] <div>
+        [Variant 1] <div>
+          [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+          <p> "What happens next?" {transform:uppercase}
+      [Steps] <div>
+        <span> "The" {opacity:0.001; transform:translateX(0px) translateY(10px) scale(1) rotate(0}
+        <span> "hiring" {opacity:0.001; transform:translateX(0px) translateY(10px) scale(1) rotate(0}
+        <span> "process" {opacity:0.001; transform:translateX(0px) translateY(10px) scale(1) rotate(0}
+        [Cards] <div>
+          [Desktop] <div>
+            [Number] <div> {background-color:var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255))}
+              [Number] <div> {transform:none}
+            [Text] <div>
+          [Tablet/Phone] <div>
+            [Number] <div> {background-color:var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255))}
+              [Number] <div> {transform:none}
+            [Text] <div>
+          [Desktop] <div>
+            [Number] <div> {background-color:var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255))}
+              [Number] <div> {transform:none}
+            [Text] <div>
+          [Tablet/Phone] <div>
+            [Number] <div> {background-color:var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255))}
+              [Number] <div> {transform:none}
+            [Text] <div>
+          [Desktop] <div>
+            [Number] <div> {background-color:var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255))}
+              [Number] <div> {transform:none}
+            [Text] <div>
+          [Tablet/Phone] <div>
+            [Number] <div> {background-color:var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255))}
+              [Number] <div> {transform:none}
+            [Text] <div>
+        [Office Image] <div> {opacity:0; transform:none}
+          <img> IMG:f4B3126mzulTF8n3jbTQWkhbJ4.jpg?width=1334&height=500 1334w alt="Team of three employees having a meeting at a table in a bri" {border-radius:inherit}
+    [Text + button] <div>
+      [Side] <div>
+        [Variant 1] <div>
+          [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+            [Img] <div>
+              <img> IMG:VviXg5gtkEDH7JFmrrceZuWXsPc.jpg?width=72&height=72 {border-radius:inherit}
+          [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+            [Img] <div>
+              <img> IMG:Jw3iRbe4PzHnMSMkcqK7HDKFb4.jpg?width=72&height=72 {border-radius:inherit}
+          [3] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+            [Img] <div>
+              <img> IMG:gl9J4xex330lnFZO1SXKqJWns4c.jpg?width=72&height=72 {border-radius:inherit}
+          [4] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+            <p> "8+"
+            [Img] <div> {background-color:var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255))}
+      [Content] <div>
+        [Container] <div>
+          [Text] <div>
+            (x2)
+              <CHAR-ANIM> "Wemapasingleworkflow,removethefrictioneveryonefeels,andprovevaluewithmodest,reliableinterventions:in-contextda"
+            <p> "We prefer boring systems that don’t break, clear handovers, and logs that tell the story without a meeting. Cl"
+          [Button container] <div>
+            [Desktop] <a> ->./contact {width:1px; width:0px; background-color:rgba(255, 255, 255, 0)}
+              [Variant 1] <div>
+              [Text] <div>
+                [CTA Text] <div> (x2) {transform:none}
+            [Phone] <a> ->./contact {width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+              [Variant 1] <div>
+              [Text] <div>
+                [CTA Text] <div> (x2) {transform:none}
+            [Desktop] <a> ->./contact {width:1px; width:0px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+              [Variant 1] <div>
+              [Text] <div>
+                [CTA Text] <div> (x2) {transform:none}
+    [Grid] <div> (x3)
+      [Desktop] <div>
+        [Container] <div>
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+  [Desktop] <section> {background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+    [Container] <div>
+      [Heading + description] <div>
+        [Heading] <div>
+          <span> "Newsletter" {opacity:0.001; transform:translateX(0px) translateY(30px) scale(1) rotate(0}
+        [Description] <div> {opacity:0; transform:translateY(8px)}
+          <p> "We send occasional updates about new case studies and useful tips."
+      [Container] <div>
+        <p> "Your Email"
+      [Default] <button> {width:0px; width:1px; background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+        [Variant 1] <div>
+        [Text] <div>
+          [Text] <div>
+            [CTA Text] <div> (x2) {transform:none}
+    [Grid] <div>
+      [Desktop] <div>
+        [Container] <div>
+          [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+  [Phone] <section> {background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+    [Container] <div>
+      [Heading + description] <div>
+        [Heading] <div>
+          <span> "Newsletter" {opacity:0.001; transform:translateX(0px) translateY(30px) scale(1) rotate(0}
+        [Description] <div> {opacity:0; transform:translateY(8px)}
+          <p> "We send occasional updates about new case studies and useful tips."
+      [Container] <div>
+        <p> "Your Email"
+      [Default] <button> {width:0px; width:1px; background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+        [Variant 1] <div>
+        [Text] <div>
+          [Text] <div>
+            [CTA Text] <div> (x2) {transform:none}
+    [Grid] <div>
+      [Phone] <div>
+        [Container] <div>
+          [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+  [Tablet] <section> {background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+    [Container] <div>
+      [Heading + description] <div>
+        [Heading] <div>
+          <span> "Newsletter" {opacity:0.001; transform:translateX(0px) translateY(30px) scale(1) rotate(0}
+        [Description] <div> {opacity:0; transform:translateY(8px)}
+          <p> "We send occasional updates about new case studies and useful tips."
+      [Container] <div>
+        <p> "Your Email"
+      [Default] <button> {width:0px; width:1px; background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+        [Variant 1] <div>
+        [Text] <div>
+          [Text] <div>
+            [CTA Text] <div> (x2) {transform:none}
+    [Grid] <div>
+      [Tablet] <div>
+        [Container] <div>
+          [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+        [Top line] <div>
+  [Desktop] <section> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+    [Container] <div>
+      [Variant 1] <div>
+        [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+        <p> "YOUR FIRST STEP" {transform:uppercase}
+      [Heading + button] <div>
+        [Still unsure?] <div> {transform:none}
+          <CHAR-ANIM> "Bookafree30-minutecall."
+        [Desktop] <a> ->https://cal.com {width:1px; width:0px; background-color:rgba(0, 0, 0, 0)}
+          [Variant 1] <div>
+          [Text] <div>
+            [CTA Text] <div> (x2) {transform:none}
+              <p> "Book a call"
+      [Quote] <div>
+        <p> "My job is to make sure you leave the first call with a clear, actionable plan."
+        [Reversed] <div>
+          [image] <div>
+            <img> IMG:rPovAy2J6Q4sllGf3hH7aT3fCk.jpg?width=63&height=63 {border-radius:inherit}
+          [Contact Info Text] <div>
+            <p> "Jessica Burns"
+            <p> "Client Success Manager"
+      [Hand] <div>
+        [Variant 1] <div>
+          <img> IMG:kjGmhtz3TdcXrnPhEretifwBQsU.png?width=530&height=752 530w {border-radius:inherit}
+    [BG gradient] <div> {opacity:0; transform:translateY(40px) scale(1.2)}
+      <img> IMG:0iIr9plKeMJd8dBb4O7iHnWw.png?scale-down-to=512&width=676&hei {border-radius:inherit}
+    [Grid] <div>
+      [Desktop] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Phone] <section> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+    [Container] <div>
+      [Variant 1] <div>
+        [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+        <p> "YOUR FIRST STEP" {transform:uppercase}
+      [Heading + button] <div>
+        [Still unsure?] <div> {transform:none}
+          <p> "Book a free 30-minute call."
+        [Phone] <a> ->https://cal.com {width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+          [Variant 1] <div>
+          [Text] <div>
+            [CTA Text] <div> (x2) {transform:none}
+              <p> "Book a call"
+      [Quote] <div>
+        <p> "My job is to make sure you leave the first call with a clear, actionable plan."
+        [Default] <div>
+          [image] <div>
+            <img> IMG:rPovAy2J6Q4sllGf3hH7aT3fCk.jpg?width=63&height=63 {border-radius:inherit}
+          [Contact Info Text] <div>
+            <p> "Jessica Burns"
+            <p> "Client Success Manager"
+      [Hand] <div>
+        [Variant 1] <div>
+          <img> IMG:kjGmhtz3TdcXrnPhEretifwBQsU.png?width=530&height=752 530w {border-radius:inherit}
+    [BG gradient] <div> {opacity:0; transform:translateY(40px) scale(1.2)}
+      <img> IMG:0iIr9plKeMJd8dBb4O7iHnWw.png?scale-down-to=512&width=676&hei {border-radius:inherit}
+    [Grid] <div>
+      [Phone] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Tablet] <section> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+    [Container] <div>
+      [Variant 1] <div>
+        [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+        <p> "YOUR FIRST STEP" {transform:uppercase}
+      [Heading + button] <div>
+        [Still unsure?] <div> {transform:none}
+          <CHAR-ANIM> "Bookafree30-minutecall."
+        [Desktop] <a> ->https://cal.com {width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+          [Variant 1] <div>
+          [Text] <div>
+            [CTA Text] <div> (x2) {transform:none}
+              <p> "Book a call"
+      [Quote] <div>
+        <p> "My job is to make sure you leave the first call with a clear, actionable plan."
+        [Default] <div>
+          [image] <div>
+            <img> IMG:rPovAy2J6Q4sllGf3hH7aT3fCk.jpg?width=63&height=63 {border-radius:inherit}
+          [Contact Info Text] <div>
+            <p> "Jessica Burns"
+            <p> "Client Success Manager"
+      [Hand] <div> {transform:translateX(-50%)}
+        [Variant 1] <div>
+          <img> IMG:kjGmhtz3TdcXrnPhEretifwBQsU.png?width=530&height=752 530w {border-radius:inherit}
+    [BG gradient] <div> {opacity:0; transform:translateY(40px) scale(1.2)}
+      <img> IMG:0iIr9plKeMJd8dBb4O7iHnWw.png?scale-down-to=512&width=676&hei {border-radius:inherit}
+    [Grid] <div>
+      [Tablet] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+[Delete me!] <div> {opacity:0.001; transform:translateY(40px)}
+  [Desktop] <div> {background-color:rgb(34, 34, 34)}
+    <img> IMG:bJGZ8is3phzCPltqTFRWXpcVk.jpg?width=1600&height=1200 1600w {border-radius:inherit}
+    <p> "Effica® Template"
+    <p> "See What You Get"
+    <p> "from"
+    <p> "$129"
+  [Phone] <div> {background-color:rgb(34, 34, 34)}
+    <img> IMG:bJGZ8is3phzCPltqTFRWXpcVk.jpg?width=1600&height=1200 1600w {border-radius:inherit}
+    <p> "Effica®"
+    <p> "See What You Get"
+    <p> "from"
+    <p> "$129"
+[Desktop] <section> {background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+  [Container] <div>
+    [Heading] <div>
+      [Side text] <div>
+        [Default] <div>
+          [Container] <div>
+            [Ellipse] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "13"
+          <p> "Ready to start?"
+      [Top] <div>
+        <h2> "Get in touch"
+        [Whether you have questions or just want to explore options, we’re here.] <div> {opacity:0.6; transform:none}
+          <p> "Whether you have questions or just want to explore options, we’re here."
+      [Nav] <nav>
+        [Nav link] <a> ->./
+          <div> "H" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "m" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+        [Nav link] <a> ->./about
+          <div> "A" (x2) {transform:none}
+          <div> "b" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+        [Nav link] <a> ->./case-studies
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "S" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "d" (x2) {transform:none}
+          <div> "i" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./blog
+          <div> "N" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "w" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./careers
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "e" (x4) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./contact
+          <div> "C" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "n" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+    [CTA] <div>
+      [Filler] <div>
+      [Input] <div>
+        [Container] <div>
+          <p> "Name"
+        [Variant 1] <div>
+          [Ellipse 314] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 317] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 315] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 318] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 316] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 319] <div> {background-color:rgba(23, 23, 23, 0.24)}
+        [Variant 1] <div>
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+      [Input] <div>
+        [Filler] <div>
+        [Container] <div>
+          <p> "Email Address"
+        [Variant 1] <div>
+          [Ellipse 314] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 317] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 315] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 318] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 316] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 319] <div> {background-color:rgba(23, 23, 23, 0.24)}
+        [Variant 1] <div>
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+      [Button] <div>
+        [Filler] <div>
+        [Container] <div>
+          [Default] <button> {width:0px; width:1px; background-color:rgba(0, 0, 0, 0)}
+            [Variant 1] <div>
+            [Text] <div>
+              [Text] <div>
+          [Bottom text] <div>
+            [Terms and Privacy Policy] <div> {transform:none}
+              <p> "By submitting, you agree to our and ."
+                ->./legal/terms-of-service (x2)
+            [Location] <div>
+              <p> "We are Based in"
+    [Bottom] <div>
+      [Logo] <div>
+        [Logo] <div>
+      [Contact] <div>
+        [Phone Number] <div> {transform:none}
+          <a> "(312) 555-2468" ->tel:555-666-7777
+        [Email Address] <div> {transform:none}
+          <a> "Hello@effica.com" ->mailto:hello@effica.com
+      [Social] <div>
+        [Container] <div>
+          [Desktop] <a> ->https://www.facebook.com (x4) {width:1px; width:0px}
+      [To top] <div>
+        [Container] <div>
+          <div> "B" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "k" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "p" (x2) {transform:none}
+  [Grid] <div>
+    [Desktop] <div>
+      [Container] <div>
+        [Variant 1] <div> (x2)
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+        [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+      [Top line] <div>
+        [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Variant 1] <div>
+    <img> IMG:VulBQhVJJgXCyTIKKvhsZMa5TU.png?width=2244&height=715 2244w alt="Soft abstract gradient with white light transitioning into p" {border-radius:inherit}
+[Tablet] <section> {background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+  [Container] <div>
+    [Heading] <div>
+      [Side text] <div>
+        [Default] <div>
+          [Container] <div>
+            [Ellipse] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "13"
+          <p> "Ready to start?"
+      [Top] <div>
+        <h2> "Get in touch"
+        [Whether you have questions or just want to explore options, we’re here.] <div> {opacity:0.6; transform:none}
+          <p> "Whether you have questions or just want to explore options, we’re here."
+      [Nav] <nav>
+        [Nav link] <a> ->./
+          <div> "H" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "m" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+        [Nav link] <a> ->./about
+          <div> "A" (x2) {transform:none}
+          <div> "b" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+        [Nav link] <a> ->./case-studies
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "S" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "d" (x2) {transform:none}
+          <div> "i" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./blog
+          <div> "N" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "w" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./careers
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "e" (x4) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./contact
+          <div> "C" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "n" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+    [CTA] <div>
+      [Filler] <div>
+      [Input] <div> (x2)
+        [Container] <div>
+          <p> "Name"
+        [Variant 1] <div>
+          [Ellipse 314] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 317] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 315] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 318] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 316] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 319] <div> {background-color:rgba(23, 23, 23, 0.24)}
+        [Variant 1] <div>
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+      [Button] <div>
+        [Container] <div>
+          [Default] <button> {width:0px; width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [Variant 1] <div>
+            [Text] <div>
+              [Text] <div>
+          [Bottom text] <div>
+            [Terms and Privacy Policy] <div> {transform:none}
+              <p> "By submitting, you agree to our and ."
+                ->./legal/terms-of-service (x2)
+            [Location] <div>
+              <p> "We are Based in"
+    [Bottom] <div>
+      [Logo] <div>
+        [Logo] <div>
+      [Contact] <div>
+        [Phone Number] <div> {transform:none}
+          <a> "(312) 555-2468" ->tel:555-666-7777
+        [Email Address] <div> {transform:none}
+          <a> "Hello@effica.com" ->mailto:hello@effica.com
+      [Social] <div>
+        [Container] <div>
+          [Desktop] <a> ->https://www.facebook.com (x4) {width:1px; width:0px}
+      [To top] <div>
+        [Container] <div>
+          <div> "B" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "k" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "p" (x2) {transform:none}
+  [Grid] <div>
+    [Tablet] <div>
+      [Container] <div>
+        [Variant 1] <div> (x2)
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+        [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+      [Top line] <div>
+        [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Variant 1] <div>
+    <img> IMG:VulBQhVJJgXCyTIKKvhsZMa5TU.png?width=2244&height=715 2244w alt="Soft abstract gradient with white light transitioning into p" {border-radius:inherit}
+[Phone] <section> {background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+  [Container] <div>
+    [Heading] <div>
+      [Side text] <div>
+        [Default] <div>
+          [Container] <div>
+            [Ellipse] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "13"
+          <p> "Ready to start?"
+      [Top] <div>
+        <h2> "Get in touch"
+        [Whether you have questions or just want to explore options, we’re here.] <div> {opacity:0.6; transform:none}
+          <p> "Whether you have questions or just want to explore options, we’re here."
+      [Nav] <nav>
+        [Nav link] <a> ->./
+          <div> "H" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "m" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+        [Nav link] <a> ->./about
+          <div> "A" (x2) {transform:none}
+          <div> "b" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+        [Nav link] <a> ->./case-studies
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "S" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "d" (x2) {transform:none}
+          <div> "i" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./blog
+          <div> "N" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "w" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./careers
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "e" (x4) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./contact
+          <div> "C" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "n" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+    [CTA] <div>
+      [Input] <div> (x2)
+        [Container] <div>
+          <p> "Name"
+        [Variant 1] <div>
+          [Ellipse 314] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 317] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 315] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 318] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 316] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 319] <div> {background-color:rgba(23, 23, 23, 0.24)}
+        [Variant 1] <div>
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+      [Button] <div>
+        [Container] <div>
+          [Default] <button> {width:0px; width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [Variant 1] <div>
+            [Text] <div>
+              [Text] <div>
+          [Bottom text] <div>
+            [Terms and Privacy Policy] <div> {transform:none}
+              <p> "By submitting, you agree to our and ."
+                ->./legal/terms-of-service (x2)
+            [Location] <div>
+              <p> "We are Based in"
+    [Bottom] <div>
+      [Logo] <div>
+        [Logo] <div>
+      [Contact] <div>
+        [Phone Number] <div> {transform:none}
+          <a> "(312) 555-2468" ->tel:555-666-7777
+        [Email Address] <div> {transform:none}
+          <a> "Hello@effica.com" ->mailto:hello@effica.com
+      [Social] <div>
+        [Container] <div>
+          [Phone] <a> ->https://www.facebook.com (x4) {width:1px; width:0px}
+      [To top] <div>
+        [Container] <div>
+          <div> "B" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "k" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "p" (x2) {transform:none}
+  [Grid] <div>
+    [Phone] <div>
+      [Container] <div>
+        [Variant 1] <div> (x2)
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+        [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+      [Top line] <div>
+        [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Variant 1] <div>
+    <img> IMG:VulBQhVJJgXCyTIKKvhsZMa5TU.png?width=2244&height=715 2244w alt="Soft abstract gradient with white light transitioning into p" {border-radius:inherit}
+[Desktop] <footer> {background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+  [Container] <div>
+    [Legal Links] <div>
+      [Privacy Policy] <div> {opacity:0.6; transform:none}
+        <a> "Privacy Policy" ->./legal/privacy-policy
+      [Terms of Service] <div> {opacity:0.6; transform:none}
+        <a> "Terms of Service" ->./legal/terms-of-service
+    [Built in] <div>
+      [Desktop] <a> ->https://framer.link/bynneh
+        [Vector] <div>
+        [Text] <div>
+          <p> "Built in Framer" (x2)
+    [Copyright] <div>
+      <p> "© 2025 Effica® Studio. All rights reserved."
+    [Credits] <div>
+      [Desktop] <a> ->https://templifica.com/
+        [Created by] <div> {transform:none}
+          <p> "Created by"
+        [Image] <div>
+          [Avatar] <div> {transform:none}
+            <img> IMG:nr593SABZlC19HZOrgnV0sWc8A.jpg?width=73&height=73 alt="Profile portrait of a man in a grey shirt" {border-radius:inherit}
+          [Logo] <div> {background-color:rgb(210, 255, 55); transform:scale(0.5)}
+            [logo] <div>
+        [Anatolii Dmitrienko] <div> {transform:none}
+          <p> "Anatolii Dmitrienko"
+  [Grid] <div>
+    [Desktop] <div>
+      [Container] <div>
+        [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+[Tablet] <footer> {background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+  [Container] <div>
+    [Legal Links] <div>
+      [Privacy Policy] <div> {opacity:0.6; transform:none}
+        <a> "Privacy Policy" ->./legal/privacy-policy
+      [Terms of Service] <div> {opacity:0.6; transform:none}
+        <a> "Terms of Service" ->./legal/terms-of-service
+    [Built in] <div>
+      [Desktop] <a> ->https://framer.link/bynneh
+        [Vector] <div>
+        [Text] <div>
+          <p> "Built in Framer" (x2)
+    [Copyright] <div>
+      <p> "© 2025 Effica® Studio. All rights reserved."
+    [Credits] <div>
+      [Desktop] <a> ->https://templifica.com/
+        [Created by] <div> {transform:none}
+          <p> "Created by"
+        [Image] <div>
+          [Avatar] <div> {transform:none}
+            <img> IMG:nr593SABZlC19HZOrgnV0sWc8A.jpg?width=73&height=73 alt="Profile portrait of a man in a grey shirt" {border-radius:inherit}
+          [Logo] <div> {background-color:rgb(210, 255, 55); transform:scale(0.5)}
+            [logo] <div>
+        [Anatolii Dmitrienko] <div> {transform:none}
+          <p> "Anatolii Dmitrienko"
+  [Grid] <div>
+    [Tablet] <div>
+      [Container] <div>
+        [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+      [Top line] <div>
+[Phone] <footer> {background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+  [Container] <div>
+    [Legal Links] <div>
+      [Privacy Policy] <div> {opacity:0.6; transform:none}
+        <a> "Privacy Policy" ->./legal/privacy-policy
+      [Terms of Service] <div> {opacity:0.6; transform:none}
+        <a> "Terms of Service" ->./legal/terms-of-service
+    [Built in] <div>
+      [Desktop] <a> ->https://framer.link/bynneh
+        [Vector] <div>
+        [Text] <div>
+          <p> "Built in Framer" (x2)
+    [Copyright] <div>
+      <p> "© 2025 Effica® Studio. All rights reserved."
+    [Credits] <div>
+      [Desktop] <a> ->https://templifica.com/
+        [Created by] <div> {transform:none}
+          <p> "Created by"
+        [Image] <div>
+          [Avatar] <div> {transform:none}
+            <img> IMG:nr593SABZlC19HZOrgnV0sWc8A.jpg?width=73&height=73 alt="Profile portrait of a man in a grey shirt" {border-radius:inherit}
+          [Logo] <div> {background-color:rgb(210, 255, 55); transform:scale(0.5)}
+            [logo] <div>
+        [Anatolii Dmitrienko] <div> {transform:none}
+          <p> "Anatolii Dmitrienko"
+  [Grid] <div>
+    [Phone] <div>
+      [Container] <div>
+        [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+[Light] <a> ->https://www.framer.com {opacity:0.001; transform:translateY(10px)}
+  [Backdrop] <div> {background-color:rgb(255, 255, 255)}
+  [Content] <div> {transform:translate(-50%, -50%)}
+    [Logo] <div> {transform:translateX(-50%)}
+    <p> "Create a free website with Framer, the website builder loved by startups, designers and agencies." {transform:scale(0.001)}
+    [Text] <div>
+  [Bottom] <div> {opacity:0.06}
+  [Border] <div> {opacity:0.04}
+(x9)

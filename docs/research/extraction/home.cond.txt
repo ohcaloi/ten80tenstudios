@@ -1,0 +1,1869 @@
+<style> ":root body { background: var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232)); }"
+[Header] <header>
+  [Logo] <div>
+    [Link container] <a> ->./
+      [Logo] <div>
+  [Nav container] <div>
+    [Menu] <div> (x2)
+      [Closed] <div>
+        [Plus] <div> {transform:none}
+          [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+          [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:rotate(90deg)}
+        [Container] <div>
+          <div> "M" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "n" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+[Desktop] <a> ->https://cal.com
+  [A 30-minute call to clarify your next steps. Zero obligations] <div> {transform:none}
+    <p> "Zero obligations"
+      <span> "A 30-minute call to clarify your next steps."
+  [Avatar] <div> {width:5px}
+    <img> IMG:qv5GatDLyXXZ7ZK4a2ffaEG3c.jpg?width=90&height=90 {border-radius:inherit}
+  [Button Background] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(27, 26, 25))}
+    [Vector] <div> {transform:none}
+<style> "html body { background: rgb(255, 255, 255); }"
+[Main] <main>
+  [Hero] <section>
+    [Image container] <div> (x2) {opacity:1; transform:none}
+      [Image] <div> {opacity:0.001; transform:scale(1.4)}
+        <img> IMG:An5VNwslEBkHytZheKgHEADFLc.jpg?width=902&height=1208 902w alt="Portrait of a woman with digital abstract effects and color " {border-radius:inherit}
+    [Content] <div>
+      [Text] <div>
+        [Top] <div>
+          [Filler] <div>
+          [Container] <div>
+            [Desktop] <div>
+              [Avatars] <div>
+                [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+                [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+                [3] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+                [4] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+                [5] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+              [Container] <div>
+                [Rating] <div>
+            [Phone] <div>
+              [Avatars] <div>
+                [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+                [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+                [3] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+                [4] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+                [5] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+              [Container] <div>
+                [Rating] <div>
+        [H1] <div>
+          (x2) {opacity:1; transform:translateY(250px)}
+            <h1> "A Clear AI Plan" {transform:uppercase}
+        [Bottom] <div>
+          [Filler] <div>
+          [Text] <div>
+            [for your business] <svg> (x2) {opacity:1; transform:translateY(-90px)}
+              <p> "for your business" {transform:uppercase}
+            [We help businesses apply AI where it actually matters — without the noise.] <div> (x2) {transform:none}
+              <CHAR-ANIM> "WehelpbusinessesapplyAIwhereitactuallymatters—"
+      [Bottom] <div>
+        [Buttons] <div>
+          [Desktop] <a> ->./contact {width:0px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [Container] <div>
+              <p> "Schedule a free assessment" (x2)
+          [Phone] <a> ->./contact {width:0px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [Container] <div>
+              <p> "Schedule a free assessment" (x2)
+          [Desktop] <a> ->./#path {width:0px; background-color:rgb(255, 255, 255)}
+            [Container] <div>
+              <p> "See how it works" (x2)
+          [Phone] <a> ->./#path {width:0px; background-color:rgb(255, 255, 255)}
+            [Container] <div>
+              <p> "See how it works" (x2)
+        [Logo] <div>
+          [Container] <div>
+            [Filler] <div>
+            [Ticker] <div> (x2) {opacity:0.001; transform:none}
+              [Logo] <div> (x5)
+    [Grid] <div>
+      [Desktop] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+      [Tablet] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+    [Grid] <div> {opacity:0.001; transform:none}
+      [Phone] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+  [Company] <section> (x2)
+    [Container] <div>
+      [Intro text + video] <div>
+        [Video] <div>
+          [Container] <div>
+            [Text] <div>
+              [Top] <div>
+                <p> "how we work"
+                [Video Duration] <div>
+                  [Ellipse 306] <div>
+              <p> "How we help you use AI without the hype"
+            [Desktop] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              [Play] <div> {background-color:rgba(255, 255, 255, 0.4); transform:translate(-50%, -50%)}
+              [Video] <div> {opacity:0.9}
+            [Variant 1] <div> (x4)
+              [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:rotate(90deg)}
+          [We’re a hands-on team of AI consultants focused on helping small and mid-size businesses use automation where it matters most] <div> {transform:none}
+            <p> "team of AI consultants helping small and mid-size businesses"
+              <span> "We’re a hands-on"
+              <span> "focused on"
+              <span> "use automation where it matters most"
+        [Filler] <div>
+        [Text] <div>
+          [Default] <div>
+            [Container] <div>
+              [Ellipse] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              <p> "01"
+            <p> "Who we are"
+          [Quote] <div>
+            [Reveal Text] <div>
+              <span> "We’re a hands-on team of AI consultants focused on helping small and mid-size businesses use automation where " {width:1px; height:1px}
+              <span> "We’re a hands-on team of AI consultants focused on helping small and mid-size businesses use automation where " {width:1px; height:1px}
+            [Default] <div>
+              [image] <div>
+              [Contact Info Text] <div>
+      [About + cards] <div>
+        [About] <div>
+          [Section Content Container] <div>
+            [Default] <div>
+              [Container] <div>
+                [Ellipse] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              <p> "Services"
+            <CHAR-ANIM> "time-savingsystems"
+          [Text + button] <div>
+            <p> "We provide practical AI consulting and automation services for companies that want results — not just theory."
+              <span> "Our work is tailored, transparent, and focused on the areas of your business where AI makes a real impact."
+            [Button + logo] <div>
+              [Desktop] <a> ->./about {width:0px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Logo] <div>
+        [Cards] <div>
+          [Desktop] <div> {width:0px; width:1px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [Number] <div>
+            [Title] <div>
+            [Image + text] <div>
+              [Image] <div> {width:1px}
+              [Text] <div>
+            [Variant 1] <div> (x2)
+          [Tablet] <div> {width:0px; width:1px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [Number] <div>
+            [Title] <div>
+            [Image + text] <div>
+              [Image] <div> {width:1px}
+              [Text] <div>
+            [Variant 1] <div> (x2)
+          [Desktop] <div> {width:0px; width:1px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [Number] <div>
+            [Title] <div>
+            [Image + text] <div>
+              [Image] <div> {width:1px}
+              [Text] <div>
+            [Variant 1] <div> (x2)
+          [Tablet] <div> {width:0px; width:1px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [Number] <div>
+            [Title] <div>
+            [Image + text] <div>
+              [Image] <div> {width:1px}
+              [Text] <div>
+            [Variant 1] <div> (x2)
+          [Desktop] <div> {width:0px; width:1px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [Number] <div>
+            [Title] <div>
+            [Image + text] <div>
+              [Image] <div> {width:1px}
+              [Text] <div>
+            [Variant 1] <div> (x2)
+          [Tablet] <div> {width:0px; width:1px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [Number] <div>
+            [Title] <div>
+            [Image + text] <div>
+              [Image] <div> {width:1px}
+              [Text] <div>
+            [Variant 1] <div> (x2)
+          [Desktop] <div> {width:1px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); opacity:0}
+            [Number] <div>
+            [Title] <div>
+            [Image + text] <div>
+              [Image] <div> {width:1px}
+              [Text] <div>
+            [Variant 1] <div> (x2)
+          [Tablet] <div> {width:1px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); opacity:0}
+            [Number] <div>
+            [Title] <div>
+            [Image + text] <div>
+              [Image] <div> {width:1px}
+              [Text] <div>
+            [Variant 1] <div> (x2)
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:rotate(90deg)}
+    [Grid] <div> (x2)
+      [Desktop] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(255, 255, 255, 0.07)}
+  [Advantages] <section>
+    [Container] <div>
+      [List] <div>
+        [Heading] <div>
+          [Top] <div>
+            [Default] <div>
+              [Container] <div>
+                [Ellipse] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+                <p> "03"
+              <p> "Why us?"
+            <h2>
+              <CHAR-ANIM> "WHYCOMPANIESCHOOSEEffica®"
+          <p> "We make AI adoption simple, strategic, and measurable."
+        [Advantages] <div>
+          [Top] <div>
+            [Vector] <div>
+            [OUR ADVANTAGES include:] <div> {transform:none}
+              <p> "OUR ADVANTAGES"
+                <span> "include:"
+          [List] <div>
+            [Desktop] <div> {width:0px; width:1px}
+              [Number] <div> {background-color:var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255))}
+              [Text] <div>
+              [Variant 1] <div>
+              [BG] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [Phone] <div> {width:0px; width:1px}
+              [Number] <div> {background-color:var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255))}
+              [Text] <div>
+              [Variant 1] <div>
+              [BG] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [Desktop] <div> {width:0px; width:1px}
+              [Number] <div> {background-color:var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255))}
+              [Text] <div>
+              [Variant 1] <div>
+              [BG] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [Phone] <div> {width:0px; width:1px}
+              [Number] <div> {background-color:var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255))}
+              [Text] <div>
+              [Variant 1] <div>
+              [BG] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [Desktop] <div> {width:0px; width:1px}
+              [Number] <div> {background-color:var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255))}
+              [Text] <div>
+              [Variant 1] <div>
+              [BG] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [Phone] <div> {width:0px; width:1px}
+              [Number] <div> {background-color:var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255))}
+              [Text] <div>
+              [Variant 1] <div>
+              [BG] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [Desktop] <div> {width:1px; width:0px}
+              [Number] <div> {background-color:var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255))}
+              [Text] <div>
+              [Variant 1] <div>
+              [BG] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [Phone] <div> {width:1px; width:0px}
+              [Number] <div> {background-color:var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255))}
+              [Text] <div>
+              [Variant 1] <div>
+              [BG] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+          [Info] <div>
+            [Text] <div>
+              <p> "Source:"
+              <p> "Client Feedback & Project Data"
+            [Date] <div>
+              [Container] <div>
+                <p> "Apr 2025"
+      [Stats] <div>
+        [Top] <div>
+          [Desktop] <div>
+            <span> "0"
+            <span> "×"
+            [Date] <div> {transform:none}
+              <p> "Faster Approvals"
+          [Phone] <div>
+            <span> "0"
+            <span> "×"
+            [Date] <div> {transform:none}
+              <p> "Faster Approvals"
+          [Tablet] <div>
+            <span> "0"
+            <span> "×"
+            [Date] <div> {transform:none}
+              <p> "Faster Approvals"
+          [Desktop] <div>
+            <span> "0"
+            <span> "%"
+            [Date] <div> {transform:none}
+              <p> "Uptime"
+          [Phone] <div>
+            <span> "0"
+            <span> "%"
+            [Date] <div> {transform:none}
+              <p> "Uptime"
+          [Tablet] <div>
+            <span> "0"
+            <span> "%"
+            [Date] <div> {transform:none}
+              <p> "Uptime"
+          [Desktop] <div>
+            <span> "+"
+            <span> "0"
+            <span> "%"
+            [Date] <div> {transform:none}
+              <p> "Faster Responses"
+          [Phone] <div>
+            <span> "+"
+            <span> "0"
+            <span> "%"
+            [Date] <div> {transform:none}
+              <p> "Faster Responses"
+          [Tablet] <div>
+            <span> "+"
+            <span> "0"
+            <span> "%"
+            [Date] <div> {transform:none}
+              <p> "Faster Responses"
+        [Bottom] <div>
+          [Text] <div>
+            [Feature Heading Container] <div>
+              [Feature Bullet Point] <div>
+                [Ellipse 306] <div>
+                <p> "Real-time AI Control"
+              <CHAR-ANIM> "YourAI,AlwaysinYourPocket"
+            <p> "Run your business smarter — track performance, approve automations, and get instant insights right from your p"
+          [Image + logo] <div>
+            [Logo] <div>
+            [Images] <div>
+              [BG gradient] <div>
+                <img> IMG:0iIr9plKeMJd8dBb4O7iHnWw.png?scale-down-to=512&width=676&hei alt="Colored gradient background" {border-radius:inherit}
+              [Phone] <div> {opacity:0; transform:translateY(40px)}
+                <img> IMG:Weho9bJSdqKf4BiYBpy8LWWY7o.png?width=530&height=762 530w alt="Hand holding a smartphone with a blank screen against a dark" {border-radius:inherit}
+        [Grid] <div>
+          [Line] <div> (x5)
+    [Grid] <div> (x3)
+      [Desktop] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Path] <section>
+    [Container] <div>
+      [Steps] <div>
+        [1] <div>
+          [Heading] <div>
+            [Top] <div>
+              [Default] <div>
+                [Container] <div>
+                  [Ellipse] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+                <p> "How we do it"
+              <h2>
+                <CHAR-ANIM> "TheFastTrackto"
+            <p> "No generic advice. No complex dashboards. Just practical improvements."
+          [Advantages] <div>
+            [Desktop] <div> {width:1px; width:0px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Top] <div>
+                [Card Number] <div> {transform:none}
+              <p> "Understand your workflow — No jargon, just clear analysis"
+            [Phone] <div> {width:1px; width:0px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Top] <div>
+                [Card Number] <div> {transform:none}
+              <p> "Understand your workflow — No jargon, just clear analysis"
+            [Tablet] <div> {width:1px; width:0px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Top] <div>
+                [Card Number] <div> {transform:none}
+              <p> "Understand your workflow — No jargon, just clear analysis"
+            [Desktop] <div> {width:1px; width:0px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Top] <div>
+                [Card Number] <div> {transform:none}
+              <p> "Spot automation opportunities — Specific, relevant use cases"
+            [Phone] <div> {width:1px; width:0px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Top] <div>
+                [Card Number] <div> {transform:none}
+              <p> "Spot automation opportunities — Specific, relevant use cases"
+            [Tablet] <div> {width:1px; width:0px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Top] <div>
+                [Card Number] <div> {transform:none}
+              <p> "Spot automation opportunities — Specific, relevant use cases"
+            [Desktop] <div> {width:1px; width:0px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Top] <div>
+                [Card Number] <div> {transform:none}
+              <p> "We handle integration and ensure smooth operation."
+            [Phone] <div> {width:1px; width:0px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Top] <div>
+                [Card Number] <div> {transform:none}
+              <p> "We handle integration and ensure smooth operation."
+            [Tablet] <div> {width:1px; width:0px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Top] <div>
+                [Card Number] <div> {transform:none}
+              <p> "We handle integration and ensure smooth operation."
+            [Desktop] <div> {width:1px; width:0px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Top] <div>
+                [Card Number] <div> {transform:none}
+              <p> "Implement & optimize — We handle setup & integration"
+            [Phone] <div> {width:1px; width:0px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Top] <div>
+                [Card Number] <div> {transform:none}
+              <p> "Implement & optimize — We handle setup & integration"
+            [Tablet] <div> {width:1px; width:0px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Top] <div>
+                [Card Number] <div> {transform:none}
+              <p> "Implement & optimize — We handle setup & integration"
+            [Variant 1] <div>
+              [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+        [2] <div>
+          [Button] <div>
+            [Desktop] <a> ->./contact {width:1px; width:0px; background-color:rgba(0, 0, 0, 0)}
+              [Variant 1] <div>
+              [Text] <div>
+                [CTA Text] <div> (x2) {transform:none}
+            [Phone] <a> ->./contact {width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+              [Variant 1] <div>
+              [Text] <div>
+                [CTA Text] <div> (x2) {transform:none}
+            [Desktop] <a> ->./contact {width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+              [Variant 1] <div>
+              [Text] <div>
+                [CTA Text] <div> (x2) {transform:none}
+          [Chart] <div>
+            <p> "On average, our clients reduce manual work"
+              <span> "by 35% in the first month."
+      [Delays] <div>
+        [Heading] <div>
+          [Services Title Container] <div>
+            [Ellipse 306] <div>
+            <p> "WHY DELAY HURTS"
+          <CHAR-ANIM> "Thelongeryouwait,themoreexpensiveitbecomestocatchup."
+        [Cards] <div>
+          [80] <div> {width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [Fill] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Bar Description] <div>
+                [Text] <div>
+              [Percentage Container] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+                [Percentage] <div> {transform:none}
+            [Timeframe] <div> {transform:none}
+              <p> "/workload"
+          [80 Phone] <div> {width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [Fill] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Bar Description] <div>
+                [Text] <div>
+              [Percentage Container] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+                [Percentage] <div> {transform:none}
+          [50] <div> {width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [Fill] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Bar Description] <div>
+                [Text] <div>
+              [Percentage Container] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+                [Percentage] <div> {transform:none}
+            [Timeframe] <div> {transform:none}
+              <p> "/growth"
+          [50 Phone] <div> {width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [Fill] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Bar Description] <div>
+                [Text] <div>
+              [Percentage Container] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+                [Percentage] <div> {transform:none}
+          [60] <div> {width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [Fill] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Bar Description] <div>
+                [Text] <div>
+              [Percentage Container] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+                [Percentage] <div> {transform:none}
+            [Timeframe] <div> {transform:none}
+              <p> "/opportunities"
+          [60 Phone] <div> {width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [Fill] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Bar Description] <div>
+                [Text] <div>
+              [Percentage Container] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+                [Percentage] <div> {transform:none}
+          [30] <div> {width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [Fill] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Bar Description] <div>
+                [Text] <div>
+              [Percentage Container] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+                [Percentage] <div> {transform:none}
+            [Timeframe] <div> {transform:none}
+              <p> "/Time"
+          [30 Phone] <div> {width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [Fill] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Bar Description] <div>
+                [Text] <div>
+              [Percentage Container] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+                [Percentage] <div> {transform:none}
+    [Grid] <div> (x3)
+      [Desktop] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Case] <section>
+    [Container] <div>
+      [Content] <div>
+        [Top] <div>
+          [Text] <div>
+            [Heading] <div>
+              [Top] <div>
+                [Case Study Header] <div>
+                  [Default] <div>
+                  <p> "Case study"
+                [Logo] <div>
+              <p> "LocalRent Co. partnered with Effica to streamline order intake and customer support across 18 locations."
+            [Table] <div>
+              [Desktop] <div> {width:0px; width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Phone] <div> {width:0px; width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Desktop] <div> {width:0px; width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Phone] <div> {width:0px; width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Desktop] <div> {width:1px; width:0px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [Phone] <div> {width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+          [Desktop] <a> ->./case-studies/norse-star {width:1px; width:0px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [Variant 1] <div>
+            [Text] <div>
+              [CTA Text] <div> (x2) {transform:none}
+                <p> "Read the full story"
+          [Phone] <a> ->./case-studies/norse-star {width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [Variant 1] <div>
+            [Text] <div>
+              [CTA Text] <div> (x2) {transform:none}
+                <p> "Read the full story"
+          [Desktop] <a> ->./case-studies/norse-star {width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [Variant 1] <div>
+            [Text] <div>
+              [CTA Text] <div> (x2) {transform:none}
+                <p> "Read the full story"
+          [Grid] <div>
+            [Line] <div> (x5)
+        [Stats] <div>
+          [Desktop] <div> {width:0px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "hours saved monthly"
+            [Text] <div>
+              <p> "50+"
+              [Variant 1] <div>
+          [Tablet/Phone] <div> (x2) {width:1px; width:0px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "hours saved monthly"
+            [Text] <div>
+              <p> "50+"
+              [Variant 1] <div>
+          [Desktop] <div> {width:0px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "increase in retention"
+            [Text] <div>
+              <p> "+15%"
+              [Variant 1] <div>
+          [Tablet/Phone] <div> {width:0px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "increase in retention"
+            [Text] <div>
+              <p> "+15%"
+              [Variant 1] <div>
+          [Grid] <div>
+            [Line] <div> (x3)
+      [Quote] <div>
+        [Quote text] <div>
+          [Icon] <div> (x3)
+          [Reveal Text] <div>
+            <CHAR-ANIM> "Theydidn’toverwhelmuswithjargonorendlessoptions.Justaclearplan,executedquickly.Wesawmeasurableresultsinthefirs"
+            <span> "They didn’t overwhelm us with jargon or endless options. Just a clear plan, executed quickly. We saw measurabl" {width:1px; height:1px}
+            <CHAR-ANIM> "Theydidn’toverwhelmuswithjargonorendlessoptions.Justaclearplan,executedquickly.Wesawmeasurableresultsinthefirs"
+            <span> "They didn’t overwhelm us with jargon or endless options. Just a clear plan, executed quickly. We saw measurabl" {width:1px; height:1px}
+            <CHAR-ANIM> "Theydidn’toverwhelmuswithjargonorendlessoptions.Justaclearplan,executedquickly.Wesawmeasurableresultsinthefirs"
+            <span> "They didn’t overwhelm us with jargon or endless options. Just a clear plan, executed quickly. We saw measurabl" {width:1px; height:1px}
+        [Default] <div> (x2)
+          [image] <div>
+            <img> IMG:VJa2hrCQ3Nx82HOqQCvk8NvidY.jpg?width=63&height=63 {border-radius:inherit}
+          [Contact Info Text] <div>
+            <p> "Andrew W."
+            <p> "SEO of LocalRent Co."
+        [Grid] <div>
+          [Line] <div> (x5)
+    [BG] <div>
+      [White BG] <div>
+        [Dark BG] <div>
+      <img> IMG:tTnUarcDGbJHyHnu6aahGScqPHw.jpg?width=2045&height=1665 2045w alt="Abstract perspective view of two parallel walls with glowing" {border-radius:inherit}
+  [More cases] <section>
+    [Container] <div>
+      [Side] <div>
+        [Variant 1] <div>
+          [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+          <p> "More projects" {transform:uppercase}
+      [Desktop] <div>
+        [Case studies limited] <div>
+          [Desktop] <a> ->./case-studies/finedge-advisors (x6)
+            [Title] <div>
+              [Heading] <div>
+              [Description] <div> {opacity:1}
+            [Image] <div> {opacity:1}
+              [Filler] <div>
+              [Container] <div>
+      [Phone] <div>
+        [Case studies limited] <div>
+          [Phone] <a> (x6)
+            [Title] <div>
+              [Heading] <div>
+              [Description] <div> {opacity:1}
+            [Image] <div> {opacity:0}
+              [Container] <div>
+      [Tablet] <div>
+        [Case studies limited] <div>
+          [Tablet] <a> (x6)
+            [Title] <div>
+              [Heading] <div>
+              [Description] <div> {opacity:0}
+            [Image] <div> {opacity:0}
+              [Container] <div>
+    [Grid] <div> (x3)
+      [Desktop] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [First step] <section>
+    [Container] <div>
+      [Image] <div>
+        [Woman] <div>
+          <img> IMG:WUUPhafYRtsHvBgbLAyfOIZCV0.png?width=746&height=1203 746w alt="Professional woman in a suit standing in an office setting." {border-radius:inherit}
+        [Filler] <div>
+      [Text] <div>
+        [Heading] <div>
+          [Default] <div>
+            [Container] <div>
+              [Ellipse] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              <p> "04"
+            <p> "Easy first step"
+          <h2>
+            <CHAR-ANIM> "StartSmart,StartSmall"
+        [Quote] <div>
+          <CHAR-ANIM> "Pickoneroutinetask.We’llautomateitend-to-endandkeepeverythingelseunchanged."
+          [Default] <div>
+            [Contact Info Text] <div>
+              <p> "Jessica Burns"
+              <p> "Client Success Manager"
+    [Grid] <div> (x3)
+      [Desktop] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(255, 255, 255, 0.07)}
+    [BG ] <div>
+      <img> IMG:JnRAJ4vvnZTxBbXZlMvnebY2VAI.jpg?width=1921&height=1080 1921w alt="Blurred black&white background" {border-radius:inherit}
+  [Team] <section>
+    [Container] <div>
+      [Heading] <div>
+        [Filler] <div>
+        [Top] <div>
+          [Default] <div>
+            [Container] <div>
+              [Ellipse] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              <p> "07"
+            <p> "Who we are"
+          <h2> "The team"
+      [Team cards] <div>
+        [Desktop] <div> {width:0px; background-color:rgba(0, 0, 0, 0)}
+          [Info + Image] <div> {width:1px; width:0px}
+            [info] <div>
+              [Role] <div> {transform:none}
+            [Image] <div> {width:0px; width:1px}
+          [Text] <div>
+            [Name] <div>
+              [Container] <div>
+          [Skills Container] <div> {width:1px; width:0px}
+            [Desktop] <div> (x3)
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+        [Tablet] <div> {width:0px; background-color:rgba(0, 0, 0, 0)}
+          [Info + Image] <div> {width:1px; width:0px}
+            [info] <div>
+              [Role] <div> {transform:none}
+            [Image] <div> {width:0px; width:1px}
+          [Text] <div>
+            [Name] <div>
+              [Container] <div>
+          [Skills Container] <div> {width:1px; width:0px}
+            [Tablet] <div> (x3)
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+        [Desktop] <div> {width:0px; background-color:rgba(0, 0, 0, 0)}
+          [Padding] <div>
+          [Info + Image] <div> {width:1px; width:0px}
+            [info] <div>
+              [Role] <div> {transform:none}
+            [Image] <div> {width:0px; width:1px}
+          [Text] <div>
+            [Name] <div>
+              [Container] <div>
+          [Skills Container] <div> {width:1px; width:0px}
+            [Desktop] <div> (x3)
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+        [Tablet] <div> {width:0px; background-color:rgba(0, 0, 0, 0)}
+          [Padding] <div>
+          [Info + Image] <div> {width:1px; width:0px}
+            [info] <div>
+              [Role] <div> {transform:none}
+            [Image] <div> {width:0px; width:1px}
+          [Text] <div>
+            [Name] <div>
+              [Container] <div>
+          [Skills Container] <div> {width:1px; width:0px}
+            [Tablet] <div> (x3)
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+        [Desktop] <div> {width:0px; background-color:rgba(0, 0, 0, 0)}
+          [Info + Image] <div> {width:1px; width:0px}
+            [info] <div>
+              [Role] <div> {transform:none}
+            [Image] <div> {width:0px; width:1px}
+          [Text] <div>
+            [Name] <div>
+              [Container] <div>
+          [Skills Container] <div> {width:1px; width:0px}
+            [Desktop] <div> (x3)
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+        [Tablet] <div> {width:0px; background-color:rgba(0, 0, 0, 0)}
+          [Info + Image] <div> {width:1px; width:0px}
+            [info] <div>
+              [Role] <div> {transform:none}
+            [Image] <div> {width:0px; width:1px}
+          [Text] <div>
+            [Name] <div>
+              [Container] <div>
+          [Skills Container] <div> {width:1px; width:0px}
+            [Tablet] <div> (x3)
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+        [Desktop] <div> {width:0px; background-color:rgba(0, 0, 0, 0)}
+          [Padding] <div>
+          [Info + Image] <div> {width:1px; width:0px}
+            [info] <div>
+              [Role] <div> {transform:none}
+            [Image] <div> {width:0px; width:1px}
+          [Text] <div>
+            [Name] <div>
+              [Container] <div>
+          [Skills Container] <div> {width:1px; width:0px}
+            [Desktop] <div> (x3)
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+        [Tablet] <div> {width:0px; background-color:rgba(0, 0, 0, 0)}
+          [Padding] <div>
+          [Info + Image] <div> {width:1px; width:0px}
+            [info] <div>
+              [Role] <div> {transform:none}
+            [Image] <div> {width:0px; width:1px}
+          [Text] <div>
+            [Name] <div>
+              [Container] <div>
+          [Skills Container] <div> {width:1px; width:0px}
+            [Tablet] <div> (x3)
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+      [Team cards] <div>
+        [Phone] <div> (x4) {width:0px; width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+          [Info + Image] <div> {width:1px; width:0px}
+            [info] <div>
+              [Role] <div> {transform:none}
+                <p> "AI Consultant"
+              [1] <div>
+            [Image] <div> {width:0px}
+              [Variant 1] <div>
+          [Text] <div>
+            [Name] <div>
+              [Container] <div>
+                [Icon] <div>
+                [Text] <div>
+              [Variant 1] <div>
+          [Skills Container] <div> {width:0px; width:1px}
+            [Desktop] <div> (x3)
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+      [Heading] <div>
+        (x2)
+          <CHAR-ANIM> "Nosalespeople.Nobots.You’llspeakdirectlywithus."
+      [CTA] <div>
+        [Filler] <div>
+        [Button] <div>
+          [Desktop] <a> ->./contact {width:1px; width:0px; background-color:rgba(0, 0, 0, 0)}
+            [Variant 1] <div>
+            [Text] <div>
+              [CTA Text] <div> (x2) {transform:none}
+                <p> "Start Your Project"
+          [Phone] <a> ->./contact {width:1px; background-color:rgba(0, 0, 0, 0)}
+            [Variant 1] <div>
+            [Text] <div>
+              [CTA Text] <div> (x2) {transform:none}
+                <p> "Start Your Project"
+          [Location] <div>
+            <p> "DEDICATED TO YOUR GROWTH"
+              <span> "worldwide"
+    [Grid] <div> (x3)
+      [Desktop] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+    [Variant 1] <div>
+      [Image flipped] <div> {transform:rotateY(180deg)}
+        <img> IMG:VulBQhVJJgXCyTIKKvhsZMa5TU.png?width=2244&height=715 2244w alt="Soft abstract gradient with white light transitioning into p" {border-radius:inherit}
+  [Why] <section>
+    [Container] <div>
+      [Heading] <div>
+        [Default] <div>
+          [Container] <div>
+            [Ellipse] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "08"
+          <p> "Why us?"
+        <h2> "Why us" (x2)
+      [Table] <div>
+        [About] <div>
+          [Top] <div>
+            [Container] <div>
+              <p> "The team."
+              [Logo] <div>
+            [Variant 1] <div>
+              [Ellipse 314] <div> {background-color:rgba(0, 0, 0, 0.24)}
+              [Ellipse 317] <div> {background-color:rgba(0, 0, 0, 0.24)}
+              [Ellipse 315] <div> {background-color:rgba(0, 0, 0, 0.24)}
+              [Ellipse 318] <div> {background-color:rgba(0, 0, 0, 0.24)}
+              [Ellipse 316] <div> {background-color:rgba(0, 0, 0, 0.24)}
+              [Ellipse 319] <div> {background-color:rgba(0, 0, 0, 0.24)}
+          [Bottom] <div>
+            [Variant 1] <div>
+              [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+                [Img] <div>
+              [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+                [Img] <div>
+              [3] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+                [Img] <div>
+              [4] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+                <p> "8+"
+                [Img] <div> {background-color:var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255))}
+            <p> "How we change the way" (x2) {transform:uppercase}
+              <span> "your business works"
+          [Variant 1] <div>
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+        [Cards] <div>
+          [Desktop] <div> {width:1px; width:0px; background-color:rgba(0, 0, 0, 0)}
+            [Info] <div> {width:1px; width:0px}
+              <p> "ROI Timeline"
+              [1] <div>
+              [BG] <div> {background-color:rgb(241, 241, 241)}
+            [Text] <div>
+              <p> "Most clients recover their investment within 1.5 months."
+              [Stats] <div>
+          [Phone] <div> {width:0px; width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [Info] <div> {width:1px; width:0px}
+              <p> "ROI Timeline"
+              [1] <div>
+              [BG] <div> {background-color:rgb(241, 241, 241)}
+            [Text] <div>
+              <p> "Most clients recover their investment within 1.5 months."
+              [Stats] <div>
+          [Tablet] <div> {width:1px; width:0px; background-color:rgba(0, 0, 0, 0)}
+            [Info] <div> {width:1px; width:0px}
+              <p> "ROI Timeline"
+              [1] <div>
+              [BG] <div> {background-color:rgb(241, 241, 241)}
+            [Text] <div>
+              <p> "Most clients recover their investment within 1.5 months."
+              [Stats] <div>
+          [Desktop] <div> {width:1px; width:0px; background-color:rgba(0, 0, 0, 0)}
+            [Info] <div> {width:1px; width:0px}
+              <p> "Time saved"
+              [2] <div>
+              [BG] <div> {background-color:rgb(241, 241, 241)}
+            [Text] <div>
+              <p> "On average, clients reduce manual work by 35 hours/month."
+              [Stats] <div>
+          [Phone] <div> {width:0px; width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [Info] <div> {width:1px; width:0px}
+              <p> "Time saved"
+              [2] <div>
+              [BG] <div> {background-color:rgb(241, 241, 241)}
+            [Text] <div>
+              <p> "On average, clients reduce manual work by 35 hours/month."
+              [Stats] <div>
+          [Tablet] <div> {width:1px; width:0px; background-color:rgba(0, 0, 0, 0)}
+            [Info] <div> {width:1px; width:0px}
+              <p> "Time saved"
+              [2] <div>
+              [BG] <div> {background-color:rgb(241, 241, 241)}
+            [Text] <div>
+              <p> "On average, clients reduce manual work by 35 hours/month."
+              [Stats] <div>
+          [Desktop] <div> {width:1px; width:0px; background-color:rgba(0, 0, 0, 0)}
+            [Info] <div> {width:1px; width:0px}
+              <p> "Workflow Impact"
+              [3] <div>
+              [BG] <div> {background-color:rgb(241, 241, 241)}
+            [Text] <div>
+              <p> "We help businesses automate up to 60% of repetitive workflows."
+              [Stats] <div>
+          [Phone] <div> {width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [Info] <div> {width:1px; width:0px}
+              <p> "Workflow Impact"
+              [3] <div>
+              [BG] <div> {background-color:rgb(241, 241, 241)}
+            [Text] <div>
+              <p> "We help businesses automate up to 60% of repetitive workflows."
+              [Stats] <div>
+          [Tablet] <div> {width:1px; width:0px; background-color:rgba(0, 0, 0, 0)}
+            [Info] <div> {width:1px; width:0px}
+              <p> "Workflow Impact"
+              [3] <div>
+              [BG] <div> {background-color:rgb(241, 241, 241)}
+            [Text] <div>
+              <p> "We help businesses automate up to 60% of repetitive workflows."
+              [Stats] <div>
+    [Grid] <div> (x3)
+      [Desktop] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Pricing] <section>
+    [Container] <div>
+      [Heading] <div>
+        [Top] <div>
+          [Logo] <div>
+          <h2>
+            <CHAR-ANIM> "Pricing."
+        <CHAR-ANIM> "Youonlypayforwhatyouneed—afterweshowyoutheplan."
+      [Desktop Monthly] <div> {width:0px; width:1px}
+        [Desktop] <div> {width:0px; background-color:rgba(255, 255, 255, 0)}
+          [Content] <div>
+            [Top] <div> {width:1px; width:0px; background-color:rgba(0, 0, 0, 0)}
+              [Plan Header] <div>
+              [Plan Price Container] <div>
+            [List + button] <div>
+              [List] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:rotate(90deg)}
+        [Popular] <div>
+          [Period] <div> {width:1px; width:0px}
+            <p> "Monthly"
+            [Left] <div> {background-color:rgb(5, 5, 5)}
+              [Gradient] <div> {opacity:0}
+            <p> "Annual"
+            [Stroke] <div> {width:1px; background-color:rgba(255, 255, 255, 0)}
+          [Desktop] <div> {width:0px; background-color:rgba(255, 255, 255, 0.01)}
+            [Content] <div>
+              [Top] <div> {width:1px; width:0px; background-color:rgba(0, 0, 0, 0)}
+              [List + button] <div>
+            [Gradient] <div>
+            [Variant 1] <div> (x2)
+        [Desktop] <div> {width:0px; background-color:rgba(255, 255, 255, 0)}
+          [Content] <div>
+            [Top] <div> {width:1px; width:0px; background-color:rgba(0, 0, 0, 0)}
+              [Plan Header] <div>
+              [Plan Price Container] <div>
+            [List + button] <div>
+              [List] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:rotate(90deg)}
+        [Variant 1] <div> (x2)
+          [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+          [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:rotate(90deg)}
+      [Phone Monthly] <div> {width:0px}
+        [Period Tablet/Phone] <div> {width:1px; background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+          <p> "Monthly"
+          [Left phone] <div> {background-color:rgb(5, 5, 5)}
+            [Gradient] <div> {opacity:0}
+          <p> "Annual"
+          [Stroke] <div> {width:1px; background-color:rgba(255, 255, 255, 0)}
+            <p> "Save 20%"
+        [Phone] <div> {width:0px; width:1px; background-color:rgb(14, 14, 14)}
+          [Content] <div>
+            [Top] <div> {width:1px; width:0px; background-color:rgba(255, 255, 255, 0.01)}
+              [Plan Header] <div>
+              [Plan Price Container] <div>
+            [List + button] <div>
+              [List] <div>
+        [Popular] <div>
+          [Phone] <div> {width:0px; width:1px; background-color:rgb(14, 14, 14)}
+            [Content] <div>
+              [Top] <div> {width:1px; width:0px; background-color:rgba(255, 255, 255, 0.01)}
+              [List + button] <div>
+            [Gradient] <div>
+            [Variant 1] <div> (x4)
+        [Phone] <div> {width:1px; background-color:rgb(14, 14, 14)}
+          [Content] <div>
+            [Top] <div> {width:1px; width:0px; background-color:rgba(255, 255, 255, 0.01)}
+              [Plan Header] <div>
+              [Plan Price Container] <div>
+            [List + button] <div>
+              [List] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:rotate(90deg)}
+      [Tablet Monthly] <div> {width:0px}
+        [Period Tablet/Phone] <div> {width:1px; background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+          <p> "Monthly"
+          [Left phone] <div> {background-color:rgb(5, 5, 5)}
+            [Gradient] <div> {opacity:0}
+          <p> "Annual"
+          [Stroke] <div> {width:1px; background-color:rgba(255, 255, 255, 0)}
+            <p> "Save 20%"
+        [Tablet] <div> {width:0px; width:1px; background-color:rgb(14, 14, 14)}
+          [Content] <div>
+            [Top] <div> {width:1px; width:0px; background-color:rgba(255, 255, 255, 0.01)}
+              [Plan Header] <div>
+              [Plan Price Container] <div>
+            [List + button] <div>
+              [List] <div>
+        [Popular] <div>
+          [Tablet] <div> {width:0px; width:1px; background-color:rgb(14, 14, 14)}
+            [Content] <div>
+              [Top] <div> {width:1px; width:0px; background-color:rgba(255, 255, 255, 0.01)}
+              [List + button] <div>
+            [Gradient] <div>
+            [Variant 1] <div> (x2)
+        [Tablet] <div> {width:1px; background-color:rgb(14, 14, 14)}
+          [Content] <div>
+            [Top] <div> {width:1px; width:0px; background-color:rgba(255, 255, 255, 0.01)}
+              [Plan Header] <div>
+              [Plan Price Container] <div>
+            [List + button] <div>
+              [List] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:rotate(90deg)}
+    [Bottom line] <div>
+    [Grid] <div> (x3)
+      [Desktop] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:rotate(90deg)}
+          [Line] <div> (x4) {background-color:rgba(255, 255, 255, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(255, 255, 255, 0.07)}
+    [BG glow] <div> (x2) {transform:translateX(-50%)}
+      <img> IMG:ER1MnPMxmh2MGkPuHkizdQkM.png?width=1425&height=221 1425w {border-radius:inherit}
+  [Desktop] <section> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+    [Container] <div>
+      [Quote] <div>
+        [Person] <div> {opacity:0; transform:none}
+          [Image] <div>
+            <img> IMG:m49yaXnwiPnLxR2XpI0F7YhoOxo.jpg?width=668&height=921 668w alt="Young woman in a white shirt with a colorful gradient print," {border-radius:inherit}
+          [Contact Info Text] <div>
+            <p> "Laura Stern"
+            <p> "Founder & AI Consultant" {transform:uppercase}
+        [Text] <div>
+          [Icon container] <div>
+            [Icon] <div>
+            [Filler] <div>
+          [Quote] <div>
+            [Default] <div>
+              [Container] <div>
+            [Text] <div>
+              [Reveal Text] <div>
+              <p> "We’re here to make AI work in the real world — without noise, hype, or distractions."
+      [Timeline] <div>
+        [Desktop] <div> (x4) {width:1px; width:0px; background-color:rgba(0, 0, 0, 0)}
+          [Variant 1] <div>
+          [Top] <div>
+            <p> "2020" {transform:uppercase}
+          <p> "Founded to rethink how technology solves real problems"
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+    [Grid] <div>
+      [Desktop] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Phone] <section> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+    [Container] <div>
+      [Quote] <div>
+        [Person] <div> {opacity:0; transform:none}
+          [Image] <div>
+            <img> IMG:m49yaXnwiPnLxR2XpI0F7YhoOxo.jpg?width=668&height=921 668w alt="Young woman in a white shirt with a colorful gradient print," {border-radius:inherit}
+          [Contact Info Text] <div>
+            <p> "Laura Stern"
+            <p> "Founder & AI Consultant" {transform:uppercase}
+        [Text] <div>
+          [Icon container] <div>
+            [Icon] <div>
+          [Quote] <div>
+            [Default] <div>
+              [Container] <div>
+            [Text] <div>
+              [Reveal Text] <div>
+              <p> "We’re here to make AI work in the real world — without noise, hype, or distractions."
+      [Timeline] <div>
+        [Phone] <div> (x4) {width:1px; width:0px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+          [Variant 1] <div>
+          [Top] <div>
+            <p> "2020" {transform:uppercase}
+          <p> "Founded to rethink how technology solves real problems"
+    [Grid] <div>
+      [Phone] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Tablet] <section> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+    [Container] <div>
+      [Quote] <div>
+        [Person] <div> {opacity:0; transform:none}
+          [Image] <div>
+            <img> IMG:m49yaXnwiPnLxR2XpI0F7YhoOxo.jpg?width=668&height=921 668w alt="Young woman in a white shirt with a colorful gradient print," {border-radius:inherit}
+          [Contact Info Text] <div>
+            <p> "Laura Stern"
+            <p> "Founder & AI Consultant" {transform:uppercase}
+        [Text] <div>
+          [Icon container] <div>
+            [Icon] <div>
+            [Filler] <div>
+          [Quote] <div>
+            [Default] <div>
+              [Container] <div>
+            [Text] <div>
+              [Reveal Text] <div>
+              <p> "We’re here to make AI work in the real world — without noise, hype, or distractions."
+      [Timeline] <div>
+        [Tablet] <div> (x4) {width:1px; width:0px; background-color:rgba(0, 0, 0, 0)}
+          [Variant 1] <div>
+          [Top] <div>
+            <p> "2020" {transform:uppercase}
+          <p> "Founded to rethink how technology solves real problems"
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+    [Grid] <div>
+      [Tablet] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Desktop] <section> {background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+    [Container] <div>
+      [Heading] <div>
+        [Filler] <div>
+        [Top] <div>
+          [Heading] <div>
+            [Default] <div>
+              [Container] <div>
+            [Main Heading] <div> {transform:none}
+              <h2> "News"
+          [Desktop] <a> ->./blog
+            [Container] <div>
+            [Arrow container] <div> {transform:none}
+              [Arrow] <div>
+      [Desktop] <a> ->./blog/5-common-mistakes-businesses-make-when-adopting-ai (x4) {width:0px}
+        [Variant 1] <div>
+          [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+        [Container] <div>
+          [Image container] <div>
+          [Description] <div>
+    [Grid] <div>
+      [Desktop] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Phone] <section> {background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+    [Container] <div>
+      [Heading] <div>
+        [Top] <div>
+          [Heading] <div>
+            [Default] <div>
+              [Container] <div>
+            [Main Heading] <div> {transform:none}
+              <h2> "News"
+          [Phone] <a> ->./blog
+            [Container] <div>
+            [Arrow container] <div> {transform:none}
+              [Arrow] <div>
+      [Phone] <a> ->./blog/5-common-mistakes-businesses-make-when-adopting-ai (x4) {width:1px; width:0px}
+        [Variant 1] <div>
+          [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+        [Container] <div>
+          [Image container] <div>
+          [Description] <div>
+    [Grid] <div>
+      [Phone] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Tablet] <section> {background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+    [Container] <div>
+      [Heading] <div>
+        [Filler] <div>
+        [Top] <div>
+          [Heading] <div>
+            [Default] <div>
+              [Container] <div>
+            [Main Heading] <div> {transform:none}
+              <h2> "News"
+          [Desktop] <a> ->./blog
+            [Container] <div>
+            [Arrow container] <div> {transform:none}
+              [Arrow] <div>
+      [Desktop] <a> ->./blog/5-common-mistakes-businesses-make-when-adopting-ai (x4) {width:0px}
+        [Variant 1] <div>
+          [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+        [Container] <div>
+          [Image container] <div>
+          [Description] <div>
+    [Grid] <div>
+      [Tablet] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Desktop] <section> {background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+    [Container] <div>
+      [Heading + description] <div>
+        [Heading] <div>
+          <span> "Newsletter" {opacity:0.001; transform:translateX(0px) translateY(30px) scale(1) rotate(0}
+        [Description] <div> {opacity:0; transform:translateY(8px)}
+          <p> "We send occasional updates about new case studies and useful tips."
+      [Container] <div>
+        <p> "Your Email"
+      [Default] <button> {width:0px; width:1px; background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+        [Variant 1] <div>
+        [Text] <div>
+          [Text] <div>
+            [CTA Text] <div> (x2) {transform:none}
+    [Grid] <div>
+      [Desktop] <div>
+        [Container] <div>
+          [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+  [Phone] <section> {background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+    [Container] <div>
+      [Heading + description] <div>
+        [Heading] <div>
+          <span> "Newsletter" {opacity:0.001; transform:translateX(0px) translateY(30px) scale(1) rotate(0}
+        [Description] <div> {opacity:0; transform:translateY(8px)}
+          <p> "We send occasional updates about new case studies and useful tips."
+      [Container] <div>
+        <p> "Your Email"
+      [Default] <button> {width:0px; width:1px; background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+        [Variant 1] <div>
+        [Text] <div>
+          [Text] <div>
+            [CTA Text] <div> (x2) {transform:none}
+    [Grid] <div>
+      [Phone] <div>
+        [Container] <div>
+          [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+  [Tablet] <section> {background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+    [Container] <div>
+      [Heading + description] <div>
+        [Heading] <div>
+          <span> "Newsletter" {opacity:0.001; transform:translateX(0px) translateY(30px) scale(1) rotate(0}
+        [Description] <div> {opacity:0; transform:translateY(8px)}
+          <p> "We send occasional updates about new case studies and useful tips."
+      [Container] <div>
+        <p> "Your Email"
+      [Default] <button> {width:0px; width:1px; background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+        [Variant 1] <div>
+        [Text] <div>
+          [Text] <div>
+            [CTA Text] <div> (x2) {transform:none}
+    [Grid] <div>
+      [Tablet] <div>
+        [Container] <div>
+          [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+        [Top line] <div>
+  [FAQ] <section>
+    [Container] <div>
+      [FAQ] <div>
+        [Side text] <div>
+          [Default] <div>
+            [Container] <div>
+              [Ellipse] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              <p> "12"
+            <p> "Help & Info"
+        [Items] <div>
+          <h2> "FAQ"
+          [Desktop] <div> {width:1px; width:0px}
+            [Desktop open] <div> {width:0px; width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [question] <div>
+            [Desktop] <div> (x4) {width:0px; width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [question] <div>
+          [Phone] <div> {width:1px; width:0px}
+            [Phone open] <div> {width:0px; width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [question] <div>
+            [Phone] <div> (x4) {width:0px; width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [question] <div>
+      [Unsure?] <div>
+        [Variant 1] <div>
+          [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+          <p> "Contact us directly" {transform:uppercase}
+        [Heading + button] <div>
+          [Still unsure?] <div> {transform:none}
+            <p> "Still unsure?"
+          [Desktop] <a> ->./contact {width:1px; width:0px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [Variant 1] <div>
+            [Text] <div>
+              [CTA Text] <div> (x2) {transform:none}
+                <p> "Ask a question"
+          [Phone] <a> ->./contact {width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [Variant 1] <div>
+            [Text] <div>
+              [CTA Text] <div> (x2) {transform:none}
+                <p> "Ask a question"
+          [Desktop] <a> ->./contact {width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [Variant 1] <div>
+            [Text] <div>
+              [CTA Text] <div> (x2) {transform:none}
+                <p> "Ask a question"
+        [Quote] <div>
+          <CHAR-ANIM> "Myroleistomakesureeveryclientfeelssupportedfromdayone."
+          [Default] <div>
+            [image] <div>
+              <img> IMG:rPovAy2J6Q4sllGf3hH7aT3fCk.jpg?width=63&height=63 {border-radius:inherit}
+            [Contact Info Text] <div>
+              <p> "Jessica Burns"
+              <p> "Client Success Manager"
+    [Grid] <div> (x3)
+      [Desktop] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+[Smooth scroll] <div>
+[Delete me!] <div> {opacity:0.001; transform:translateY(40px)}
+  [Desktop] <div> {background-color:rgb(34, 34, 34)}
+    <img> IMG:bJGZ8is3phzCPltqTFRWXpcVk.jpg?width=1600&height=1200 1600w {border-radius:inherit}
+    <p> "Effica® Template"
+    <p> "See What You Get"
+    <p> "from"
+    <p> "$129"
+  [Phone] <div> {background-color:rgb(34, 34, 34)}
+    <img> IMG:bJGZ8is3phzCPltqTFRWXpcVk.jpg?width=1600&height=1200 1600w {border-radius:inherit}
+    <p> "Effica®"
+    <p> "See What You Get"
+    <p> "from"
+    <p> "$129"
+[Desktop] <section> {background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+  [Container] <div>
+    [Heading] <div>
+      [Side text] <div>
+        [Default] <div>
+          [Container] <div>
+            [Ellipse] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "13"
+          <p> "Ready to start?"
+      [Top] <div>
+        <h2> "Get in touch"
+        [Whether you have questions or just want to explore options, we’re here.] <div> {opacity:0.6; transform:none}
+          <p> "Whether you have questions or just want to explore options, we’re here."
+      [Nav] <nav>
+        [Nav link] <a> ->./
+          <div> "H" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "m" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+        [Nav link] <a> ->./about
+          <div> "A" (x2) {transform:none}
+          <div> "b" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+        [Nav link] <a> ->./case-studies
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "S" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "d" (x2) {transform:none}
+          <div> "i" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./blog
+          <div> "N" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "w" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./careers
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "e" (x4) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./contact
+          <div> "C" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "n" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+    [CTA] <div>
+      [Filler] <div>
+      [Input] <div>
+        [Container] <div>
+          <p> "Name"
+        [Variant 1] <div>
+          [Ellipse 314] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 317] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 315] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 318] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 316] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 319] <div> {background-color:rgba(23, 23, 23, 0.24)}
+        [Variant 1] <div>
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+      [Input] <div>
+        [Filler] <div>
+        [Container] <div>
+          <p> "Email Address"
+        [Variant 1] <div>
+          [Ellipse 314] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 317] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 315] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 318] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 316] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 319] <div> {background-color:rgba(23, 23, 23, 0.24)}
+        [Variant 1] <div>
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+      [Button] <div>
+        [Filler] <div>
+        [Container] <div>
+          [Default] <button> {width:0px; width:1px; background-color:rgba(0, 0, 0, 0)}
+            [Variant 1] <div>
+            [Text] <div>
+              [Text] <div>
+          [Bottom text] <div>
+            [Terms and Privacy Policy] <div> {transform:none}
+              <p> "By submitting, you agree to our and ."
+                ->./legal/terms-of-service (x2)
+            [Location] <div>
+              <p> "We are Based in"
+    [Bottom] <div>
+      [Logo] <div>
+        [Logo] <div>
+      [Contact] <div>
+        [Phone Number] <div> {transform:none}
+          <a> "(312) 555-2468" ->tel:555-666-7777
+        [Email Address] <div> {transform:none}
+          <a> "Hello@effica.com" ->mailto:hello@effica.com
+      [Social] <div>
+        [Container] <div>
+          [Desktop] <a> ->https://www.facebook.com (x4) {width:1px; width:0px}
+      [To top] <div>
+        [Container] <div>
+          <div> "B" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "k" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "p" (x2) {transform:none}
+  [Grid] <div>
+    [Desktop] <div>
+      [Container] <div>
+        [Variant 1] <div> (x2)
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+        [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+      [Top line] <div>
+        [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Variant 1] <div>
+    <img> IMG:VulBQhVJJgXCyTIKKvhsZMa5TU.png?width=2244&height=715 2244w alt="Soft abstract gradient with white light transitioning into p" {border-radius:inherit}
+[Tablet] <section> {background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+  [Container] <div>
+    [Heading] <div>
+      [Side text] <div>
+        [Default] <div>
+          [Container] <div>
+            [Ellipse] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "13"
+          <p> "Ready to start?"
+      [Top] <div>
+        <h2> "Get in touch"
+        [Whether you have questions or just want to explore options, we’re here.] <div> {opacity:0.6; transform:none}
+          <p> "Whether you have questions or just want to explore options, we’re here."
+      [Nav] <nav>
+        [Nav link] <a> ->./
+          <div> "H" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "m" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+        [Nav link] <a> ->./about
+          <div> "A" (x2) {transform:none}
+          <div> "b" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+        [Nav link] <a> ->./case-studies
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "S" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "d" (x2) {transform:none}
+          <div> "i" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./blog
+          <div> "N" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "w" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./careers
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "e" (x4) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./contact
+          <div> "C" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "n" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+    [CTA] <div>
+      [Filler] <div>
+      [Input] <div> (x2)
+        [Container] <div>
+          <p> "Name"
+        [Variant 1] <div>
+          [Ellipse 314] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 317] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 315] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 318] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 316] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 319] <div> {background-color:rgba(23, 23, 23, 0.24)}
+        [Variant 1] <div>
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+      [Button] <div>
+        [Container] <div>
+          [Default] <button> {width:0px; width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [Variant 1] <div>
+            [Text] <div>
+              [Text] <div>
+          [Bottom text] <div>
+            [Terms and Privacy Policy] <div> {transform:none}
+              <p> "By submitting, you agree to our and ."
+                ->./legal/terms-of-service (x2)
+            [Location] <div>
+              <p> "We are Based in"
+    [Bottom] <div>
+      [Logo] <div>
+        [Logo] <div>
+      [Contact] <div>
+        [Phone Number] <div> {transform:none}
+          <a> "(312) 555-2468" ->tel:555-666-7777
+        [Email Address] <div> {transform:none}
+          <a> "Hello@effica.com" ->mailto:hello@effica.com
+      [Social] <div>
+        [Container] <div>
+          [Desktop] <a> ->https://www.facebook.com (x4) {width:1px; width:0px}
+      [To top] <div>
+        [Container] <div>
+          <div> "B" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "k" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "p" (x2) {transform:none}
+  [Grid] <div>
+    [Tablet] <div>
+      [Container] <div>
+        [Variant 1] <div> (x2)
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+        [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+      [Top line] <div>
+        [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Variant 1] <div>
+    <img> IMG:VulBQhVJJgXCyTIKKvhsZMa5TU.png?width=2244&height=715 2244w alt="Soft abstract gradient with white light transitioning into p" {border-radius:inherit}
+[Phone] <section> {background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+  [Container] <div>
+    [Heading] <div>
+      [Side text] <div>
+        [Default] <div>
+          [Container] <div>
+            [Ellipse] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "13"
+          <p> "Ready to start?"
+      [Top] <div>
+        <h2> "Get in touch"
+        [Whether you have questions or just want to explore options, we’re here.] <div> {opacity:0.6; transform:none}
+          <p> "Whether you have questions or just want to explore options, we’re here."
+      [Nav] <nav>
+        [Nav link] <a> ->./
+          <div> "H" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "m" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+        [Nav link] <a> ->./about
+          <div> "A" (x2) {transform:none}
+          <div> "b" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+        [Nav link] <a> ->./case-studies
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "S" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "d" (x2) {transform:none}
+          <div> "i" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./blog
+          <div> "N" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "w" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./careers
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "e" (x4) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./contact
+          <div> "C" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "n" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+    [CTA] <div>
+      [Input] <div> (x2)
+        [Container] <div>
+          <p> "Name"
+        [Variant 1] <div>
+          [Ellipse 314] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 317] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 315] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 318] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 316] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 319] <div> {background-color:rgba(23, 23, 23, 0.24)}
+        [Variant 1] <div>
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+      [Button] <div>
+        [Container] <div>
+          [Default] <button> {width:0px; width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [Variant 1] <div>
+            [Text] <div>
+              [Text] <div>
+          [Bottom text] <div>
+            [Terms and Privacy Policy] <div> {transform:none}
+              <p> "By submitting, you agree to our and ."
+                ->./legal/terms-of-service (x2)
+            [Location] <div>
+              <p> "We are Based in"
+    [Bottom] <div>
+      [Logo] <div>
+        [Logo] <div>
+      [Contact] <div>
+        [Phone Number] <div> {transform:none}
+          <a> "(312) 555-2468" ->tel:555-666-7777
+        [Email Address] <div> {transform:none}
+          <a> "Hello@effica.com" ->mailto:hello@effica.com
+      [Social] <div>
+        [Container] <div>
+          [Phone] <a> ->https://www.facebook.com (x4) {width:1px; width:0px}
+      [To top] <div>
+        [Container] <div>
+          <div> "B" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "k" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "p" (x2) {transform:none}
+  [Grid] <div>
+    [Phone] <div>
+      [Container] <div>
+        [Variant 1] <div> (x2)
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+        [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+      [Top line] <div>
+        [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Variant 1] <div>
+    <img> IMG:VulBQhVJJgXCyTIKKvhsZMa5TU.png?width=2244&height=715 2244w alt="Soft abstract gradient with white light transitioning into p" {border-radius:inherit}
+[Desktop] <footer> {background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+  [Container] <div>
+    [Legal Links] <div>
+      [Privacy Policy] <div> {opacity:0.6; transform:none}
+        <a> "Privacy Policy" ->./legal/privacy-policy
+      [Terms of Service] <div> {opacity:0.6; transform:none}
+        <a> "Terms of Service" ->./legal/terms-of-service
+    [Built in] <div>
+      [Desktop] <a> ->https://framer.link/bynneh
+        [Vector] <div>
+        [Text] <div>
+          <p> "Built in Framer" (x2)
+    [Copyright] <div>
+      <p> "© 2025 Effica® Studio. All rights reserved."
+    [Credits] <div>
+      [Desktop] <a> ->https://templifica.com/
+        [Created by] <div> {transform:none}
+          <p> "Created by"
+        [Image] <div>
+          [Avatar] <div> {transform:none}
+            <img> IMG:nr593SABZlC19HZOrgnV0sWc8A.jpg?width=73&height=73 alt="Profile portrait of a man in a grey shirt" {border-radius:inherit}
+          [Logo] <div> {background-color:rgb(210, 255, 55); transform:scale(0.5)}
+            [logo] <div>
+        [Anatolii Dmitrienko] <div> {transform:none}
+          <p> "Anatolii Dmitrienko"
+  [Grid] <div>
+    [Desktop] <div>
+      [Container] <div>
+        [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+[Tablet] <footer> {background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+  [Container] <div>
+    [Legal Links] <div>
+      [Privacy Policy] <div> {opacity:0.6; transform:none}
+        <a> "Privacy Policy" ->./legal/privacy-policy
+      [Terms of Service] <div> {opacity:0.6; transform:none}
+        <a> "Terms of Service" ->./legal/terms-of-service
+    [Built in] <div>
+      [Desktop] <a> ->https://framer.link/bynneh
+        [Vector] <div>
+        [Text] <div>
+          <p> "Built in Framer" (x2)
+    [Copyright] <div>
+      <p> "© 2025 Effica® Studio. All rights reserved."
+    [Credits] <div>
+      [Desktop] <a> ->https://templifica.com/
+        [Created by] <div> {transform:none}
+          <p> "Created by"
+        [Image] <div>
+          [Avatar] <div> {transform:none}
+            <img> IMG:nr593SABZlC19HZOrgnV0sWc8A.jpg?width=73&height=73 alt="Profile portrait of a man in a grey shirt" {border-radius:inherit}
+          [Logo] <div> {background-color:rgb(210, 255, 55); transform:scale(0.5)}
+            [logo] <div>
+        [Anatolii Dmitrienko] <div> {transform:none}
+          <p> "Anatolii Dmitrienko"
+  [Grid] <div>
+    [Tablet] <div>
+      [Container] <div>
+        [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+      [Top line] <div>
+[Phone] <footer> {background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+  [Container] <div>
+    [Legal Links] <div>
+      [Privacy Policy] <div> {opacity:0.6; transform:none}
+        <a> "Privacy Policy" ->./legal/privacy-policy
+      [Terms of Service] <div> {opacity:0.6; transform:none}
+        <a> "Terms of Service" ->./legal/terms-of-service
+    [Built in] <div>
+      [Desktop] <a> ->https://framer.link/bynneh
+        [Vector] <div>
+        [Text] <div>
+          <p> "Built in Framer" (x2)
+    [Copyright] <div>
+      <p> "© 2025 Effica® Studio. All rights reserved."
+    [Credits] <div>
+      [Desktop] <a> ->https://templifica.com/
+        [Created by] <div> {transform:none}
+          <p> "Created by"
+        [Image] <div>
+          [Avatar] <div> {transform:none}
+            <img> IMG:nr593SABZlC19HZOrgnV0sWc8A.jpg?width=73&height=73 alt="Profile portrait of a man in a grey shirt" {border-radius:inherit}
+          [Logo] <div> {background-color:rgb(210, 255, 55); transform:scale(0.5)}
+            [logo] <div>
+        [Anatolii Dmitrienko] <div> {transform:none}
+          <p> "Anatolii Dmitrienko"
+  [Grid] <div>
+    [Phone] <div>
+      [Container] <div>
+        [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+[Light] <a> ->https://www.framer.com {opacity:0.001; transform:translateY(10px)}
+  [Backdrop] <div> {background-color:rgb(255, 255, 255)}
+  [Content] <div> {transform:translate(-50%, -50%)}
+    [Logo] <div> {transform:translateX(-50%)}
+    <p> "Create a free website with Framer, the website builder loved by startups, designers and agencies." {transform:scale(0.001)}
+    [Text] <div>
+  [Bottom] <div> {opacity:0.06}
+  [Border] <div> {opacity:0.04}
+(x27)

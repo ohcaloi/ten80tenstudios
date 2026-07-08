@@ -1,0 +1,1118 @@
+<style> ":root body { background: var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232)); }"
+[Header] <header>
+  [Logo] <div>
+    [Link container] <a> ->./
+      [Logo] <div>
+  [Nav container] <div>
+    [Menu] <div> (x2)
+      [Closed] <div>
+        [Plus] <div> {transform:none}
+          [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+          [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:rotate(90deg)}
+        [Container] <div>
+          <div> "M" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "n" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+[Desktop] <a> ->https://cal.com
+  [A 30-minute call to clarify your next steps. Zero obligations] <div> {transform:none}
+    <p> "Zero obligations"
+      <span> "A 30-minute call to clarify your next steps."
+  [Avatar] <div> {width:5px}
+    <img> IMG:qv5GatDLyXXZ7ZK4a2ffaEG3c.jpg?width=90&height=90 {border-radius:inherit}
+  [Button Background] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(27, 26, 25))}
+    [Vector] <div> {transform:none}
+<style> "html body { background: var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255)); }"
+[Main] <main>
+  [Heading] <section>
+    [Container] <div>
+      [Side text] <div> {opacity:0; transform:translateY(30px)}
+        <CHAR-ANIM> "0+0+0+"
+        [Description] <div> {transform:none}
+          <p> "completed client projects"
+      [Text] <div>
+        <h1> (x2)
+          <CHAR-ANIM> "Whoweare:"
+        [Description] <div> {transform:none}
+          <CHAR-ANIM> "Webelievethebestsystemsstayoutoftheway.That’swhywekeephumansintheloop,prioritizedefaultsovermandates,andreport"
+        [Desktop] <div>
+          [Avatars] <div>
+            [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+              [Img] <div>
+            [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+              [Img] <div>
+            [3] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+              [Img] <div>
+            [4] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+              [Img] <div>
+            [5] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+              [Img] <div>
+          [Container] <div>
+            [Rating] <div>
+              [Rating Dots] <div>
+                [Ellipse 307] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+                [Ellipse 308] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+                [Ellipse 309] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+                [Ellipse 310] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+                [Ellipse 311] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              <p> "4.9/5"
+            <p> "230 verified reviews"
+              <span> "Based on"
+        [Phone] <div>
+          [Avatars] <div>
+            [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+              [Img] <div>
+            [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+              [Img] <div>
+            [3] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+              [Img] <div>
+            [4] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+              [Img] <div>
+            [5] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:translateY(-50%)}
+              [Img] <div>
+          [Container] <div>
+            [Rating] <div>
+              [Rating Dots] <div>
+                [Ellipse 307] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+                [Ellipse 308] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+                [Ellipse 309] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+                [Ellipse 310] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+                [Ellipse 311] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              <p> "4.9/5"
+            <p> "230 verified reviews"
+              <span> "Based on"
+    [Grid] <div> (x3)
+      [Desktop] <div>
+        [Container] <div>
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+  [Stats] <section>
+    [Container] <div> {opacity:0.001; transform:translateY(50px)}
+      [Side] <div>
+        [Logo] <div> {opacity:0.3}
+      [Image + stats] <div>
+        [Office Image] <div>
+          <img> IMG:QrHlx3YUGH4bh4WJeAUzQ2F8ng.jpg?width=1601&height=1032 1601w alt="Spacious open-plan office with rows of desks and striking ci" {border-radius:inherit}
+        [Stats] <div>
+          [Desktop] <div> {width:0px; width:1px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "average satisfaction score"
+            [Text] <div>
+              <p> "4.9/5"
+              [Variant 1] <div>
+          [Tablet/Phone] <div> (x2) {width:0px; width:1px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "average satisfaction score"
+            [Text] <div>
+              <p> "4.9/5"
+              [Variant 1] <div>
+          [Desktop] <div> {width:0px; width:1px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "completed client projects"
+            [Text] <div>
+              <p> "70+"
+              [Variant 1] <div>
+          [Tablet/Phone] <div> (x2) {width:0px; width:1px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "completed client projects"
+            [Text] <div>
+              <p> "70+"
+              [Variant 1] <div>
+          [Desktop] <div> {width:0px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "routine tasks automated"
+            [Text] <div>
+              <p> "60%"
+              [Variant 1] <div>
+          [Tablet/Phone] <div> (x2) {width:0px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "routine tasks automated"
+            [Text] <div>
+              <p> "60%"
+              [Variant 1] <div>
+    [Grid] <div> (x3)
+      [Desktop] <div>
+        [Container] <div>
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+  [Team + text] <section>
+    [Team] <div>
+      [Side] <div>
+        [Variant 1] <div>
+          [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+          <p> "The team" {transform:uppercase}
+      [Content] <div>
+        [Heading] <div>
+          <CHAR-ANIM> "TheExpertsDrivingChange"
+          <p> "We’re engineers, analysts, and advisors working side by side to design AI solutions that move businesses forwa"
+        [Cards] <div>
+          [Desktop] <div> {width:1px; width:0px; background-color:rgba(0, 0, 0, 0)}
+            [1] <div>
+              [Profile Image] <div>
+              [Container] <div>
+                [Icon] <div>
+                [Text] <div>
+            [2] <div>
+              <p> "15 years in tech strategy"
+              [Social] <div>
+            [Variant 1] <div>
+              [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Tablet] <div> {width:1px; width:0px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [1] <div>
+              [Profile Image] <div>
+              [Container] <div>
+                [Icon] <div>
+                [Text] <div>
+            [2] <div>
+              <p> "15 years in tech strategy"
+              [Social] <div>
+            [Variant 1] <div>
+              [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Phone] <div> {width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [1] <div>
+              [Profile Image] <div>
+              [Container] <div>
+                [Icon] <div>
+                [Text] <div>
+            [2] <div>
+              <p> "15 years in tech strategy"
+              [Social] <div>
+            [Variant 1] <div>
+              [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Desktop] <div> {width:1px; width:0px; background-color:rgba(0, 0, 0, 0)}
+            [1] <div>
+              [Profile Image] <div>
+              [Container] <div>
+                [Icon] <div>
+                [Text] <div>
+            [2] <div>
+              <p> "workflow automation expert"
+              [Social] <div>
+            [Variant 1] <div>
+              [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Tablet] <div> {width:1px; width:0px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [1] <div>
+              [Profile Image] <div>
+              [Container] <div>
+                [Icon] <div>
+                [Text] <div>
+            [2] <div>
+              <p> "workflow automation expert"
+              [Social] <div>
+            [Variant 1] <div>
+              [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Phone] <div> {width:1px; width:0px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [1] <div>
+              [Profile Image] <div>
+              [Container] <div>
+                [Icon] <div>
+                [Text] <div>
+            [2] <div>
+              <p> "workflow automation expert"
+              [Social] <div>
+            [Variant 1] <div>
+              [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Desktop] <div> {width:1px; width:0px; background-color:rgba(0, 0, 0, 0)}
+            [1] <div>
+              [Profile Image] <div>
+              [Container] <div>
+                [Icon] <div>
+                [Text] <div>
+            [2] <div>
+              <p> "backend & integrations"
+              [Social] <div>
+            [Variant 1] <div>
+              [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Tablet] <div> {width:1px; width:0px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [1] <div>
+              [Profile Image] <div>
+              [Container] <div>
+                [Icon] <div>
+                [Text] <div>
+            [2] <div>
+              <p> "backend & integrations"
+              [Social] <div>
+            [Variant 1] <div>
+              [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Phone] <div> {width:1px; width:0px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [1] <div>
+              [Profile Image] <div>
+              [Container] <div>
+                [Icon] <div>
+                [Text] <div>
+            [2] <div>
+              <p> "backend & integrations"
+              [Social] <div>
+            [Variant 1] <div>
+              [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Desktop] <div> {width:1px; width:0px; background-color:rgba(0, 0, 0, 0)}
+            [1] <div>
+              [Profile Image] <div>
+              [Container] <div>
+                [Icon] <div>
+                [Text] <div>
+            [2] <div>
+              <p> "your favorite contact"
+              [Social] <div>
+            [Variant 1] <div>
+              [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Tablet] <div> {width:1px; width:0px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [1] <div>
+              [Profile Image] <div>
+              [Container] <div>
+                [Icon] <div>
+                [Text] <div>
+            [2] <div>
+              <p> "your favorite contact"
+              [Social] <div>
+            [Variant 1] <div>
+              [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Phone] <div> {width:1px; width:0px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [1] <div>
+              [Profile Image] <div>
+              [Container] <div>
+                [Icon] <div>
+                [Text] <div>
+            [2] <div>
+              <p> "your favorite contact"
+              [Social] <div>
+            [Variant 1] <div>
+              [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+    [Grid] <div> (x3)
+      [Desktop] <div>
+        [Container] <div>
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+  [Steps] <section>
+    [Container] <div>
+      [Side] <div>
+        [Variant 1] <div>
+          [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+          <p> "why us?" {transform:uppercase}
+      [Content] <div>
+        [Text] <div>
+          (x2)
+            <CHAR-ANIM> "WebelieveAIshouldfeelinvisible.Itshouldn’tbesomethingyou“notice”—itshouldsimplyremovetherepetitive,manual,low-"
+          <p> "Every change is auditable and easy to roll back, so adoption feels safe. The result is the boring kind of succ"
+          [Desktop] <a> ->./contact
+            [Container] <div>
+              <p> "Contact sales" (x2)
+            [Arrow container] <div> {transform:none}
+              [Arrow] <div>
+          [Phone] <a> ->./contact
+            [Container] <div>
+              <p> "Contact sales" (x2)
+            [Arrow container] <div> {transform:none}
+              [Arrow] <div>
+        [Advantages] <div>
+          <CHAR-ANIM> "Whatmakesusdifferent"
+          [Cards] <div>
+            [Desktop] <div>
+              [Number] <div> {background-color:var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255))}
+                [Number] <div> {transform:none}
+              [Text] <div>
+            [Tablet/Phone] <div>
+              [Number] <div> {background-color:var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255))}
+                [Number] <div> {transform:none}
+              [Text] <div>
+            [Desktop] <div>
+              [Number] <div> {background-color:var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255))}
+                [Number] <div> {transform:none}
+              [Text] <div>
+            [Tablet/Phone] <div>
+              [Number] <div> {background-color:var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255))}
+                [Number] <div> {transform:none}
+              [Text] <div>
+            [Desktop] <div>
+              [Number] <div> {background-color:var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255))}
+                [Number] <div> {transform:none}
+              [Text] <div>
+            [Tablet/Phone] <div>
+              [Number] <div> {background-color:var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255))}
+                [Number] <div> {transform:none}
+              [Text] <div>
+    [Grid] <div> (x3)
+      [Desktop] <div>
+        [Container] <div>
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+  [Desktop] <section> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+    [Container] <div>
+      [Quote] <div>
+        [Person] <div> {opacity:0; transform:none}
+          [Image] <div>
+            <img> IMG:m49yaXnwiPnLxR2XpI0F7YhoOxo.jpg?width=668&height=921 668w alt="Young woman in a white shirt with a colorful gradient print," {border-radius:inherit}
+          [Contact Info Text] <div>
+            <p> "Laura Stern"
+            <p> "Founder & AI Consultant" {transform:uppercase}
+        [Text] <div>
+          [Icon container] <div>
+            [Icon] <div>
+            [Filler] <div>
+          [Quote] <div>
+            [Default] <div>
+              [Container] <div>
+            [Text] <div>
+              [Reveal Text] <div>
+              <p> "We’re here to make AI work in the real world — without noise, hype, or distractions."
+      [Timeline] <div>
+        [Desktop] <div> (x4) {width:1px; width:0px; background-color:rgba(0, 0, 0, 0)}
+          [Variant 1] <div>
+          [Top] <div>
+            <p> "2020" {transform:uppercase}
+          <p> "Founded to rethink how technology solves real problems"
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+    [Grid] <div>
+      [Desktop] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Tablet] <section> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+    [Container] <div>
+      [Quote] <div>
+        [Person] <div> {opacity:0; transform:none}
+          [Image] <div>
+            <img> IMG:m49yaXnwiPnLxR2XpI0F7YhoOxo.jpg?width=668&height=921 668w alt="Young woman in a white shirt with a colorful gradient print," {border-radius:inherit}
+          [Contact Info Text] <div>
+            <p> "Laura Stern"
+            <p> "Founder & AI Consultant" {transform:uppercase}
+        [Text] <div>
+          [Icon container] <div>
+            [Icon] <div>
+            [Filler] <div>
+          [Quote] <div>
+            [Default] <div>
+              [Container] <div>
+            [Text] <div>
+              [Reveal Text] <div>
+              <p> "We’re here to make AI work in the real world — without noise, hype, or distractions."
+      [Timeline] <div>
+        [Tablet] <div> (x4) {width:1px; width:0px; background-color:rgba(0, 0, 0, 0)}
+          [Variant 1] <div>
+          [Top] <div>
+            <p> "2020" {transform:uppercase}
+          <p> "Founded to rethink how technology solves real problems"
+          [Variant 1] <div>
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+    [Grid] <div>
+      [Tablet] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Phone] <section> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+    [Container] <div>
+      [Quote] <div>
+        [Person] <div> {opacity:0; transform:none}
+          [Image] <div>
+            <img> IMG:m49yaXnwiPnLxR2XpI0F7YhoOxo.jpg?width=668&height=921 668w alt="Young woman in a white shirt with a colorful gradient print," {border-radius:inherit}
+          [Contact Info Text] <div>
+            <p> "Laura Stern"
+            <p> "Founder & AI Consultant" {transform:uppercase}
+        [Text] <div>
+          [Icon container] <div>
+            [Icon] <div>
+          [Quote] <div>
+            [Default] <div>
+              [Container] <div>
+            [Text] <div>
+              [Reveal Text] <div>
+              <p> "We’re here to make AI work in the real world — without noise, hype, or distractions."
+      [Timeline] <div>
+        [Phone] <div> (x4) {width:1px; width:0px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+          [Variant 1] <div>
+          [Top] <div>
+            <p> "2020" {transform:uppercase}
+          <p> "Founded to rethink how technology solves real problems"
+    [Grid] <div>
+      [Phone] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Desktop] <section> {background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+    [Container] <div>
+      [Heading] <div>
+        [Filler] <div>
+        [Top] <div>
+          [Heading] <div>
+            [Default] <div>
+              [Container] <div>
+            [Main Heading] <div> {transform:none}
+              <h2> "News"
+          [Desktop] <a> ->./blog
+            [Container] <div>
+            [Arrow container] <div> {transform:none}
+              [Arrow] <div>
+      [Desktop] <a> ->./blog/5-common-mistakes-businesses-make-when-adopting-ai (x4) {width:0px}
+        [Variant 1] <div>
+          [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+        [Container] <div>
+          [Image container] <div>
+          [Description] <div>
+    [Grid] <div>
+      [Desktop] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Tablet] <section> {background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+    [Container] <div>
+      [Heading] <div>
+        [Filler] <div>
+        [Top] <div>
+          [Heading] <div>
+            [Default] <div>
+              [Container] <div>
+            [Main Heading] <div> {transform:none}
+              <h2> "News"
+          [Desktop] <a> ->./blog
+            [Container] <div>
+            [Arrow container] <div> {transform:none}
+              [Arrow] <div>
+      [Desktop] <a> ->./blog/5-common-mistakes-businesses-make-when-adopting-ai (x4) {width:0px}
+        [Variant 1] <div>
+          [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+        [Container] <div>
+          [Image container] <div>
+          [Description] <div>
+    [Grid] <div>
+      [Tablet] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Phone] <section> {background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+    [Container] <div>
+      [Heading] <div>
+        [Top] <div>
+          [Heading] <div>
+            [Default] <div>
+              [Container] <div>
+            [Main Heading] <div> {transform:none}
+              <h2> "News"
+          [Phone] <a> ->./blog
+            [Container] <div>
+            [Arrow container] <div> {transform:none}
+              [Arrow] <div>
+      [Phone] <a> ->./blog/5-common-mistakes-businesses-make-when-adopting-ai (x4) {width:1px; width:0px}
+        [Variant 1] <div>
+          [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+        [Container] <div>
+          [Image container] <div>
+          [Description] <div>
+    [Grid] <div>
+      [Phone] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Desktop] <section> {background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+    [Container] <div>
+      [Heading + description] <div>
+        [Heading] <div>
+          <span> "Newsletter" {opacity:0.001; transform:translateX(0px) translateY(30px) scale(1) rotate(0}
+        [Description] <div> {opacity:0; transform:translateY(8px)}
+          <p> "We send occasional updates about new case studies and useful tips."
+      [Container] <div>
+        <p> "Your Email"
+      [Default] <button> {width:0px; width:1px; background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+        [Variant 1] <div>
+        [Text] <div>
+          [Text] <div>
+            [CTA Text] <div> (x2) {transform:none}
+    [Grid] <div>
+      [Desktop] <div>
+        [Container] <div>
+          [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+  [Tablet] <section> {background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+    [Container] <div>
+      [Heading + description] <div>
+        [Heading] <div>
+          <span> "Newsletter" {opacity:0.001; transform:translateX(0px) translateY(30px) scale(1) rotate(0}
+        [Description] <div> {opacity:0; transform:translateY(8px)}
+          <p> "We send occasional updates about new case studies and useful tips."
+      [Container] <div>
+        <p> "Your Email"
+      [Default] <button> {width:0px; width:1px; background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+        [Variant 1] <div>
+        [Text] <div>
+          [Text] <div>
+            [CTA Text] <div> (x2) {transform:none}
+    [Grid] <div>
+      [Tablet] <div>
+        [Container] <div>
+          [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+        [Top line] <div>
+  [Phone] <section> {background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+    [Container] <div>
+      [Heading + description] <div>
+        [Heading] <div>
+          <span> "Newsletter" {opacity:0.001; transform:translateX(0px) translateY(30px) scale(1) rotate(0}
+        [Description] <div> {opacity:0; transform:translateY(8px)}
+          <p> "We send occasional updates about new case studies and useful tips."
+      [Container] <div>
+        <p> "Your Email"
+      [Default] <button> {width:0px; width:1px; background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+        [Variant 1] <div>
+        [Text] <div>
+          [Text] <div>
+            [CTA Text] <div> (x2) {transform:none}
+    [Grid] <div>
+      [Phone] <div>
+        [Container] <div>
+          [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+  [FAQ] <section>
+    [Container] <div>
+      [FAQ] <div>
+        [Side text] <div>
+          [Default] <div>
+            [Container] <div>
+              [Ellipse] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              <p> "12"
+            <p> "Help & Info"
+        [Items] <div>
+          <h2> "FAQ"
+          [Desktop] <div> {width:1px; width:0px}
+            [Desktop open] <div> {width:0px; width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [question] <div>
+            [Desktop] <div> (x4) {width:0px; width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [question] <div>
+          [Phone] <div> {width:1px; width:0px}
+            [Phone open] <div> {width:0px; width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [question] <div>
+            [Phone] <div> (x4) {width:0px; width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+              [question] <div>
+      [Unsure?] <div>
+        [Variant 1] <div>
+          [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+          <p> "Contact us directly" {transform:uppercase}
+        [Heading + button] <div>
+          [Still unsure?] <div> {transform:none}
+            <p> "Still unsure?"
+          [Desktop] <a> ->./ (x2) {width:1px; width:0px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [Variant 1] <div>
+            [Text] <div>
+              [CTA Text] <div> (x2) {transform:none}
+                <p> "Ask a question"
+          [Phone] <a> ->./ {width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+            [Variant 1] <div>
+            [Text] <div>
+              [CTA Text] <div> (x2) {transform:none}
+                <p> "Ask a question"
+        [Quote] <div>
+          <p> "My role is to make sure every client feels supported from day one."
+          [Default] <div>
+            [image] <div>
+              <img> IMG:rPovAy2J6Q4sllGf3hH7aT3fCk.jpg?width=63&height=63 {border-radius:inherit}
+            [Contact Info Text] <div>
+              <p> "Jessica Burns"
+              <p> "Client Success Manager"
+    [Grid] <div> (x3)
+      [Desktop] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+[Delete me!] <div> {opacity:0.001; transform:translateY(40px)}
+  [Desktop] <div> {background-color:rgb(34, 34, 34)}
+    <img> IMG:bJGZ8is3phzCPltqTFRWXpcVk.jpg?width=1600&height=1200 1600w {border-radius:inherit}
+    <p> "Effica® Template"
+    <p> "See What You Get"
+    <p> "from"
+    <p> "$129"
+  [Phone] <div> {background-color:rgb(34, 34, 34)}
+    <img> IMG:bJGZ8is3phzCPltqTFRWXpcVk.jpg?width=1600&height=1200 1600w {border-radius:inherit}
+    <p> "Effica®"
+    <p> "See What You Get"
+    <p> "from"
+    <p> "$129"
+[Desktop] <section> {background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+  [Container] <div>
+    [Heading] <div>
+      [Side text] <div>
+        [Default] <div>
+          [Container] <div>
+            [Ellipse] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "13"
+          <p> "Ready to start?"
+      [Top] <div>
+        <h2> "Get in touch"
+        [Whether you have questions or just want to explore options, we’re here.] <div> {opacity:0.6; transform:none}
+          <p> "Whether you have questions or just want to explore options, we’re here."
+      [Nav] <nav>
+        [Nav link] <a> ->./
+          <div> "H" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "m" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+        [Nav link] <a> ->./about
+          <div> "A" (x2) {transform:none}
+          <div> "b" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+        [Nav link] <a> ->./case-studies
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "S" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "d" (x2) {transform:none}
+          <div> "i" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./blog
+          <div> "N" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "w" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./careers
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "e" (x4) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./contact
+          <div> "C" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "n" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+    [CTA] <div>
+      [Filler] <div>
+      [Input] <div>
+        [Container] <div>
+          <p> "Name"
+        [Variant 1] <div>
+          [Ellipse 314] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 317] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 315] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 318] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 316] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 319] <div> {background-color:rgba(23, 23, 23, 0.24)}
+        [Variant 1] <div>
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+      [Input] <div>
+        [Filler] <div>
+        [Container] <div>
+          <p> "Email Address"
+        [Variant 1] <div>
+          [Ellipse 314] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 317] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 315] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 318] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 316] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 319] <div> {background-color:rgba(23, 23, 23, 0.24)}
+        [Variant 1] <div>
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+      [Button] <div>
+        [Filler] <div>
+        [Container] <div>
+          [Default] <button> {width:0px; width:1px; background-color:rgba(0, 0, 0, 0)}
+            [Variant 1] <div>
+            [Text] <div>
+              [Text] <div>
+          [Bottom text] <div>
+            [Terms and Privacy Policy] <div> {transform:none}
+              <p> "By submitting, you agree to our and ."
+                ->./legal/terms-of-service (x2)
+            [Location] <div>
+              <p> "We are Based in"
+    [Bottom] <div>
+      [Logo] <div>
+        [Logo] <div>
+      [Contact] <div>
+        [Phone Number] <div> {transform:none}
+          <a> "(312) 555-2468" ->tel:555-666-7777
+        [Email Address] <div> {transform:none}
+          <a> "Hello@effica.com" ->mailto:hello@effica.com
+      [Social] <div>
+        [Container] <div>
+          [Desktop] <a> ->https://www.facebook.com (x4) {width:1px; width:0px}
+      [To top] <div>
+        [Container] <div>
+          <div> "B" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "k" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "p" (x2) {transform:none}
+  [Grid] <div>
+    [Desktop] <div>
+      [Container] <div>
+        [Variant 1] <div> (x2)
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+        [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+      [Top line] <div>
+        [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Variant 1] <div>
+    <img> IMG:VulBQhVJJgXCyTIKKvhsZMa5TU.png?width=2244&height=715 2244w alt="Soft abstract gradient with white light transitioning into p" {border-radius:inherit}
+[Tablet] <section> {background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+  [Container] <div>
+    [Heading] <div>
+      [Side text] <div>
+        [Default] <div>
+          [Container] <div>
+            [Ellipse] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "13"
+          <p> "Ready to start?"
+      [Top] <div>
+        <h2> "Get in touch"
+        [Whether you have questions or just want to explore options, we’re here.] <div> {opacity:0.6; transform:none}
+          <p> "Whether you have questions or just want to explore options, we’re here."
+      [Nav] <nav>
+        [Nav link] <a> ->./
+          <div> "H" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "m" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+        [Nav link] <a> ->./about
+          <div> "A" (x2) {transform:none}
+          <div> "b" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+        [Nav link] <a> ->./case-studies
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "S" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "d" (x2) {transform:none}
+          <div> "i" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./blog
+          <div> "N" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "w" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./careers
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "e" (x4) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./contact
+          <div> "C" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "n" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+    [CTA] <div>
+      [Filler] <div>
+      [Input] <div> (x2)
+        [Container] <div>
+          <p> "Name"
+        [Variant 1] <div>
+          [Ellipse 314] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 317] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 315] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 318] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 316] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 319] <div> {background-color:rgba(23, 23, 23, 0.24)}
+        [Variant 1] <div>
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+      [Button] <div>
+        [Container] <div>
+          [Default] <button> {width:0px; width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [Variant 1] <div>
+            [Text] <div>
+              [Text] <div>
+          [Bottom text] <div>
+            [Terms and Privacy Policy] <div> {transform:none}
+              <p> "By submitting, you agree to our and ."
+                ->./legal/terms-of-service (x2)
+            [Location] <div>
+              <p> "We are Based in"
+    [Bottom] <div>
+      [Logo] <div>
+        [Logo] <div>
+      [Contact] <div>
+        [Phone Number] <div> {transform:none}
+          <a> "(312) 555-2468" ->tel:555-666-7777
+        [Email Address] <div> {transform:none}
+          <a> "Hello@effica.com" ->mailto:hello@effica.com
+      [Social] <div>
+        [Container] <div>
+          [Desktop] <a> ->https://www.facebook.com (x4) {width:1px; width:0px}
+      [To top] <div>
+        [Container] <div>
+          <div> "B" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "k" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "p" (x2) {transform:none}
+  [Grid] <div>
+    [Tablet] <div>
+      [Container] <div>
+        [Variant 1] <div> (x2)
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+        [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+      [Top line] <div>
+        [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Variant 1] <div>
+    <img> IMG:VulBQhVJJgXCyTIKKvhsZMa5TU.png?width=2244&height=715 2244w alt="Soft abstract gradient with white light transitioning into p" {border-radius:inherit}
+[Phone] <section> {background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+  [Container] <div>
+    [Heading] <div>
+      [Side text] <div>
+        [Default] <div>
+          [Container] <div>
+            [Ellipse] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "13"
+          <p> "Ready to start?"
+      [Top] <div>
+        <h2> "Get in touch"
+        [Whether you have questions or just want to explore options, we’re here.] <div> {opacity:0.6; transform:none}
+          <p> "Whether you have questions or just want to explore options, we’re here."
+      [Nav] <nav>
+        [Nav link] <a> ->./
+          <div> "H" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "m" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+        [Nav link] <a> ->./about
+          <div> "A" (x2) {transform:none}
+          <div> "b" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+        [Nav link] <a> ->./case-studies
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "S" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "d" (x2) {transform:none}
+          <div> "i" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./blog
+          <div> "N" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "w" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./careers
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "e" (x4) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->./contact
+          <div> "C" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "n" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+    [CTA] <div>
+      [Input] <div> (x2)
+        [Container] <div>
+          <p> "Name"
+        [Variant 1] <div>
+          [Ellipse 314] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 317] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 315] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 318] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 316] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 319] <div> {background-color:rgba(23, 23, 23, 0.24)}
+        [Variant 1] <div>
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+      [Button] <div>
+        [Container] <div>
+          [Default] <button> {width:0px; width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [Variant 1] <div>
+            [Text] <div>
+              [Text] <div>
+          [Bottom text] <div>
+            [Terms and Privacy Policy] <div> {transform:none}
+              <p> "By submitting, you agree to our and ."
+                ->./legal/terms-of-service (x2)
+            [Location] <div>
+              <p> "We are Based in"
+    [Bottom] <div>
+      [Logo] <div>
+        [Logo] <div>
+      [Contact] <div>
+        [Phone Number] <div> {transform:none}
+          <a> "(312) 555-2468" ->tel:555-666-7777
+        [Email Address] <div> {transform:none}
+          <a> "Hello@effica.com" ->mailto:hello@effica.com
+      [Social] <div>
+        [Container] <div>
+          [Phone] <a> ->https://www.facebook.com (x4) {width:1px; width:0px}
+      [To top] <div>
+        [Container] <div>
+          <div> "B" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "k" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "p" (x2) {transform:none}
+  [Grid] <div>
+    [Phone] <div>
+      [Container] <div>
+        [Variant 1] <div> (x2)
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+        [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+      [Top line] <div>
+        [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Variant 1] <div>
+    <img> IMG:VulBQhVJJgXCyTIKKvhsZMa5TU.png?width=2244&height=715 2244w alt="Soft abstract gradient with white light transitioning into p" {border-radius:inherit}
+[Desktop] <footer> {background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+  [Container] <div>
+    [Legal Links] <div>
+      [Privacy Policy] <div> {opacity:0.6; transform:none}
+        <a> "Privacy Policy" ->./legal/privacy-policy
+      [Terms of Service] <div> {opacity:0.6; transform:none}
+        <a> "Terms of Service" ->./legal/terms-of-service
+    [Built in] <div>
+      [Desktop] <a> ->https://framer.link/bynneh
+        [Vector] <div>
+        [Text] <div>
+          <p> "Built in Framer" (x2)
+    [Copyright] <div>
+      <p> "© 2025 Effica® Studio. All rights reserved."
+    [Credits] <div>
+      [Desktop] <a> ->https://templifica.com/
+        [Created by] <div> {transform:none}
+          <p> "Created by"
+        [Image] <div>
+          [Avatar] <div> {transform:none}
+            <img> IMG:nr593SABZlC19HZOrgnV0sWc8A.jpg?width=73&height=73 alt="Profile portrait of a man in a grey shirt" {border-radius:inherit}
+          [Logo] <div> {background-color:rgb(210, 255, 55); transform:scale(0.5)}
+            [logo] <div>
+        [Anatolii Dmitrienko] <div> {transform:none}
+          <p> "Anatolii Dmitrienko"
+  [Grid] <div>
+    [Desktop] <div>
+      [Container] <div>
+        [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+[Tablet] <footer> {background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+  [Container] <div>
+    [Legal Links] <div>
+      [Privacy Policy] <div> {opacity:0.6; transform:none}
+        <a> "Privacy Policy" ->./legal/privacy-policy
+      [Terms of Service] <div> {opacity:0.6; transform:none}
+        <a> "Terms of Service" ->./legal/terms-of-service
+    [Built in] <div>
+      [Desktop] <a> ->https://framer.link/bynneh
+        [Vector] <div>
+        [Text] <div>
+          <p> "Built in Framer" (x2)
+    [Copyright] <div>
+      <p> "© 2025 Effica® Studio. All rights reserved."
+    [Credits] <div>
+      [Desktop] <a> ->https://templifica.com/
+        [Created by] <div> {transform:none}
+          <p> "Created by"
+        [Image] <div>
+          [Avatar] <div> {transform:none}
+            <img> IMG:nr593SABZlC19HZOrgnV0sWc8A.jpg?width=73&height=73 alt="Profile portrait of a man in a grey shirt" {border-radius:inherit}
+          [Logo] <div> {background-color:rgb(210, 255, 55); transform:scale(0.5)}
+            [logo] <div>
+        [Anatolii Dmitrienko] <div> {transform:none}
+          <p> "Anatolii Dmitrienko"
+  [Grid] <div>
+    [Tablet] <div>
+      [Container] <div>
+        [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+      [Top line] <div>
+[Phone] <footer> {background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+  [Container] <div>
+    [Legal Links] <div>
+      [Privacy Policy] <div> {opacity:0.6; transform:none}
+        <a> "Privacy Policy" ->./legal/privacy-policy
+      [Terms of Service] <div> {opacity:0.6; transform:none}
+        <a> "Terms of Service" ->./legal/terms-of-service
+    [Built in] <div>
+      [Desktop] <a> ->https://framer.link/bynneh
+        [Vector] <div>
+        [Text] <div>
+          <p> "Built in Framer" (x2)
+    [Copyright] <div>
+      <p> "© 2025 Effica® Studio. All rights reserved."
+    [Credits] <div>
+      [Desktop] <a> ->https://templifica.com/
+        [Created by] <div> {transform:none}
+          <p> "Created by"
+        [Image] <div>
+          [Avatar] <div> {transform:none}
+            <img> IMG:nr593SABZlC19HZOrgnV0sWc8A.jpg?width=73&height=73 alt="Profile portrait of a man in a grey shirt" {border-radius:inherit}
+          [Logo] <div> {background-color:rgb(210, 255, 55); transform:scale(0.5)}
+            [logo] <div>
+        [Anatolii Dmitrienko] <div> {transform:none}
+          <p> "Anatolii Dmitrienko"
+  [Grid] <div>
+    [Phone] <div>
+      [Container] <div>
+        [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+[Light] <a> ->https://www.framer.com {opacity:0.001; transform:translateY(10px)}
+  [Backdrop] <div> {background-color:rgb(255, 255, 255)}
+  [Content] <div> {transform:translate(-50%, -50%)}
+    [Logo] <div> {transform:translateX(-50%)}
+    <p> "Create a free website with Framer, the website builder loved by startups, designers and agencies." {transform:scale(0.001)}
+    [Text] <div>
+  [Bottom] <div> {opacity:0.06}
+  [Border] <div> {opacity:0.04}
+(x13)

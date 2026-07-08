@@ -1,0 +1,723 @@
+<style> ":root body { background: var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232)); }"
+[Header] <header>
+  [Logo] <div>
+    [Link container] <a> ->../
+      [Logo] <div>
+  [Nav container] <div>
+    [Menu] <div> (x2)
+      [Closed] <div>
+        [Plus] <div> {transform:none}
+          [2] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+          [1] <div> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245)); transform:rotate(90deg)}
+        [Container] <div>
+          <div> "M" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "n" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+[Desktop] <a> ->https://cal.com
+  [A 30-minute call to clarify your next steps. Zero obligations] <div> {transform:none}
+    <p> "Zero obligations"
+      <span> "A 30-minute call to clarify your next steps."
+  [Avatar] <div> {width:5px}
+    <img> IMG:qv5GatDLyXXZ7ZK4a2ffaEG3c.jpg?width=90&height=90 {border-radius:inherit}
+  [Button Background] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(27, 26, 25))}
+    [Vector] <div> {transform:none}
+<style> "html body { background: var(--token-0beca880-b571-4793-9131-554ff5017bba, rgb(255, 255, 255)); }"
+[Main] <main>
+  [Case] <section>
+    [Container] <div>
+      [Heading] <div>
+        [Side text] <div> (x2) {opacity:0; transform:translateY(30px)}
+          [Variant 1] <div>
+            [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+            <p> "Case Study" {transform:uppercase}
+        [Items] <div>
+          <h1>
+            <CHAR-ANIM> "NorseStar"
+          <CHAR-ANIM> "NorseStarCollectivecametousbeforepeakseasonwithasimplerequest:removethebusyworkthatslowssupportandfrustratescu"
+      [Intro] <div>
+        [Filler] <div>
+        [Info + image] <div>
+          [Items] <div>
+            [Logo] <div> {opacity:0.001; transform:translateY(50px)}
+              [Image] <div> (x3)
+                <img> IMG:Qmy3ENTc9aGvmqfFebK8RC2ohTI.svg?width=149&height=40 {border-radius:inherit}
+            [Info items] <div>
+              [Desktop] <div> (x3) {width:0px; width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+              [Desktop] <div> {width:1px; width:0px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+                [link] <div> {transform:none}
+          [Preview image] <div> {opacity:0.001; transform:translateY(50px)}
+            <img> IMG:wSSi5QqI6FKfkpunJ76YhUf14.jpg?width=1334&height=750 1334w {border-radius:inherit}
+      [Section text 1] <div>
+        [Side text] <div>
+          [Variant 1] <div>
+            [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+            <p> "The Problem" {transform:uppercase}
+        [Text] <div>
+          (x2)
+            <CHAR-ANIM> "Supportwasfloodedwith“Whereismyorder?”(41%ofemails).Datalivedinthreesystems,reportstookhalfadayeveryweek,andde"
+          <p> "Agents wasted time switching between Shopify, a 3PL portal, and the helpdesk just to provide basic status upda"
+        [Image + Stats] <div>
+          [Container] <div>
+            <img> IMG:mCT8FLbM98d6DVJjonaTITbmCTg.jpg?width=1333&height=750 1333w {border-radius:inherit}
+          [Stats] <div>
+            [Desktop] <div> {width:0px; width:1px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              [Text] <div>
+            [Tablet/Phone] <div> (x2) {width:0px; width:1px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              [Text] <div>
+            [Desktop] <div> {width:0px; width:1px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              [Text] <div>
+            [Tablet/Phone] <div> (x2) {width:0px; width:1px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              [Text] <div>
+            [Desktop] <div> {width:0px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              [Text] <div>
+            [Tablet/Phone] <div> (x2) {width:0px; background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+              [Text] <div>
+      [Section text 2] <div>
+        [Side text] <div>
+          [Variant 1] <div>
+            [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+            <p> "Solution" {transform:uppercase}
+        [Text] <div>
+          (x2)
+            <CHAR-ANIM> "Wemappedthefullpost-purchasejourney—fromcheckouttodelivery—andprioritizedhigh-frequency,low-riskimprovements.T"
+          <p> "The solution focused on three simple but impactful automations: a live status panel directly inside the helpde"
+        [Gallery] <div> {opacity:0; transform:none}
+      [Testimonial] <div>
+        [Icon] <div>
+          [Icon] <div> (x3)
+        [Quote] <div>
+          [Quote text] <div>
+            [Variant 1] <div>
+              [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+            [Reveal Text] <div>
+              <span> "Before working with Logica, my team was overwhelmed. Almost half of our support tickets were just order status" {width:1px; height:1px}
+              <span> "Before working with Logica, my team was overwhelmed. Almost half of our support tickets were just order status" {width:1px; height:1px}
+              <span> "Before working with Logica, my team was overwhelmed. Almost half of our support tickets were just order status" {width:1px; height:1px}
+          [Default] <div>
+            [image] <div>
+            [Contact Info Text] <div>
+    [Grid] <div> (x3)
+      [Desktop] <div>
+        [Container] <div>
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+  [More cases] <section>
+    [Container] <div>
+      [Side] <div>
+        [Variant 1] <div>
+          [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+          <p> "More projects" {transform:uppercase}
+      [Desktop] <div>
+        [Case studies limited] <div>
+          [Desktop] <a> ->./finedge-advisors (x6)
+            [Title] <div>
+              [Heading] <div>
+              [Description] <div> {opacity:1}
+            [Image] <div> {opacity:1}
+              [Filler] <div>
+              [Container] <div>
+      [Tablet] <div>
+        [Case studies limited] <div>
+          [Tablet] <a> (x6)
+            [Title] <div>
+              [Heading] <div>
+              [Description] <div> {opacity:0}
+            [Image] <div> {opacity:0}
+              [Container] <div>
+      [Phone] <div>
+        [Case studies limited] <div>
+          [Phone] <a> (x6)
+            [Title] <div>
+              [Heading] <div>
+              [Description] <div> {opacity:1}
+            [Image] <div> {opacity:0}
+              [Container] <div>
+    [Grid] <div> (x3)
+      [Desktop] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Desktop] <section> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+    [Container] <div>
+      [Variant 1] <div>
+        [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+        <p> "YOUR FIRST STEP" {transform:uppercase}
+      [Heading + button] <div>
+        [Still unsure?] <div> {transform:none}
+          <CHAR-ANIM> "Bookafree30-minutecall."
+        [Desktop] <a> ->https://cal.com {width:1px; width:0px; background-color:rgba(0, 0, 0, 0)}
+          [Variant 1] <div>
+          [Text] <div>
+            [CTA Text] <div> (x2) {transform:none}
+              <p> "Book a call"
+      [Quote] <div>
+        <p> "My job is to make sure you leave the first call with a clear, actionable plan."
+        [Reversed] <div>
+          [image] <div>
+            <img> IMG:rPovAy2J6Q4sllGf3hH7aT3fCk.jpg?width=63&height=63 {border-radius:inherit}
+          [Contact Info Text] <div>
+            <p> "Jessica Burns"
+            <p> "Client Success Manager"
+      [Hand] <div>
+        [Variant 1] <div>
+          <img> IMG:kjGmhtz3TdcXrnPhEretifwBQsU.png?width=530&height=752 530w {border-radius:inherit}
+    [BG gradient] <div> {opacity:0; transform:translateY(40px) scale(1.2)}
+      <img> IMG:0iIr9plKeMJd8dBb4O7iHnWw.png?scale-down-to=512&width=676&hei {border-radius:inherit}
+    [Grid] <div>
+      [Desktop] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Tablet] <section> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+    [Container] <div>
+      [Variant 1] <div>
+        [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+        <p> "YOUR FIRST STEP" {transform:uppercase}
+      [Heading + button] <div>
+        [Still unsure?] <div> {transform:none}
+          <CHAR-ANIM> "Bookafree30-minutecall."
+        [Desktop] <a> ->https://cal.com {width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+          [Variant 1] <div>
+          [Text] <div>
+            [CTA Text] <div> (x2) {transform:none}
+              <p> "Book a call"
+      [Quote] <div>
+        <p> "My job is to make sure you leave the first call with a clear, actionable plan."
+        [Default] <div>
+          [image] <div>
+            <img> IMG:rPovAy2J6Q4sllGf3hH7aT3fCk.jpg?width=63&height=63 {border-radius:inherit}
+          [Contact Info Text] <div>
+            <p> "Jessica Burns"
+            <p> "Client Success Manager"
+      [Hand] <div> {transform:translateX(-50%)}
+        [Variant 1] <div>
+          <img> IMG:kjGmhtz3TdcXrnPhEretifwBQsU.png?width=530&height=752 530w {border-radius:inherit}
+    [BG gradient] <div> {opacity:0; transform:translateY(40px) scale(1.2)}
+      <img> IMG:0iIr9plKeMJd8dBb4O7iHnWw.png?scale-down-to=512&width=676&hei {border-radius:inherit}
+    [Grid] <div>
+      [Tablet] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Phone] <section> {background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+    [Container] <div>
+      [Variant 1] <div>
+        [Ellipse] <div> {background-color:var(--token-23158d7e-7ff7-4e14-8441-b159428d19bb, rgba(23, 23, 23, 0.6))}
+        <p> "YOUR FIRST STEP" {transform:uppercase}
+      [Heading + button] <div>
+        [Still unsure?] <div> {transform:none}
+          <p> "Book a free 30-minute call."
+        [Phone] <a> ->https://cal.com {width:1px; background-color:var(--token-1a5eda4c-ae96-475d-8e4d-5584faa462c0, rgb(245, 245, 245))}
+          [Variant 1] <div>
+          [Text] <div>
+            [CTA Text] <div> (x2) {transform:none}
+              <p> "Book a call"
+      [Quote] <div>
+        <p> "My job is to make sure you leave the first call with a clear, actionable plan."
+        [Default] <div>
+          [image] <div>
+            <img> IMG:rPovAy2J6Q4sllGf3hH7aT3fCk.jpg?width=63&height=63 {border-radius:inherit}
+          [Contact Info Text] <div>
+            <p> "Jessica Burns"
+            <p> "Client Success Manager"
+      [Hand] <div>
+        [Variant 1] <div>
+          <img> IMG:kjGmhtz3TdcXrnPhEretifwBQsU.png?width=530&height=752 530w {border-radius:inherit}
+    [BG gradient] <div> {opacity:0; transform:translateY(40px) scale(1.2)}
+      <img> IMG:0iIr9plKeMJd8dBb4O7iHnWw.png?scale-down-to=512&width=676&hei {border-radius:inherit}
+    [Grid] <div>
+      [Phone] <div>
+        [Container] <div>
+          [Variant 1] <div> (x2)
+            [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+          [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+        [Top line] <div>
+          [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+[Delete me!] <div> {opacity:0.001; transform:translateY(40px)}
+  [Desktop] <div> {background-color:rgb(34, 34, 34)}
+    <img> IMG:bJGZ8is3phzCPltqTFRWXpcVk.jpg?width=1600&height=1200 1600w {border-radius:inherit}
+    <p> "Effica® Template"
+    <p> "See What You Get"
+    <p> "from"
+    <p> "$129"
+  [Phone] <div> {background-color:rgb(34, 34, 34)}
+    <img> IMG:bJGZ8is3phzCPltqTFRWXpcVk.jpg?width=1600&height=1200 1600w {border-radius:inherit}
+    <p> "Effica®"
+    <p> "See What You Get"
+    <p> "from"
+    <p> "$129"
+[Desktop] <section> {background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+  [Container] <div>
+    [Heading] <div>
+      [Side text] <div>
+        [Default] <div>
+          [Container] <div>
+            [Ellipse] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "13"
+          <p> "Ready to start?"
+      [Top] <div>
+        <h2> "Get in touch"
+        [Whether you have questions or just want to explore options, we’re here.] <div> {opacity:0.6; transform:none}
+          <p> "Whether you have questions or just want to explore options, we’re here."
+      [Nav] <nav>
+        [Nav link] <a> ->../
+          <div> "H" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "m" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+        [Nav link] <a> ->../about
+          <div> "A" (x2) {transform:none}
+          <div> "b" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+        [Nav link] <a> ->../case-studies
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "S" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "d" (x2) {transform:none}
+          <div> "i" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->../blog
+          <div> "N" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "w" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->../careers
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "e" (x4) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->../contact
+          <div> "C" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "n" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+    [CTA] <div>
+      [Filler] <div>
+      [Input] <div>
+        [Container] <div>
+          <p> "Name"
+        [Variant 1] <div>
+          [Ellipse 314] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 317] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 315] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 318] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 316] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 319] <div> {background-color:rgba(23, 23, 23, 0.24)}
+        [Variant 1] <div>
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+      [Input] <div>
+        [Filler] <div>
+        [Container] <div>
+          <p> "Email Address"
+        [Variant 1] <div>
+          [Ellipse 314] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 317] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 315] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 318] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 316] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 319] <div> {background-color:rgba(23, 23, 23, 0.24)}
+        [Variant 1] <div>
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+      [Button] <div>
+        [Filler] <div>
+        [Container] <div>
+          [Default] <button> {width:0px; width:1px; background-color:rgba(0, 0, 0, 0)}
+            [Variant 1] <div>
+            [Text] <div>
+              [Text] <div>
+          [Bottom text] <div>
+            [Terms and Privacy Policy] <div> {transform:none}
+              <p> "By submitting, you agree to our and ."
+                ->../legal/terms-of-service (x2)
+            [Location] <div>
+              <p> "We are Based in"
+    [Bottom] <div>
+      [Logo] <div>
+        [Logo] <div>
+      [Contact] <div>
+        [Phone Number] <div> {transform:none}
+          <a> "(312) 555-2468" ->tel:555-666-7777
+        [Email Address] <div> {transform:none}
+          <a> "Hello@effica.com" ->mailto:hello@effica.com
+      [Social] <div>
+        [Container] <div>
+          [Desktop] <a> ->https://www.facebook.com (x4) {width:1px; width:0px}
+      [To top] <div>
+        [Container] <div>
+          <div> "B" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "k" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "p" (x2) {transform:none}
+  [Grid] <div>
+    [Desktop] <div>
+      [Container] <div>
+        [Variant 1] <div> (x2)
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+        [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+      [Top line] <div>
+        [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Variant 1] <div>
+    <img> IMG:VulBQhVJJgXCyTIKKvhsZMa5TU.png?width=2244&height=715 2244w alt="Soft abstract gradient with white light transitioning into p" {border-radius:inherit}
+[Tablet] <section> {background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+  [Container] <div>
+    [Heading] <div>
+      [Side text] <div>
+        [Default] <div>
+          [Container] <div>
+            [Ellipse] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "13"
+          <p> "Ready to start?"
+      [Top] <div>
+        <h2> "Get in touch"
+        [Whether you have questions or just want to explore options, we’re here.] <div> {opacity:0.6; transform:none}
+          <p> "Whether you have questions or just want to explore options, we’re here."
+      [Nav] <nav>
+        [Nav link] <a> ->../
+          <div> "H" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "m" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+        [Nav link] <a> ->../about
+          <div> "A" (x2) {transform:none}
+          <div> "b" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+        [Nav link] <a> ->../case-studies
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "S" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "d" (x2) {transform:none}
+          <div> "i" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->../blog
+          <div> "N" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "w" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->../careers
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "e" (x4) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->../contact
+          <div> "C" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "n" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+    [CTA] <div>
+      [Filler] <div>
+      [Input] <div> (x2)
+        [Container] <div>
+          <p> "Name"
+        [Variant 1] <div>
+          [Ellipse 314] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 317] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 315] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 318] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 316] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 319] <div> {background-color:rgba(23, 23, 23, 0.24)}
+        [Variant 1] <div>
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+      [Button] <div>
+        [Container] <div>
+          [Default] <button> {width:0px; width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [Variant 1] <div>
+            [Text] <div>
+              [Text] <div>
+          [Bottom text] <div>
+            [Terms and Privacy Policy] <div> {transform:none}
+              <p> "By submitting, you agree to our and ."
+                ->../legal/terms-of-service (x2)
+            [Location] <div>
+              <p> "We are Based in"
+    [Bottom] <div>
+      [Logo] <div>
+        [Logo] <div>
+      [Contact] <div>
+        [Phone Number] <div> {transform:none}
+          <a> "(312) 555-2468" ->tel:555-666-7777
+        [Email Address] <div> {transform:none}
+          <a> "Hello@effica.com" ->mailto:hello@effica.com
+      [Social] <div>
+        [Container] <div>
+          [Desktop] <a> ->https://www.facebook.com (x4) {width:1px; width:0px}
+      [To top] <div>
+        [Container] <div>
+          <div> "B" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "k" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "p" (x2) {transform:none}
+  [Grid] <div>
+    [Tablet] <div>
+      [Container] <div>
+        [Variant 1] <div> (x2)
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+        [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+      [Top line] <div>
+        [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Variant 1] <div>
+    <img> IMG:VulBQhVJJgXCyTIKKvhsZMa5TU.png?width=2244&height=715 2244w alt="Soft abstract gradient with white light transitioning into p" {border-radius:inherit}
+[Phone] <section> {background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+  [Container] <div>
+    [Heading] <div>
+      [Side text] <div>
+        [Default] <div>
+          [Container] <div>
+            [Ellipse] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+            <p> "13"
+          <p> "Ready to start?"
+      [Top] <div>
+        <h2> "Get in touch"
+        [Whether you have questions or just want to explore options, we’re here.] <div> {opacity:0.6; transform:none}
+          <p> "Whether you have questions or just want to explore options, we’re here."
+      [Nav] <nav>
+        [Nav link] <a> ->../
+          <div> "H" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "m" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+        [Nav link] <a> ->../about
+          <div> "A" (x2) {transform:none}
+          <div> "b" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+        [Nav link] <a> ->../case-studies
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "S" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "u" (x2) {transform:none}
+          <div> "d" (x2) {transform:none}
+          <div> "i" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->../blog
+          <div> "N" (x2) {transform:none}
+          <div> "e" (x2) {transform:none}
+          <div> "w" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->../careers
+          <div> "C" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "e" (x4) {transform:none}
+          <div> "r" (x2) {transform:none}
+          <div> "s" (x2) {transform:none}
+        [Nav link] <a> ->../contact
+          <div> "C" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "n" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+    [CTA] <div>
+      [Input] <div> (x2)
+        [Container] <div>
+          <p> "Name"
+        [Variant 1] <div>
+          [Ellipse 314] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 317] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 315] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 318] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 316] <div> {background-color:rgba(23, 23, 23, 0.24)}
+          [Ellipse 319] <div> {background-color:rgba(23, 23, 23, 0.24)}
+        [Variant 1] <div>
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+      [Button] <div>
+        [Container] <div>
+          [Default] <button> {width:0px; width:1px; background-color:var(--token-b75cb623-dfe2-4f1f-829d-117dc3608b02, rgb(232, 232, 232))}
+            [Variant 1] <div>
+            [Text] <div>
+              [Text] <div>
+          [Bottom text] <div>
+            [Terms and Privacy Policy] <div> {transform:none}
+              <p> "By submitting, you agree to our and ."
+                ->../legal/terms-of-service (x2)
+            [Location] <div>
+              <p> "We are Based in"
+    [Bottom] <div>
+      [Logo] <div>
+        [Logo] <div>
+      [Contact] <div>
+        [Phone Number] <div> {transform:none}
+          <a> "(312) 555-2468" ->tel:555-666-7777
+        [Email Address] <div> {transform:none}
+          <a> "Hello@effica.com" ->mailto:hello@effica.com
+      [Social] <div>
+        [Container] <div>
+          [Phone] <a> ->https://www.facebook.com (x4) {width:1px; width:0px}
+      [To top] <div>
+        [Container] <div>
+          <div> "B" (x2) {transform:none}
+          <div> "a" (x2) {transform:none}
+          <div> "c" (x2) {transform:none}
+          <div> "k" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "t" (x2) {transform:none}
+          <div> "o" (x2) {transform:none}
+          <div> "p" (x2) {transform:none}
+  [Grid] <div>
+    [Phone] <div>
+      [Container] <div>
+        [Variant 1] <div> (x2)
+          [1] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23))}
+          [2] <div> {background-color:var(--token-89305206-47f8-4d0f-a35d-fd399c3ec573, rgb(23, 23, 23)); transform:rotate(90deg)}
+        [Line] <div> (x5) {background-color:rgba(0, 0, 0, 0.07)}
+      [Top line] <div>
+        [Line] <div> {background-color:rgba(0, 0, 0, 0.07)}
+  [Variant 1] <div>
+    <img> IMG:VulBQhVJJgXCyTIKKvhsZMa5TU.png?width=2244&height=715 2244w alt="Soft abstract gradient with white light transitioning into p" {border-radius:inherit}
+[Desktop] <footer> {background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+  [Container] <div>
+    [Legal Links] <div>
+      [Privacy Policy] <div> {opacity:0.6; transform:none}
+        <a> "Privacy Policy" ->../legal/privacy-policy
+      [Terms of Service] <div> {opacity:0.6; transform:none}
+        <a> "Terms of Service" ->../legal/terms-of-service
+    [Built in] <div>
+      [Desktop] <a> ->https://framer.link/bynneh
+        [Vector] <div>
+        [Text] <div>
+          <p> "Built in Framer" (x2)
+    [Copyright] <div>
+      <p> "© 2025 Effica® Studio. All rights reserved."
+    [Credits] <div>
+      [Desktop] <a> ->https://templifica.com/
+        [Created by] <div> {transform:none}
+          <p> "Created by"
+        [Image] <div>
+          [Avatar] <div> {transform:none}
+            <img> IMG:nr593SABZlC19HZOrgnV0sWc8A.jpg?width=73&height=73 alt="Profile portrait of a man in a grey shirt" {border-radius:inherit}
+          [Logo] <div> {background-color:rgb(210, 255, 55); transform:scale(0.5)}
+            [logo] <div>
+        [Anatolii Dmitrienko] <div> {transform:none}
+          <p> "Anatolii Dmitrienko"
+  [Grid] <div>
+    [Desktop] <div>
+      [Container] <div>
+        [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+[Tablet] <footer> {background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+  [Container] <div>
+    [Legal Links] <div>
+      [Privacy Policy] <div> {opacity:0.6; transform:none}
+        <a> "Privacy Policy" ->../legal/privacy-policy
+      [Terms of Service] <div> {opacity:0.6; transform:none}
+        <a> "Terms of Service" ->../legal/terms-of-service
+    [Built in] <div>
+      [Desktop] <a> ->https://framer.link/bynneh
+        [Vector] <div>
+        [Text] <div>
+          <p> "Built in Framer" (x2)
+    [Copyright] <div>
+      <p> "© 2025 Effica® Studio. All rights reserved."
+    [Credits] <div>
+      [Desktop] <a> ->https://templifica.com/
+        [Created by] <div> {transform:none}
+          <p> "Created by"
+        [Image] <div>
+          [Avatar] <div> {transform:none}
+            <img> IMG:nr593SABZlC19HZOrgnV0sWc8A.jpg?width=73&height=73 alt="Profile portrait of a man in a grey shirt" {border-radius:inherit}
+          [Logo] <div> {background-color:rgb(210, 255, 55); transform:scale(0.5)}
+            [logo] <div>
+        [Anatolii Dmitrienko] <div> {transform:none}
+          <p> "Anatolii Dmitrienko"
+  [Grid] <div>
+    [Tablet] <div>
+      [Container] <div>
+        [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+      [Top line] <div>
+[Phone] <footer> {background-color:var(--token-e1006e2e-d16c-4e4a-b4d7-5a0d153a2580, rgb(14, 14, 14))}
+  [Container] <div>
+    [Legal Links] <div>
+      [Privacy Policy] <div> {opacity:0.6; transform:none}
+        <a> "Privacy Policy" ->../legal/privacy-policy
+      [Terms of Service] <div> {opacity:0.6; transform:none}
+        <a> "Terms of Service" ->../legal/terms-of-service
+    [Built in] <div>
+      [Desktop] <a> ->https://framer.link/bynneh
+        [Vector] <div>
+        [Text] <div>
+          <p> "Built in Framer" (x2)
+    [Copyright] <div>
+      <p> "© 2025 Effica® Studio. All rights reserved."
+    [Credits] <div>
+      [Desktop] <a> ->https://templifica.com/
+        [Created by] <div> {transform:none}
+          <p> "Created by"
+        [Image] <div>
+          [Avatar] <div> {transform:none}
+            <img> IMG:nr593SABZlC19HZOrgnV0sWc8A.jpg?width=73&height=73 alt="Profile portrait of a man in a grey shirt" {border-radius:inherit}
+          [Logo] <div> {background-color:rgb(210, 255, 55); transform:scale(0.5)}
+            [logo] <div>
+        [Anatolii Dmitrienko] <div> {transform:none}
+          <p> "Anatolii Dmitrienko"
+  [Grid] <div>
+    [Phone] <div>
+      [Container] <div>
+        [Line] <div> (x5) {background-color:rgba(255, 255, 255, 0.07)}
+[Light] <a> ->https://www.framer.com {opacity:0.001; transform:translateY(10px)}
+  [Backdrop] <div> {background-color:rgb(255, 255, 255)}
+  [Content] <div> {transform:translate(-50%, -50%)}
+    [Logo] <div> {transform:translateX(-50%)}
+    <p> "Create a free website with Framer, the website builder loved by startups, designers and agencies." {transform:scale(0.001)}
+    [Text] <div>
+  [Bottom] <div> {opacity:0.06}
+  [Border] <div> {opacity:0.04}
+(x11)
