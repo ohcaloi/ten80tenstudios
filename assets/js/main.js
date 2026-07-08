@@ -37,14 +37,28 @@
       [...node.childNodes].forEach((child) => {
         if (child.nodeType === 3 && child.textContent.trim().length) {
           const frag = document.createDocumentFragment();
-          const parts = mode === "chars" ? [...child.textContent] : child.textContent.split(/(\s+)/);
-          parts.forEach((p) => {
-            if (mode !== "chars" && /^\s+$/.test(p)) { frag.appendChild(document.createTextNode(" ")); return; }
+          const words = child.textContent.split(/(\s+)/);
+          words.forEach((p) => {
+            if (/^\s+$/.test(p)) { frag.appendChild(document.createTextNode(" ")); return; }
             if (!p.length) return;
-            const s = document.createElement("span");
-            s.className = mode === "chars" ? "ch" : "wd";
-            s.textContent = p;
-            frag.appendChild(s);
+            if (mode === "chars") {
+              // word wrapper keeps chars from breaking mid-word
+              const w = document.createElement("span");
+              w.className = "w";
+              w.style.display = "inline-block";
+              [...p].forEach((c) => {
+                const s = document.createElement("span");
+                s.className = "ch";
+                s.textContent = c;
+                w.appendChild(s);
+              });
+              frag.appendChild(w);
+            } else {
+              const s = document.createElement("span");
+              s.className = "wd";
+              s.textContent = p;
+              frag.appendChild(s);
+            }
           });
           node.replaceChild(frag, child);
         } else if (child.nodeType === 1 && !child.classList.contains("ch") && !child.classList.contains("wd")) {

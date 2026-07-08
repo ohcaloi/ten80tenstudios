@@ -4,200 +4,201 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact — Ten80Ten</title>
-  <meta name="description" content="Book a free 20-minute systems audit or send Ten80Ten a note. We map where your hours go and show you exactly what to hand off first.">
+  <meta name="description" content="Book a free 20-minute Time-Back Audit or send Ten80Ten a note. Tell us what's eating your week — we reply within 24 hours.">
   <link rel="icon" type="image/png" href="assets/img/ten80ten-mark-512.png">
   <meta property="og:title" content="Contact — Ten80Ten">
-  <meta property="og:description" content="Book a free systems audit or send us a note. One call — you leave knowing exactly what to hand off first.">
+  <meta property="og:description" content="Let's find your 35 hours. Book a free 20-minute Time-Back Audit — no pitch, just a diagnostic.">
   <meta property="og:image" content="assets/img/og-image.png">
-  <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Geist+Mono:wght@200;300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <style>
-    /* contact-page tweaks */
-    .contact-zone--page { padding: 130px 0 110px; }
-    .faq-zone--page { padding: 30px 0 140px; }
-    @media (max-width: 809px) { .contact-zone--page { padding: 90px 0 80px; } }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600&family=Geist:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
 </head>
 <body>
 
-  <!-- ======================= NAV ======================= -->
-  <header class="nav" id="top">
-    <a class="nav-logo" href="index.html" aria-label="Ten80Ten home">
-      <img src="assets/img/ten80ten-mark-512.png" alt="Ten80Ten mark">
-      <span>TEN80TEN</span>
+  <!-- ======== Header ======== -->
+  <header class="site-header">
+    <a class="logo" href="index.html" aria-label="Ten80Ten home">
+      <img src="assets/img/ten80ten-mark.svg" alt="">
+      <span class="wordmark">Ten80Ten<sup>®</sup></span>
     </a>
-    <nav class="nav-menu" aria-label="Main">
-      <a href="index.html#works">Works</a>
-      <a href="index.html#services">Services</a>
-      <a href="index.html#process">Process</a>
-      <a href="index.html#pricing">Pricing</a>
-      <a href="about.html">Company</a>
-    </nav>
-    <a class="btn nav-cta" href="#contact">
-      <span class="btn-chip"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-      Book a Call
-    </a>
-    <button class="nav-burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    <button class="menu-btn" aria-expanded="false" aria-controls="menu">
+      <span class="plus-ico"></span>
+      <span class="flip-txt">Menu</span>
+    </button>
   </header>
-  <div class="mobile-menu">
-    <a href="index.html#works">Works</a>
-    <a href="index.html#services">Services</a>
-    <a href="index.html#process">Process</a>
-    <a href="index.html#pricing">Pricing</a>
-    <a href="about.html">Company</a>
-    <a href="#contact">Book a Call</a>
+
+  <!-- ======== Menu overlay ======== -->
+  <div class="menu-overlay" id="menu">
+    <nav>
+      <a href="index.html"><span class="idx">01</span> Home</a>
+      <a href="about.html"><span class="idx">02</span> About</a>
+      <a href="case-studies.html"><span class="idx">03</span> Case Studies</a>
+      <a href="blog.html"><span class="idx">04</span> Blog</a>
+      <a href="careers.html"><span class="idx">05</span> Careers</a>
+      <a href="contact.html" class="current"><span class="idx">06</span> Contact</a>
+    </nav>
+    <div class="menu-foot">
+      <span>Systems + Specialists</span>
+      <a href="mailto:hello@ten80ten.com">hello@ten80ten.com</a>
+    </div>
   </div>
 
-  <!-- ======================= SUBHERO (light) ======================= -->
-  <section class="subhero">
-    <div class="subhero-panel">
-      <div class="kicker rv rv-up">
-        <span class="kicker-pill"></span>
-        <span class="kicker-line"></span>
-        <span class="eyebrow">Contact</span>
-      </div>
-      <h1 class="display-1 rv rv-up" data-delay="0.05">Your repetitive work, gone by next month.</h1>
-      <p class="sub body-lg rv rv-up" data-delay="0.15">One call. Twenty minutes. You leave knowing exactly what to hand off first — whether or not you work with us.</p>
-    </div>
-  </section>
-
-  <!-- ======================= CONTACT + FAQ (gray panel) ======================= -->
-  <section class="closing">
-    <div class="closing-panel">
-      <div class="contact-zone contact-zone--page" id="contact">
-        <div class="contact-left">
-          <div class="kicker rv rv-up">
-            <span class="kicker-pill"></span>
-            <span class="kicker-line"></span>
-            <span class="eyebrow">Free Audit</span>
-          </div>
-          <h2 class="display-2 rv rv-up">Tell us what eats your week.</h2>
-          <p class="body-lg rv rv-up" data-delay="0.1" style="max-width:420px">We'll map it in a free 20-minute audit: what to delegate, what to automate, what to keep. No pitch, no obligation — and you keep the map either way.</p>
-          <div class="contact-meta rv rv-up" data-delay="0.2">
-            <a href="mailto:hello@ten80ten.com">hello@ten80ten.com</a>
-            <a href="https://www.ten80ten.com" target="_blank" rel="noopener">ten80ten.com</a>
-          </div>
-        </div>
-        <form class="contact-form rv rv-up" data-contact data-delay="0.1">
-          <div class="form-row">
-            <input type="text" name="name" placeholder="Your name" required>
-            <input type="email" name="email" placeholder="Work email" required>
-          </div>
-          <div class="form-row">
-            <input type="text" name="company" placeholder="Company">
-            <select name="industry" aria-label="Industry">
-              <option value="" disabled selected>Industry</option>
-              <option>Real Estate</option>
-              <option>Healthcare</option>
-              <option>Agency / Services</option>
-              <option>Other</option>
-            </select>
-          </div>
-          <textarea name="message" placeholder="What repetitive work is eating your week?"></textarea>
-          <button class="btn" type="submit">
-            <span class="btn-chip"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-            Request My Free Audit
-          </button>
-          <p class="form-status"></p>
-        </form>
-      </div>
-
-      <div class="faq-zone faq-zone--page">
-        <div class="faq-left">
-          <div class="faq-left-head">
-            <div class="kicker rv rv-up">
-              <span class="kicker-pill"></span>
-              <span class="kicker-line"></span>
-              <span class="eyebrow">Before You Book</span>
-            </div>
-            <p class="body-lg rv rv-up" data-delay="0.1">Straight answers on what the audit covers, what to bring, and what happens after the call.</p>
-          </div>
-          <h2 class="display-2 rv rv-up">Questions before you book?</h2>
-          <div class="rv rv-up" data-delay="0.1">
-            <a class="btn" href="mailto:hello@ten80ten.com">
-              <span class="btn-chip"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-              Email Us Directly
-            </a>
-          </div>
-        </div>
-
-        <div class="faq-list rv rv-up">
-          <div class="faq-item">
-            <button class="faq-q">What happens on the 20-minute audit call?<span class="fq-ico"></span></button>
-            <div class="faq-a"><p>We walk through a normal week in your business, map your most expensive repetitive work, and show you a working system doing a task like yours. You leave with a one-page automation map — time and cost savings included.</p></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-q">Do I need to prepare anything?<span class="fq-ico"></span></button>
-            <div class="faq-a"><p>No prep required. If you can describe what a normal week looks like — and where it goes sideways — that's everything we need. Twenty minutes, no slides, no homework.</p></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-q">What if I'm not sure what to delegate?<span class="fq-ico"></span></button>
-            <div class="faq-a"><p>That's the point of the audit. Most owners can't see their own repetitive work because they've been doing it so long it feels normal. We find it, price it, and mark what to hand off first.</p></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-q">How fast can we start after the call?<span class="fq-ico"></span></button>
-            <div class="faq-a"><p>Specialist placements start within days. A first automation typically ships inside two weeks. And if you decide not to move forward, you keep the map — no hard feelings, no follow-up sequence chasing you.</p></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ======================= FOOTER ======================= -->
-  <footer class="footer">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <img src="assets/img/ten80ten-mark-512.png" alt="Ten80Ten">
-        <p>Systems + Specialists. We install the system that does your repetitive work automatically — and the trained specialist who runs it.</p>
-        <form class="subscribe" onsubmit="event.preventDefault();this.querySelector('button').textContent='Subscribed ✓'">
-          <input type="email" placeholder="Your email" required>
-          <button type="submit">Subscribe</button>
-        </form>
-        <div class="footer-social">
-          <span class="eyebrow">Follow us:</span>
-          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.24 8.31h4.52V23H.24zM8.34 8.31h4.33v2h.06c.6-1.14 2.08-2.34 4.28-2.34 4.58 0 5.42 3.01 5.42 6.93V23h-4.51v-7.14c0-1.7-.03-3.89-2.37-3.89-2.37 0-2.73 1.85-2.73 3.77V23H8.34z"/></svg></a>
-          <a href="#" aria-label="X"><svg viewBox="0 0 24 24"><path d="M18.9 1.15h3.68l-8.04 9.19L24 22.85h-7.4l-5.8-7.58-6.63 7.58H.48l8.6-9.83L0 1.15h7.59l5.24 6.93zm-1.29 19.5h2.04L6.49 3.24H4.3z"/></svg></a>
-          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.09 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.7 4.53-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.89v2.26h3.32l-.53 3.49h-2.79V24C19.61 23.09 24 18.1 24 12.07z"/></svg></a>
-        </div>
-      </div>
-      <div class="footer-col">
-        <h5>Quick Links</h5>
-        <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a href="case-studies.html">Case Studies</a>
-        <a href="pricing.html">Pricing</a>
-      </div>
-      <div class="footer-col">
-        <h5>Company</h5>
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Contact Us</a>
-        <a href="#contact">Book a Call</a>
-        <a href="https://www.ten80ten.com" target="_blank" rel="noopener">ten80ten.com</a>
-      </div>
-      <div class="footer-col">
-        <h5>Policies</h5>
-        <a href="#">Terms & Conditions</a>
-        <a href="#">Privacy Policy</a>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>© 2026 Ten80Ten. All rights reserved.</span>
-      <span>Empower your core · Delegate the chore</span>
-    </div>
-    <span class="footer-word" aria-hidden="true">TEN80TEN</span>
-  </footer>
-
-  <!-- fixed corner badge -->
-  <a class="corner-badge" href="#contact">
-    <span class="cb-thumb"><img src="assets/img/photos/service-va.jpg" alt=""></span>
-    <span class="cb-txt">
-      <strong>Book your free audit</strong>
-      <span>20 min · no obligation</span>
+  <!-- ======== Floating call pill ======== -->
+  <a class="call-pill" href="mailto:hello@ten80ten.com?subject=Time-Back%20Audit">
+    <span class="txt"><strong>Free 20-minute Time-Back Audit.</strong> No pitch — just a diagnostic.</span>
+    <img class="avatar" src="assets/img/photos/person-1.jpg" alt="">
+    <span class="btn-circle" aria-hidden="true">
+      <svg viewBox="0 0 16 16" fill="none"><path d="M3 13L13 3M13 3H5M13 3v8" stroke="currentColor" stroke-width="1.5"/></svg>
+      <svg viewBox="0 0 16 16" fill="none"><path d="M3 13L13 3M13 3H5M13 3v8" stroke="currentColor" stroke-width="1.5"/></svg>
     </span>
   </a>
+
+  <main>
+    <!-- ======== 1 · HEADING (white) ======== -->
+    <section class="section c-hero">
+      <div class="grid-overlay" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="container">
+        <div class="c-hero-grid">
+          <div class="sec-label"><span class="num">01</span><span class="name">Contact</span></div>
+          <h1 class="c-h1" data-anim="chars">Let's find your 35 hours.</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== 2 · FORM (white) ======== -->
+    <section class="section c-form sec-pad">
+      <div class="grid-overlay" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="container">
+        <div class="c-form-grid">
+          <div class="c-form-spacer" aria-hidden="true"></div>
+          <form data-mailto data-subject="Website inquiry — Ten80Ten" data-anim="stagger">
+            <div class="field">
+              <label for="cf-name">Name</label>
+              <input id="cf-name" name="name" type="text" required autocomplete="name" placeholder="Your name">
+            </div>
+            <div class="field">
+              <label for="cf-email">Email</label>
+              <input id="cf-email" name="email" type="email" required autocomplete="email" placeholder="you@company.com">
+            </div>
+            <div class="field">
+              <label for="cf-msg">What's eating your week?</label>
+              <textarea id="cf-msg" name="message" rows="4" required placeholder="The repetitive work you'd hand off tomorrow if you could…"></textarea>
+            </div>
+            <div class="c-form-foot">
+              <button class="btn btn--ink" data-swap type="submit"><span class="swap">Send it over</span></button>
+              <p class="c-legal label-mono">By submitting, you agree to our <a href="legal-terms.html">Terms</a> and <a href="legal-privacy.html">Privacy Policy</a>.</p>
+            </div>
+          </form>
+          <div></div>
+          <aside class="c-side" data-anim="rise">
+            <p class="c-side-lead">Prefer to talk? Book a free 20-minute Time-Back Audit — no pitch, just a diagnostic.</p>
+            <a class="btn btn--outline" data-swap href="mailto:hello@ten80ten.com?subject=Time-Back%20Audit"><span class="swap">Book the audit</span></a>
+            <a class="c-side-mail" href="mailto:hello@ten80ten.com">hello@ten80ten.com</a>
+            <p class="c-side-note label-mono">We reply within 24 hours</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== 3 · TEXT + IMAGE (white) ======== -->
+    <section class="section c-info sec-pad">
+      <div class="grid-overlay" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="container">
+        <div class="c-info-grid">
+          <div class="sec-label"><span class="num">02</span><span class="name">Keep it simple</span></div>
+          <div class="c-info-content">
+            <p class="c-statement" data-anim="chars">You don't need to prepare anything — just tell us what's on your plate. Whether it's one hated task or a whole department, we'll come back with a clear next step.</p>
+            <p class="c-sub muted" data-anim="rise">Every message that comes through this form is read by a real person on our team. No chatbots, no outsourced support — it lands with the people who'll actually build your system.</p>
+            <div class="c-office" data-anim="zoom">
+              <img src="assets/img/photos/about-office.jpg" alt="The Ten80Ten team at work in the office">
+            </div>
+            <div class="c-contact">
+              <div class="c-contact-lines">
+                <span class="label-mono muted">Systems + Specialists — U.S. &amp; worldwide</span>
+                <a class="c-mail-lg" href="mailto:hello@ten80ten.com">hello@ten80ten.com</a>
+              </div>
+              <div class="c-social label-mono">
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://x.com" target="_blank" rel="noopener">X</a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== 4 · GET IN TOUCH + CTA (mist) ======== -->
+    <section class="section git sec-pad cta-band">
+      <div class="grid-overlay grid-overlay--topline" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="container">
+        <div class="git-head">
+          <div class="sec-label"><span class="num">13</span><span class="name">Ready to start?</span></div>
+          <div>
+            <h2 class="h2" data-anim="chars">Get in touch</h2>
+            <p class="sub" data-anim="rise">Whether you have a question or just want your evenings back — we're here.</p>
+          </div>
+        </div>
+        <div class="cta-card" data-anim="rise">
+          <span class="glow" aria-hidden="true"></span>
+          <p class="line">Empower your core,<br>delegate the chore.</p>
+          <a class="btn btn--light" data-swap href="mailto:hello@ten80ten.com?subject=Time-Back%20Audit"><span class="swap">Book a free Time-Back Audit</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======== Footer ======== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="foot-top">
+        <div class="foot-brand">
+          <a class="logo" href="index.html" style="display:flex;align-items:center;gap:9px">
+            <img src="assets/img/ten80ten-mark.svg" alt="" style="height:26px;filter:brightness(0) invert(1)">
+            <span class="wordmark" style="font-family:var(--f-head);font-weight:600;font-size:19px">Ten80Ten<sup style="font-size:9px">®</sup></span>
+          </a>
+          <p>We install the system that does your repetitive work automatically — and the specialist who runs it.</p>
+          <p style="margin-top:22px"><a class="mail" href="mailto:hello@ten80ten.com">hello@ten80ten.com</a></p>
+        </div>
+        <div>
+          <h5>Pages</h5>
+          <div class="foot-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="case-studies.html">Case Studies</a>
+            <a href="blog.html">Blog</a>
+          </div>
+        </div>
+        <div>
+          <h5>Company</h5>
+          <div class="foot-links">
+            <a href="careers.html">Careers</a>
+            <a href="contact.html">Contact</a>
+            <a href="legal-privacy.html">Privacy Policy</a>
+            <a href="legal-terms.html">Terms of Service</a>
+          </div>
+        </div>
+        <div>
+          <h5>Social</h5>
+          <div class="foot-links">
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://x.com" target="_blank" rel="noopener">X / Twitter</a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a>
+          </div>
+        </div>
+      </div>
+      <div class="foot-word" aria-hidden="true">Ten80Ten<sup style="font-size:0.18em;vertical-align:super">®</sup></div>
+      <div class="foot-bottom">
+        <span>© 2026 Ten80Ten. All rights reserved.</span>
+        <span>Systems + Specialists — the 10/80/10 method</span>
+        <a href="#" data-top>Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
 
   <script src="assets/js/main.js"></script>
 </body>

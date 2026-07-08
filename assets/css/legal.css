@@ -1,0 +1,50 @@
+/* ==========================================================================
+   Ten80Ten — legal pages (legal-privacy.html, legal-terms.html)
+   Reuses the design system in main.css; only page-specific layout here.
+   ========================================================================== */
+
+/* ============ 1 · HEADING (white) ============ */
+.legal-hero {
+  background: var(--c-white);
+  padding-top: clamp(150px, 17vw, 230px);
+  padding-bottom: clamp(40px, 5vw, 70px);
+}
+.legal-grid {
+  display: grid; grid-template-columns: 3fr 9fr; gap: 24px;
+  align-items: start;
+}
+.legal-hero .sec-label { padding-top: 12px; }
+.legal-h1 {
+  font-size: clamp(40px, 4.8vw, 68px);
+  letter-spacing: -0.04em;
+  line-height: 1.02;
+  text-transform: uppercase;
+}
+.legal-date { color: var(--c-ink-60); margin-top: 20px; }
+
+/* ============ 2 · PROSE (white) ============ */
+.legal-body { background: var(--c-white); padding-top: 0; }
+.legal-prose { max-width: 680px; }
+.legal-note {
+  display: inline-block;
+  background: var(--c-light); color: var(--c-ink-60);
+  border-radius: var(--radius);
+  padding: 14px 18px;
+  margin-bottom: 40px;
+}
+.legal-prose p { color: rgba(23, 23, 23, 0.82); margin-bottom: 18px; }
+.legal-prose h3 {
+  font-size: 21px; font-weight: 600; letter-spacing: -0.02em;
+  margin: 46px 0 14px;
+}
+.legal-prose a { text-decoration: underline; text-underline-offset: 3px; transition: opacity 0.25s; }
+.legal-prose a:hover { opacity: 0.6; }
+
+/* ============ Responsive ============ */
+@media (max-width: 1199.98px) {
+  .legal-grid { grid-template-columns: 1fr; }
+  .legal-hero .sec-label { padding-top: 0; margin-bottom: 30px; }
+}
+@media (max-width: 809.98px) {
+  .legal-hero { padding-top: 130px; padding-bottom: 36px; }
+}

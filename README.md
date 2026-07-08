@@ -1,64 +1,50 @@
-# Ten80Ten — Marketing Website (v2)
+# Ten80Ten — Marketing Website (v3)
 
 A fast, responsive, animated marketing site for **Ten80Ten** (*Systems + Specialists*).
 Static HTML with a **shared design system** — no build step, no framework, no JS dependencies.
 
-> Visual direction: monochrome ink-on-white premium aesthetic — rounded panel sections,
-> dark "curtain" sections, mono-font eyebrows, pill buttons with icon chips, giant marquee
-> headings, and reveal-on-scroll motion. Ten80Ten's hourglass mark provides the orange
-> accent. All copy is original, built around the 10/80/10 method.
+> Visual direction: editorial monochrome (`#0e0e0e / #171717 / #f5f5f5 / #e8e8e8` banding, lime
+> `#D2FF37` accent), Sora display type + Geist body + IBM Plex Mono labels, hairline grid overlays
+> with plus-markers on every section, pill buttons with slide-flip hover, char-stagger heading
+> reveals, count-up stats, marquee ticker, and a fixed mix-blend header that inverts over dark bands.
+> All copy is original, built from the Ten80Ten Marketing Bible around the 10/80/10 method.
 
-## Structure
+## Run locally
 
 ```
-ten80ten/
-├── index.html                     Home — hero (floating system cards + photo strip +
-│                                  logo ticker), 10/80/10 bento, works grid, capabilities
-│                                  (horizontal accordion), testimonials, demo feature,
-│                                  process + team, pricing (billing toggle), FAQ,
-│                                  insights, contact form, footer w/ ghost wordmark
-├── services.html                  Three service deep-dives + process strip
-├── pricing.html                   Four tiers, comparison, Founding Client, FAQ
-├── about.html                     Story, values, stats, team
-├── contact.html                   Free-audit form + FAQ
-├── case-studies.html              All case cards
-├── case-real-estate-portal.html   ┐
-├── case-call-center-platform.html │
-├── case-social-engine.html        │ case studies (dark hero, 10/80/10 narrative,
-├── case-healthcare-automation.html│ results band, related work)
-├── case-bcj-learn.html            ┘
-└── assets/
-    ├── css/styles.css   design tokens + every component (edit :root to re-theme)
-    ├── js/main.js       reveals, tickers, horizontal accordion, slider, billing
-    │                    toggle, FAQ accordion, nav state, forms, counters
-    └── img/             logo marks + photos/
+npx -y serve -l 4321 .
 ```
 
-## Design system
+(or use the `ten80ten` config in `.claude/launch.json`)
 
-All theming lives in `assets/css/styles.css` under `:root`:
-- **Color** — `--ink` `#1a1a1a`, `--white`, `--panel` `#f0f0f0`, alpha ramps for both
-  ink and white; `--accent` `#f97316` (logo orange) used sparingly (status dots, flags).
-- **Type** — Inter (display + body, tight -0.04em tracking on headings) + Geist Mono
-  (uppercase eyebrows/labels) via Google Fonts.
-- **Layout** — 12px page gutter; sections are rounded 20px panels (white / #f0f0f0 / ink);
-  dark sections end in rounded "curtain" connectors.
-- **Motion** — IntersectionObserver reveals (`.rv .rv-up/-left/-right/-scale` +
-  `data-delay`), CSS marquee tickers (duplicated by JS), horizontal accordion,
-  auto-advancing testimonial slider, count-up metrics. All `transform`/`opacity` only;
-  `prefers-reduced-motion` fully respected.
+## Pages
 
-## Wire up before going live
+| File | Purpose |
+|---|---|
+| `index.html` | Home — 15-section flagship (hero → services → stats → 10/80/10 path → case → team → pricing → FAQ → CTA) |
+| `about.html` | Mission, stats, team, method, timeline |
+| `case-studies.html` + `case-*.html` (×5) | Case study index + healthcare, real-estate, call-center, social-engine, BCJ Learn details (real project copy) |
+| `blog.html` + `blog-*.html` (×4) | Article index + four original articles |
+| `careers.html` | Roles, perks, hiring process |
+| `contact.html` | Form (mailto fallback) + booking CTA |
+| `legal-privacy.html`, `legal-terms.html` | Plain-English legal templates (attorney review flagged) |
+| `services.html`, `pricing.html` | Redirect stubs preserving old URLs → `index.html#path` / `#pricing` |
 
-1. **Contact form** — submits via `mailto:hello@ten80ten.com` (no backend). To use a form
-   service, set `action` (e.g. Formspree) and remove the `data-contact` mailto handler
-   in `main.js`.
-2. **Social links** — footer icons currently `href="#"`.
-3. **Demo video** — the play button on the feature section links to `#contact`; point it
-   at the real demo video when ready.
-4. **Testimonials** — role-attributed quotes; swap in named clients as they land.
+## Architecture
 
-## Deploy
+```
+assets/css/main.css      design tokens + shared components (header, menu, buttons,
+                         grid overlay, ticker, FAQ, forms, footer, reveal states)
+assets/css/<page>.css    page-specific section styles
+assets/js/main.js        engine: smooth scroll, char/word split reveals,
+                         IntersectionObserver, count-ups, bars, menu overlay,
+                         accordion, pricing toggle, hover thumbnails, mailto forms
+assets/img/photos/       brand photo library
+assets/img/tool-logos/   integration logo ticker assets
+docs/COPY_DECK.md        final site copy, all pages
+docs/FRAMER_REBUILD_KIT.md  spec to recreate this site 1:1 in Framer
+docs/research/           design tokens, page topology, behaviors, DOM extraction
+docs/design-references/  reference screenshots (desktop/mobile + slices)
+```
 
-Drag the folder into Netlify Drop, or connect to Vercel / Cloudflare Pages / GitHub Pages.
-No configuration needed. Local preview: `npx serve -l 4321 ten80ten`
+Animations respect `prefers-reduced-motion`. Breakpoints: 1200 / 810 (desktop / tablet / phone).

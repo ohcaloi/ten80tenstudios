@@ -1,0 +1,168 @@
+/* ==========================================================================
+   Ten80Ten — Blog (listing + article pages)
+   Page-specific styles. Design system lives in main.css.
+   Reference: docs/design-references/slices/blog-*.png
+   ========================================================================== */
+
+/* ============ Shared: page top offset under fixed header ============ */
+.page-top { padding-top: clamp(150px, 17vw, 230px); }
+
+/* ============ Shared: article card (listing + "More articles") ============ */
+.b-cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; row-gap: 90px; }
+.b-cards--3 { grid-template-columns: repeat(3, 1fr); }
+.b-card { display: flex; flex-direction: column; align-items: flex-start; }
+.b-card .meta {
+  display: flex; align-items: center; gap: 8px;
+  font-family: var(--f-mono); font-size: 11px; font-weight: 500;
+  text-transform: uppercase; color: var(--c-ink-60);
+  margin-bottom: 16px;
+}
+.b-card .meta::before {
+  content: ""; width: 6px; height: 6px; border-radius: 50%;
+  background: var(--c-ink-60); flex: none;
+}
+.b-card .img {
+  width: 100%; border-radius: var(--radius); overflow: clip;
+  aspect-ratio: 4 / 3.4;
+}
+.b-card .img img {
+  width: 100%; height: 100%; object-fit: cover;
+  filter: grayscale(0.2);
+  transition: transform 0.6s var(--ease-out);
+}
+.b-card:hover .img img { transform: scale(1.05); }
+.b-card h3 {
+  font-size: 19px; font-weight: 500; letter-spacing: -0.02em; line-height: 1.35;
+  margin-top: 20px; max-width: 330px;
+}
+/* editorial rhythm from the slice: middle columns run taller */
+.b-cards .b-card:nth-child(4n + 2) .img,
+.b-cards .b-card:nth-child(4n + 3) .img { aspect-ratio: 4 / 4.8; }
+.b-cards--3 .b-card:nth-child(n) .img { aspect-ratio: 4 / 3.4; }
+.b-cards--3 .b-card:nth-child(3n + 2) .img { aspect-ratio: 4 / 4.4; }
+
+@media (max-width: 1199.98px) {
+  .b-cards { grid-template-columns: 1fr 1fr; row-gap: 60px; }
+  .b-cards--3 { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 809.98px) {
+  .b-cards, .b-cards--3 { grid-template-columns: 1fr; row-gap: 50px; }
+  .b-cards .b-card .img, .b-cards--3 .b-card .img { aspect-ratio: 4 / 3 !important; }
+  .b-card h3 { max-width: none; }
+}
+
+/* ============ BLOG LISTING ============ */
+.blog-articles { background: var(--c-mist); }
+.blog-head {
+  display: grid; grid-template-columns: 1fr 4fr;
+  margin-bottom: clamp(70px, 8vw, 120px);
+}
+.blog-head .inner { max-width: 900px; }
+.blog-head .h1 { font-size: clamp(48px, 6.4vw, 96px); }
+.blog-head .sub {
+  margin-top: 44px; max-width: 400px;
+  color: var(--c-ink-60); font-size: var(--fs-body);
+}
+@media (max-width: 1199.98px) { .blog-head { grid-template-columns: 1fr 6fr; } }
+@media (max-width: 809.98px) { .blog-head { grid-template-columns: 1fr; } .blog-head .sub { margin-top: 26px; } }
+
+/* ============ ARTICLE (post) ============ */
+.post { background: var(--c-mist); }
+.post-grid { display: grid; grid-template-columns: 4fr 1fr 7fr; align-items: start; }
+.post-aside { position: sticky; top: 110px; }
+.post-aside .img { border-radius: var(--radius); overflow: clip; aspect-ratio: 4 / 2.2; }
+.post-aside .img img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(0.2); }
+.credit { display: flex; align-items: center; gap: 14px; margin-top: 34px; }
+.credit img { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; }
+.credit .label-mono .sub { color: var(--c-ink-60); }
+
+.post-main { max-width: 720px; }
+.post-main > .meta {
+  display: flex; align-items: center; gap: 8px;
+  font-family: var(--f-mono); font-size: 11px; font-weight: 500;
+  text-transform: uppercase; color: var(--c-ink-60);
+  margin-bottom: 26px;
+}
+.post-main > .meta::before {
+  content: ""; width: 6px; height: 6px; border-radius: 50%;
+  background: var(--c-ink-60); flex: none;
+}
+.post-h1 {
+  font-size: clamp(40px, 5.6vw, 78px);
+  text-transform: uppercase; letter-spacing: -0.05em; line-height: 0.98;
+}
+.post-quote {
+  border-left: 1px solid var(--c-ink);
+  padding-left: 28px; margin: clamp(40px, 5vw, 70px) 0;
+  color: var(--c-ink-60); max-width: 640px;
+  font-size: clamp(19px, 1.6vw, 23px);
+}
+.post-intro {
+  font-family: var(--f-head); font-weight: 500;
+  font-size: clamp(24px, 2.4vw, 32px); letter-spacing: -0.03em; line-height: 1.3;
+  max-width: 680px; margin-bottom: clamp(36px, 4vw, 56px);
+}
+.post-body { max-width: 680px; }
+.post-body p { color: var(--c-ink-60); margin-bottom: 24px; }
+.post-body p strong { color: var(--c-ink); font-weight: 500; }
+.post-body h3 {
+  font-size: clamp(21px, 1.9vw, 26px); letter-spacing: -0.03em; font-weight: 500;
+  margin: 52px 0 20px; color: var(--c-ink);
+}
+.post-body ul { list-style: disc; padding-left: 22px; color: var(--c-ink-60); margin: 0 0 24px; }
+.post-body ul li { margin-bottom: 8px; }
+.post-body ul li::marker { color: var(--c-ink-60); }
+.post-body a { text-decoration: underline; text-underline-offset: 3px; }
+.post-cta {
+  display: flex; align-items: center; gap: 24px; flex-wrap: wrap;
+  margin-top: clamp(48px, 5vw, 70px); padding-top: 44px;
+  border-top: 1px solid var(--c-line-dark);
+}
+.post-cta .note { color: var(--c-ink-60); font-size: var(--fs-body-s); max-width: 300px; }
+
+@media (max-width: 1199.98px) {
+  .post-grid { grid-template-columns: 1fr; gap: 60px; }
+  .post-aside { position: static; max-width: 560px; }
+}
+
+/* ============ MORE ARTICLES ============ */
+.more-articles { background: var(--c-mist); }
+.ma-head {
+  display: flex; justify-content: space-between; align-items: end; gap: 24px;
+  margin-bottom: 60px; flex-wrap: wrap;
+}
+.ma-head .sec-label { margin-bottom: 30px; }
+.ma-head .h2 { font-size: clamp(44px, 5vw, 72px); text-transform: uppercase; }
+.ma-head .all {
+  display: inline-flex; align-items: center; gap: 12px;
+  font-family: var(--f-head); font-weight: 500; font-size: 16px;
+}
+
+/* ============ FIRST-CALL BAND (light) ============ */
+.first-call { background: var(--c-light); }
+.fc-grid { display: grid; grid-template-columns: 3fr 4.5fr 4.5fr; gap: 40px; align-items: start; }
+.fc-h { font-size: clamp(34px, 3.4vw, 48px); text-transform: uppercase; letter-spacing: -0.04em; max-width: 420px; }
+.fc-link {
+  display: inline-flex; align-items: center; justify-content: space-between; gap: 16px;
+  width: 100%; max-width: 340px; margin-top: 54px; padding-bottom: 18px;
+  border-bottom: 1px solid var(--c-ink);
+  font-family: var(--f-head); font-weight: 500; font-size: 16px; text-transform: uppercase;
+}
+.fc-quote .quote-l { max-width: 420px; }
+@media (max-width: 1199.98px) { .fc-grid { grid-template-columns: 1fr; gap: 50px; } }
+
+/* ============ GET IN TOUCH (mist) — equivalent of home band ============ */
+.git { background: var(--c-mist); }
+.git-head { display: grid; grid-template-columns: 3fr 9fr; gap: 24px; margin-bottom: 70px; }
+.git-head .h2 { font-size: clamp(44px, 5vw, 72px); margin-bottom: 18px; }
+.git-head .sub { color: var(--c-ink-60); max-width: 480px; }
+.cta-card .line {
+  font-family: var(--f-head); font-weight: 600; text-transform: uppercase;
+  font-size: clamp(28px, 3.6vw, 54px); letter-spacing: -0.04em; line-height: 1.05;
+}
+.cta-card .glow {
+  position: absolute; right: -10%; bottom: -55%; width: 70%; aspect-ratio: 1;
+  background: radial-gradient(closest-side, rgba(210, 255, 55, 0.2), rgba(106, 92, 255, 0.14) 45%, transparent 70%);
+  pointer-events: none;
+}
+@media (max-width: 1199.98px) { .git-head { grid-template-columns: 1fr; } }

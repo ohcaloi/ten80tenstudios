@@ -242,7 +242,7 @@
 
 /* ============ MORE CASES ============ */
 .more-cases { background: var(--c-white); }
-.mc-grid { display: grid; grid-template-columns: 3fr 9fr; gap: 24px; }
+.mc-grid { display: grid; grid-template-columns: 3fr 9fr; gap: 24px; align-items: start; }
 .mc-side { position: relative; }
 .mc-side .chip { position: sticky; top: 100px; background: var(--c-light); }
 .mc-side .chip .dot { background: var(--c-ink-60); }
@@ -436,9 +436,10 @@
 
 /* ============ FAQ ============ */
 .faq { background: var(--c-white); }
-.faq-grid { display: grid; grid-template-columns: 3fr 9fr; gap: 24px; }
+.faq-grid { display: grid; grid-template-columns: 3fr 9fr; gap: 24px; align-items: start; }
 .faq-items .h2 { margin-bottom: 40px; }
-.faq-extra { display: grid; grid-template-columns: 3fr 9fr; gap: 24px; margin-top: 110px; }
+.faq-extra { display: grid; grid-template-columns: 3fr 9fr; gap: 24px; margin-top: 110px; align-items: start; }
+.faq-extra > .chip { justify-self: start; }
 .faq-extra .chip .dot { background: var(--c-ink-60); }
 .faq-extra .fx { display: flex; flex-direction: column; gap: 40px; }
 .faq-extra .fx-top { display: flex; align-items: center; gap: 30px; flex-wrap: wrap; }
@@ -451,7 +452,7 @@
 
 /* ============ GET IN TOUCH (mist) ============ */
 .git { background: var(--c-mist); }
-.git-head { display: grid; grid-template-columns: 3fr 9fr; gap: 24px; margin-bottom: 70px; }
+.git-head { display: grid; grid-template-columns: 3fr 9fr; gap: 24px; margin-bottom: 70px; align-items: start; }
 .git-head .h2 { font-size: clamp(44px, 5vw, 72px); margin-bottom: 18px; }
 .git-head .sub { color: var(--c-ink-60); max-width: 480px; }
 .cta-card .line { font-family: var(--f-head); font-weight: 600; text-transform: uppercase; font-size: clamp(28px, 3.6vw, 54px); letter-spacing: -0.04em; line-height: 1.05; }
