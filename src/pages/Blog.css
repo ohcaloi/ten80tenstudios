@@ -1,0 +1,266 @@
+/* ============================================================
+   TEN80TEN — Blog / Articles page (mirrors vertora /blog-one)
+   All classes prefixed `blg-`.
+   ============================================================ */
+
+.blg {
+  background: var(--ivory);
+}
+
+/* ---------- 1. HERO ---------- */
+.blg-hero {
+  padding-top: clamp(8rem, 14vh, 11rem);
+  padding-bottom: clamp(2.5rem, 5vw, 4rem);
+}
+
+.blg-hero__row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.blg-hero__lead {
+  min-width: 0;
+}
+
+.blg-hero__eyebrow {
+  margin-bottom: 1.25rem;
+}
+
+.blg-hero__title {
+  font-size: var(--big-4);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+  color: var(--black);
+}
+
+/* view toggle pill (functional but simple) */
+.blg-toggle {
+  display: inline-flex;
+  padding: 0.35rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--white);
+  gap: 0.25rem;
+  flex: none;
+}
+
+.blg-toggle__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.15rem;
+  border-radius: 999px;
+  font-size: var(--sub);
+  font-weight: 600;
+  color: var(--dark-gray);
+  white-space: nowrap;
+  transition: background 0.35s var(--ease), color 0.35s var(--ease);
+}
+
+.blg-toggle__btn svg {
+  opacity: 0.75;
+}
+
+.blg-toggle__btn.is-active {
+  background: var(--black);
+  color: var(--white);
+}
+
+.blg-toggle__btn.is-active svg {
+  opacity: 1;
+}
+
+/* ---------- 2. ARTICLES GRID ---------- */
+.blg-articles {
+  padding-top: 1rem;
+  padding-bottom: var(--section-gap-sm);
+}
+
+.blg-grid {
+  display: grid;
+  gap: clamp(1.75rem, 3vw, 2.75rem);
+}
+
+.blg-grid--grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.blg-cardwrap {
+  min-width: 0;
+}
+
+/* ---------- CARD ---------- */
+.blg-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: var(--dark-gray);
+}
+
+.blg-card__media {
+  position: relative;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--light-gray);
+  aspect-ratio: 4 / 3;
+}
+
+.blg-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s var(--ease);
+}
+
+.blg-card:hover .blg-card__img {
+  transform: scale(1.06);
+}
+
+.blg-card__badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: var(--white);
+  color: var(--black);
+  display: grid;
+  place-items: center;
+  opacity: 0;
+  transform: translateY(0.4rem) scale(0.9);
+  transition: opacity 0.4s var(--ease), transform 0.4s var(--ease);
+}
+
+.blg-card:hover .blg-card__badge {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.blg-card__body {
+  padding: 1.35rem 0.25rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex: 1;
+}
+
+.blg-card__date {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: var(--sub);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--dark-gray);
+}
+
+.blg-card__dot {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: var(--accent);
+  flex: none;
+}
+
+.blg-card__title {
+  font-size: var(--h5);
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: var(--black);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  transition: color 0.3s var(--ease);
+}
+
+.blg-card:hover .blg-card__title {
+  color: var(--accent);
+}
+
+.blg-card__author {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-top: auto;
+  padding-top: 0.4rem;
+}
+
+.blg-card__avatar {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: var(--white);
+  font-size: 0.85rem;
+  font-weight: 600;
+  flex: none;
+}
+
+.blg-card__name {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--dark-gray);
+}
+
+/* ---------- LIST VIEW (single column, wide media) ---------- */
+.blg-grid--list {
+  grid-template-columns: 1fr;
+  gap: clamp(1.25rem, 2.5vw, 2rem);
+}
+
+.blg-grid--list .blg-card {
+  flex-direction: row;
+  align-items: center;
+  gap: clamp(1.5rem, 4vw, 3rem);
+  border-bottom: 1px solid var(--line);
+  padding-bottom: clamp(1.25rem, 2.5vw, 2rem);
+}
+
+.blg-grid--list .blg-card__media {
+  width: clamp(9rem, 26vw, 20rem);
+  flex: none;
+  aspect-ratio: 16 / 10;
+}
+
+.blg-grid--list .blg-card__body {
+  padding: 0;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 991px) {
+  .blg-grid--grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .blg-hero__row {
+    align-items: flex-start;
+  }
+  .blg-toggle {
+    order: -1;
+  }
+  .blg-grid--grid {
+    grid-template-columns: 1fr;
+  }
+  .blg-grid--list .blg-card {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+  .blg-grid--list .blg-card__media {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+  }
+  .blg-grid--list .blg-card__body {
+    padding-top: 0.25rem;
+  }
+}

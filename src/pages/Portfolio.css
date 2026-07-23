@@ -1,0 +1,219 @@
+/* ============================================================
+   TEN80TEN — Portfolio page (mirrors vertora /portfolio-one)
+   All classes prefixed pf- to avoid collisions.
+   ============================================================ */
+
+.pf {
+  background: var(--ivory);
+}
+
+/* ---------------- 1 · HERO ---------------- */
+.pf-hero {
+  position: relative;
+  padding-top: clamp(8rem, 14vh, 11rem);
+  padding-bottom: clamp(2.5rem, 6vh, 5rem);
+  overflow: hidden;
+}
+
+.pf-hero__eyebrow {
+  margin-bottom: 1.75rem;
+}
+
+.pf-hero__title {
+  font-size: var(--big-5);
+  line-height: 0.92;
+  letter-spacing: -0.04em;
+  color: var(--black);
+  text-transform: uppercase;
+}
+
+.pf-hero__lead {
+  margin-top: 1.75rem;
+  max-width: 34ch;
+  font-size: clamp(1rem, 1.4vw, 1.25rem);
+  line-height: 1.5;
+  color: var(--dark-gray);
+}
+
+/* Ghost / outline marquee ticker */
+.pf-hero__ticker {
+  margin-top: clamp(2.5rem, 6vh, 5rem);
+  width: 100%;
+  border-block: 1px solid var(--line);
+  padding-block: clamp(0.4rem, 1.5vw, 1rem);
+}
+
+.pf-ticker__item {
+  display: inline-flex;
+  align-items: center;
+  flex: none;
+  gap: clamp(1.5rem, 4vw, 3.5rem);
+  padding-inline: clamp(0.75rem, 2vw, 1.75rem);
+}
+
+.pf-ticker__text,
+.pf-ticker__sep {
+  font-size: clamp(3rem, 11vw, 11rem);
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  white-space: nowrap;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--silver-gray);
+  text-stroke: 1px var(--silver-gray);
+}
+
+.pf-ticker__sep {
+  color: var(--accent);
+  -webkit-text-stroke: 0;
+  text-stroke: 0;
+}
+
+/* ---------------- 2 · PROJECTS ---------------- */
+.pf-work {
+  padding-top: clamp(3.5rem, 8vh, 6.5rem);
+}
+
+.pf-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: clamp(1.5rem, 4vw, 5rem);
+  row-gap: clamp(3.5rem, 8vw, 8rem);
+  align-items: start;
+}
+
+/* Editorial vertical offsets — column B pushed down for a masonry feel */
+.pf-card--b {
+  margin-top: clamp(3rem, 8vw, 8rem);
+}
+
+/* The last (5th) card spans full width as a large closing feature */
+.pf-card:last-child {
+  grid-column: 1 / -1;
+  margin-top: 0;
+  max-width: 62rem;
+  justify-self: center;
+}
+
+.pf-card__link {
+  display: block;
+  color: inherit;
+}
+
+.pf-card__media {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--light-gray);
+  aspect-ratio: 3 / 4;
+}
+
+.pf-card:last-child .pf-card__media {
+  aspect-ratio: 16 / 11;
+}
+
+.pf-card__num {
+  position: absolute;
+  top: 1.25rem;
+  left: 1.25rem;
+  z-index: 2;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--white);
+  mix-blend-mode: difference;
+  font-variant-numeric: tabular-nums;
+}
+
+.pf-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.9s var(--ease);
+  will-change: transform;
+}
+
+.pf-card__link:hover .pf-card__img {
+  transform: scale(1.06);
+}
+
+.pf-card__body {
+  padding-top: 1.75rem;
+}
+
+.pf-card__row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.pf-card__name {
+  font-size: clamp(1.75rem, 3.4vw, 3.25rem);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--black);
+}
+
+.pf-card__year {
+  font-family: ui-monospace, "SFMono-Regular", "Menlo", monospace;
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+  font-variant-numeric: tabular-nums;
+  flex: none;
+}
+
+.pf-card__tag {
+  margin-top: 0.9rem;
+}
+
+.pf-card__desc {
+  margin-top: 0.85rem;
+  max-width: 46ch;
+  color: var(--dark-gray);
+  line-height: 1.55;
+}
+
+.pf-card__more {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.pf-card__arrow {
+  display: grid;
+  place-items: center;
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 50%;
+  background: var(--black);
+  color: var(--white);
+  transition: transform 0.4s var(--ease);
+}
+
+.pf-card__link:hover .pf-card__arrow {
+  transform: translate(2px, -2px) rotate(45deg);
+}
+
+/* ---------------- Responsive ---------------- */
+@media (max-width: 767px) {
+  .pf-grid {
+    grid-template-columns: 1fr;
+    row-gap: clamp(3rem, 12vw, 4.5rem);
+  }
+  .pf-card--b {
+    margin-top: 0;
+  }
+  .pf-card:last-child {
+    max-width: none;
+  }
+  .pf-card:last-child .pf-card__media {
+    aspect-ratio: 3 / 4;
+  }
+  .pf-hero__lead {
+    max-width: none;
+  }
+}

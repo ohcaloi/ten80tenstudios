@@ -1,0 +1,230 @@
+/* ============================================================
+   CONTACT PAGE — Ten80Ten Studios (mirrors vertora /contact-one)
+   All classes prefixed cnt- to avoid collisions.
+   ============================================================ */
+
+.cnt {
+  background: var(--ivory);
+}
+
+/* ---------- 1 · HERO ---------- */
+.cnt-hero {
+  padding-top: clamp(8rem, 14vh, 11rem);
+  padding-bottom: clamp(2rem, 5vw, 3.5rem);
+}
+
+.cnt-hero__eyebrow {
+  margin-bottom: clamp(1rem, 2.5vw, 1.75rem);
+}
+
+.cnt-hero__title {
+  font-size: var(--big-3);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+  color: var(--black);
+}
+
+.cnt-hero__sub {
+  margin-top: clamp(1.25rem, 3vw, 2rem);
+  max-width: 32rem;
+  font-size: clamp(1.05rem, 2vw, 1.25rem);
+  color: var(--dark-gray);
+}
+
+/* ---------- 2 · CONTACT BODY ---------- */
+.cnt-body {
+  padding-top: clamp(2rem, 5vw, 3.5rem);
+  padding-bottom: clamp(4rem, 8vw, 6.5rem);
+}
+
+.cnt-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.05fr;
+  gap: clamp(2.5rem, 5vw, 5rem);
+  align-items: start;
+}
+
+/* --- LEFT: info --- */
+.cnt-info__eyebrow {
+  margin-bottom: clamp(1.5rem, 3vw, 2.25rem);
+}
+
+.cnt-info__list {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.5rem, 3vw, 2.25rem);
+  border-top: 1px solid var(--line);
+  padding-top: clamp(1.5rem, 3vw, 2.25rem);
+}
+
+.cnt-info__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding-bottom: clamp(1.5rem, 3vw, 2.25rem);
+  border-bottom: 1px solid var(--line);
+}
+
+.cnt-info__label {
+  font-size: var(--sub);
+  font-weight: 600;
+  letter-spacing: 0.0675rem;
+  text-transform: uppercase;
+  color: var(--dark-gray);
+}
+
+.cnt-info__value {
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--black);
+  letter-spacing: -0.02em;
+  word-break: break-word;
+}
+
+.cnt-info__value--link {
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+  transition: color 0.3s var(--ease);
+  background-image: linear-gradient(var(--accent), var(--accent));
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.4s var(--ease), color 0.3s var(--ease);
+}
+.cnt-info__value--link:hover {
+  color: var(--accent);
+  background-size: 100% 1px;
+}
+
+/* --- LEFT: socials --- */
+.cnt-socials {
+  margin-top: clamp(2rem, 4vw, 3rem);
+}
+.cnt-socials__label {
+  display: block;
+  font-size: var(--sub);
+  font-weight: 600;
+  letter-spacing: 0.0675rem;
+  text-transform: uppercase;
+  color: var(--dark-gray);
+  margin-bottom: 1rem;
+}
+.cnt-socials__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.cnt-social {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--black);
+  transition: background 0.3s var(--ease), color 0.3s var(--ease), border-color 0.3s var(--ease), transform 0.3s var(--ease);
+}
+.cnt-social:hover {
+  background: var(--black);
+  color: var(--white);
+  border-color: var(--black);
+  transform: translateY(-2px);
+}
+
+/* --- RIGHT: form card --- */
+.cnt-formwrap {
+  width: 100%;
+}
+.cnt-card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: clamp(1.75rem, 4vw, 3rem);
+  box-shadow: 0 30px 60px -30px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.5rem, 3vw, 2rem);
+}
+
+.cnt-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.cnt-field__label {
+  font-size: var(--sub);
+  font-weight: 600;
+  letter-spacing: 0.0675rem;
+  text-transform: uppercase;
+  color: var(--dark-gray);
+}
+
+.cnt-field__input {
+  width: 100%;
+  font-family: var(--font);
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--black);
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  padding: 0.65rem 0;
+  transition: border-color 0.3s var(--ease);
+  -webkit-appearance: none;
+  appearance: none;
+}
+.cnt-field__input::placeholder {
+  color: var(--silver-gray);
+  font-weight: 400;
+}
+.cnt-field__input:focus {
+  outline: none;
+  border-bottom-color: var(--accent);
+}
+
+.cnt-field__textarea {
+  resize: vertical;
+  min-height: 6rem;
+  line-height: 1.6;
+}
+
+/* select */
+.cnt-select-wrap {
+  position: relative;
+}
+.cnt-field__select {
+  cursor: pointer;
+  padding-right: 2rem;
+}
+.cnt-field__select:invalid {
+  color: var(--silver-gray);
+}
+.cnt-select-caret {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--dark-gray);
+  pointer-events: none;
+  display: grid;
+  place-items: center;
+}
+
+/* submit button — reuses global .btn */
+.cnt-submit {
+  align-self: flex-start;
+  margin-top: 0.5rem;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 900px) {
+  .cnt-grid {
+    grid-template-columns: 1fr;
+    gap: clamp(2.5rem, 8vw, 3.5rem);
+  }
+}

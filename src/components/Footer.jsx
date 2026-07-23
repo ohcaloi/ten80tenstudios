@@ -1,7 +1,16 @@
 import './Footer.css'
+import { Link } from 'react-router-dom'
 import { Reveal } from '../lib/Reveal'
 import { Button } from './ui/Button'
 import { footer, brand } from '../content'
+
+/** Internal routes use client-side nav; hashes/externals stay as <a>. */
+function FLink({ href, className, children }) {
+  if (href.startsWith('/') && !href.startsWith('//')) {
+    return <Link className={className} to={href}>{children}</Link>
+  }
+  return <a className={className} href={href}>{children}</a>
+}
 
 /** Site footer: brand + link columns, giant ghost wordmark, legal row. */
 export default function Footer() {
@@ -10,10 +19,10 @@ export default function Footer() {
       <div className="container-lg footer-inner">
         <div className="footer-top">
           <Reveal dir="up" className="footer-brand">
-            <a className="footer-mark" href="#home" aria-label={brand.name}>
+            <Link className="footer-mark" to="/" aria-label={brand.name}>
               <img src="/img/ten80ten-mark-512.png" alt="" width={40} height={40} />
               <span className="footer-wordmark-sm">{brand.name}</span>
-            </a>
+            </Link>
             <p className="footer-blurb">{footer.blurb}</p>
             <Button label={brand.cta.label} href={brand.cta.href} variant="light" className="footer-cta" />
           </Reveal>
@@ -25,7 +34,7 @@ export default function Footer() {
                 <ul className="footer-links">
                   {col.links.map(([label, href]) => (
                     <li key={label}>
-                      <a className="footer-link" href={href}>{label}</a>
+                      <FLink className="footer-link" href={href}>{label}</FLink>
                     </li>
                   ))}
                 </ul>

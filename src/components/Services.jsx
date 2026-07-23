@@ -1,6 +1,7 @@
 import './Services.css'
 import { useRef } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import { Reveal, SplitWords } from '../lib/Reveal'
 import { ArrowUpRight } from './ui/Icons'
 import { services } from '../content'
@@ -35,10 +36,10 @@ function ServiceCard({ card, index, dark }) {
           <span className="svc__num">{card.num}</span>
           <h3 className="svc__title">{card.title}</h3>
           <p className="svc__desc">{card.desc}</p>
-          <a className="svc__more" href="#contact">
+          <Link className="svc__more" to="/service">
             Learn more
             <span className="svc__more-chip"><ArrowUpRight size={16} /></span>
-          </a>
+          </Link>
         </div>
         <div className="svc__card-media">
           <img src={card.img} alt={card.title} loading="lazy" />

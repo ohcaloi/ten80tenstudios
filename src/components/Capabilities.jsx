@@ -1,5 +1,6 @@
 import './Capabilities.css'
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import { Reveal } from '../lib/Reveal'
 import { Marquee } from './ui/Marquee'
 import { ArrowUpRight } from './ui/Icons'
@@ -55,7 +56,7 @@ export default function Capabilities() {
                   delay={i * 0.07}
                   className="caps__row"
                 >
-                  <a className="caps__link" href="#services">
+                  <Link className="caps__link" to="/service">
                     <span className="caps__index">({num})</span>
                     <span className="caps__label">{item}</span>
                     <motion.span
@@ -65,7 +66,7 @@ export default function Capabilities() {
                     >
                       <ArrowUpRight size={26} stroke={1.75} />
                     </motion.span>
-                  </a>
+                  </Link>
                 </Reveal>
               )
             })}

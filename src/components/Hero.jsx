@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import { hero } from '../content'
 import { Button } from './ui/Button'
 import { ArrowUpRight } from './ui/Icons'
@@ -17,8 +18,6 @@ const RIGHT = [
   '/img/tpl/694ba4cee6d68eb1e8beaffd_Vertora-rotate-image-seven.webp',
   '/img/tpl/694ba4ceb71a14e70737ea93_Vertora-rotate-image-six.webp',
 ]
-
-const serviceList = ['Virtual assistants', 'Automation systems', 'Operations buildout']
 
 function Word({ children, delay }) {
   return (
@@ -86,14 +85,14 @@ export default function Hero() {
               <Button label={hero.primary.label} href={hero.primary.href} variant="light" />
             </div>
             <ul className="hero__services">
-              {serviceList.map((s, i) => (
+              {hero.services.map(([label, href], i) => (
                 <motion.li
-                  key={s}
+                  key={label}
                   initial={{ opacity: 0, x: 20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.6, delay: 0.8 + i * 0.1 }}
                 >
-                  <a href="#services"><span>{s}</span><ArrowUpRight size={16} /></a>
+                  <Link to={href}><span>{label}</span><ArrowUpRight size={16} /></Link>
                 </motion.li>
               ))}
             </ul>

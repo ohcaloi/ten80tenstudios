@@ -120,7 +120,7 @@ export default function Pricing() {
                 <div className="pricing-card__cta">
                   <Button
                     label="Get started"
-                    href="#contact"
+                    href="/contact"
                     variant={featured ? 'light' : 'outline'}
                     className="pricing-card__btn"
                   />
