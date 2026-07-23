@@ -36,8 +36,8 @@
   letter-spacing: -0.04em; line-height: 0.84; margin-top: 42px;
 }
 .hero-h1 .l1, .hero-h1 .l2 { display: block; }
-.hero-h1 .l1 { font-size: 10.7vw; white-space: nowrap; }
-.hero-h1 .l2 { font-size: 4.7vw; text-align: right; white-space: nowrap; }
+.hero-h1 .l1 { font-size: 10.4vw; white-space: nowrap; }
+.hero-h1 .l2 { font-size: 4.3vw; text-align: right; white-space: nowrap; }
 
 /* Description — right column */
 .hero-desc {
