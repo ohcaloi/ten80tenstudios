@@ -54,7 +54,7 @@ export default function Portfolio() {
                   duration={0.85}
                   className={`pf-card pf-card--${i % 2 === 0 ? 'a' : 'b'}`}
                 >
-                  <Link to="/portfolio" className="pf-card__link">
+                  <Link to={`/portfolio/${p.slug}`} className="pf-card__link">
                     <div className="pf-card__media">
                       <span className="pf-card__num">{num}</span>
                       <img

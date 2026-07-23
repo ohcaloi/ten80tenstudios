@@ -62,7 +62,7 @@ export default function Work() {
               dir="up"
               delay={i * 0.08}
               as="a"
-              href="/portfolio"
+              href={`/portfolio/${p.slug}`}
               className={`work__row${hovered === i ? ' is-active' : ''}${hovered != null && hovered !== i ? ' is-dim' : ''}`}
               onMouseEnter={() => setHovered(i)}
               onFocus={() => setHovered(i)}

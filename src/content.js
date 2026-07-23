@@ -313,12 +313,86 @@ export const servicePage = {
 export const portfolioPage = {
   hero: { title: 'Portfolio', ticker: 'Portfolio 2025' },
   projects: [
-    { name: 'Aurelia', year: '2025', tag: 'Brand identity · Packaging', desc: 'A warm, minimal identity and packaging system for a modern beauty label — built to feel considered on every shelf and screen.', img: img.proj1, slug: 'aurelia' },
-    { name: 'Kestrel', year: '2025', tag: 'Web design & development', desc: 'A fast, confident website for a fintech challenger, pairing sharp product storytelling with smooth, responsive performance.', img: img.proj2, slug: 'kestrel' },
-    { name: 'Superbloom', year: '2025', tag: 'Motion & photography', desc: 'A motion and photography language for a lifestyle brand — visual storytelling that connects deeply and moves with energy.', img: img.proj3, slug: 'superbloom' },
-    { name: 'Meridian', year: '2025', tag: 'Brand & product', desc: 'End-to-end brand and product design for a travel startup, bringing bold ideas and crafted execution into one clear story.', img: img.proj4, slug: 'meridian' },
-    { name: 'Halcyon', year: '2025', tag: 'Visual branding', desc: 'A cohesive visual system for a hospitality group — type, colour and art direction tuned to feel calm, premium and consistent.', img: img.thumbCreto, slug: 'halcyon' },
+    {
+      name: 'Aurelia', year: '2025', tag: 'Brand identity · Packaging', slug: 'aurelia', img: img.proj1,
+      desc: 'A warm, minimal identity and packaging system for a modern beauty label — built to feel considered on every shelf and screen.',
+      client: 'Aurelia Skin', discipline: 'Brand identity', location: 'New York, US',
+      services: ['Brand strategy', 'Identity design', 'Packaging', 'Art direction'],
+      overview: 'Aurelia came to us with a strong product and a flat, forgettable look. We rebuilt the brand from the positioning up — a warm, minimal identity and a packaging system designed to feel considered in the hand and unmistakable on the shelf.',
+      challenge: 'The category is loud and sea-of-sameness. Aurelia needed to look premium without shouting, and to hold together across bottles, boxes, web and social.',
+      approach: 'We set a quiet, confident direction — a refined wordmark, a warm neutral palette, and a flexible grid that lets the product breathe. Every touchpoint was drawn from the same small, disciplined kit of parts.',
+      gallery: [img.proj1, img.svc2, img.card],
+      results: [
+        { value: 3, suffix: '×', label: 'Lift in direct-to-consumer conversion' },
+        { value: 40, suffix: '%', label: 'Faster shelf recognition in testing' },
+      ],
+      quote: { text: 'They gave us a brand that finally looks the way the product feels. Considered, calm and completely ours.', who: 'Founder, Aurelia Skin' },
+    },
+    {
+      name: 'Kestrel', year: '2024', tag: 'Web design & development', slug: 'kestrel', img: img.proj2,
+      desc: 'A fast, confident website for a fintech challenger, pairing sharp product storytelling with smooth, responsive performance.',
+      client: 'Kestrel Finance', discipline: 'Web design & development', location: 'London, UK',
+      services: ['UX strategy', 'Web design', 'Front-end build', 'Motion'],
+      overview: 'Kestrel is a fintech challenger with a genuinely simple product buried under a complicated site. We designed and built a fast, confident website that makes the value obvious in seconds.',
+      challenge: 'Financial products are hard to explain and easy to distrust. The site had to feel credible and effortless, and load fast on every device.',
+      approach: 'We led with product storytelling — clear sections, tight copy, and restrained motion that guides rather than distracts. The build is lightweight and responsive, with performance treated as a design feature.',
+      gallery: [img.proj2, img.svc3, img.homeService],
+      results: [
+        { value: 62, suffix: '%', label: 'Increase in demo sign-ups' },
+        { value: 98, suffix: '', label: 'Lighthouse performance score' },
+      ],
+      quote: { text: 'From strategy to launch everything felt seamless. The design, the speed, the experience — all exceeded our goals.', who: 'Head of Growth, Kestrel Finance' },
+    },
+    {
+      name: 'Superbloom', year: '2024', tag: 'Motion & photography', slug: 'superbloom', img: img.proj3,
+      desc: 'A motion and photography language for a lifestyle brand — visual storytelling that connects deeply and moves with energy.',
+      client: 'Superbloom', discipline: 'Motion & photography', location: 'Los Angeles, US',
+      services: ['Art direction', 'Photography', 'Motion graphics', 'Content system'],
+      overview: 'Superbloom needed a visual language that could live and move. We built a motion and photography system that turns a lifestyle brand into a feed people actually stop for.',
+      challenge: 'Social moves fast and forgives nothing. Superbloom needed a look distinctive enough to own a scroll, and a system loose enough to keep producing.',
+      approach: 'We defined an art-direction kit — light, framing, colour and pace — then designed motion templates the in-house team can run with. Distinctive, repeatable, and full of energy.',
+      gallery: [img.proj3, img.svc4, img.svc5],
+      results: [
+        { value: 210, suffix: '%', label: 'Growth in social engagement' },
+        { value: 5, suffix: '×', label: 'More content shipped per month' },
+      ],
+      quote: { text: 'They quickly understood our vision and turned it into a strong, distinctive visual world we could keep building on.', who: 'Marketing Lead, Superbloom' },
+    },
+    {
+      name: 'Meridian', year: '2023', tag: 'Brand & product', slug: 'meridian', img: img.proj4,
+      desc: 'End-to-end brand and product design for a travel startup, bringing bold ideas and crafted execution into one clear story.',
+      client: 'Meridian Travel', discipline: 'Brand & product', location: 'Lisbon, PT',
+      services: ['Brand identity', 'Product design', 'Design system', 'Web'],
+      overview: 'Meridian is a travel startup that wanted one clear story across brand and product. We designed both together, so the identity and the app speak the same language.',
+      challenge: 'Brand and product were drifting apart — one aspirational, one purely functional. We needed to bring bold ideas and crafted execution into a single system.',
+      approach: 'A shared design language: one type system, one palette, one set of components spanning marketing and product. Bold where it counts, invisible where it should be.',
+      gallery: [img.proj4, img.card, img.svc2],
+      results: [
+        { value: 4, suffix: '.8', label: 'App store rating at launch' },
+        { value: 35, suffix: '%', label: 'Drop in support tickets' },
+      ],
+      quote: { text: 'Brand and product finally feel like one thing. Bold, clear and genuinely easy to use.', who: 'CEO, Meridian Travel' },
+    },
+    {
+      name: 'Halcyon', year: '2025', tag: 'Visual branding', slug: 'halcyon', img: img.thumbCreto,
+      desc: 'A cohesive visual system for a hospitality group — type, colour and art direction tuned to feel calm, premium and consistent.',
+      client: 'Halcyon Group', discipline: 'Visual branding', location: 'Copenhagen, DK',
+      services: ['Visual identity', 'Art direction', 'Guidelines', 'Signage'],
+      overview: 'Halcyon runs a growing group of hospitality spaces that all looked different. We built one cohesive visual system — calm, premium, and consistent from signage to Instagram.',
+      challenge: 'Every venue had drifted into its own style. The group needed a single, flexible identity that felt high-end without feeling corporate.',
+      approach: 'We tuned type, colour and art direction into a quiet, premium system, then wrote guidelines the venues can actually follow — consistent, but never rigid.',
+      gallery: [img.thumbCreto, img.thumbBloomava, img.thumbCrearist],
+      results: [
+        { value: 6, suffix: '', label: 'Venues unified under one identity' },
+        { value: 100, suffix: '%', label: 'Brand-consistent across touchpoints' },
+      ],
+      quote: { text: 'A seamless process with a calm, premium result that finally makes every space feel like one group.', who: 'Creative Director, Halcyon Group' },
+    },
   ],
+}
+
+export function getProject(slug) {
+  return portfolioPage.projects.find((p) => p.slug === slug) || null
 }
 
 export const blogPage = {
