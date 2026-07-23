@@ -74,8 +74,8 @@ export const partners = {
   eyebrow: 'Our partners',
   headline: 'We collaborate with forward-thinking brands to build lasting creative impact',
   logos: [
-    'Chromore', 'Gareos', 'Movtreh', 'Fuelteo', 'Solvrae',
-    'Adroven', 'Bloomava', 'Crearist', 'Creto', 'Northlane',
+    'Aurelia', 'Kestrel', 'Superbloom', 'Meridian', 'Halcyon',
+    'Northbound', 'Verdant', 'Lumen', 'Atlas', 'Marlowe',
   ],
 }
 
@@ -135,10 +135,10 @@ export const work = {
   headline:
     'We blend creativity with technical craft to build experiences that captivate audiences and carry your brand message',
   projects: [
-    { name: 'Chromore', year: '2023', tag: 'Brand identity · Web design', img: img.proj1, slug: 'chromore' },
-    { name: 'Gareos', year: '2023', tag: 'Skincare branding', img: img.proj2, slug: 'gareos' },
-    { name: 'Movtreh', year: '2022', tag: 'Motion & photography', img: img.proj3, slug: 'movtreh' },
-    { name: 'Fuelteo', year: '2025', tag: 'Web design & development', img: img.proj4, slug: 'fuelteo' },
+    { name: 'Aurelia', year: '2025', tag: 'Brand identity · Packaging', img: img.proj1, slug: 'aurelia' },
+    { name: 'Kestrel', year: '2024', tag: 'Web design & development', img: img.proj2, slug: 'kestrel' },
+    { name: 'Superbloom', year: '2024', tag: 'Motion & photography', img: img.proj3, slug: 'superbloom' },
+    { name: 'Meridian', year: '2023', tag: 'Brand & product', img: img.proj4, slug: 'meridian' },
   ],
 }
 
@@ -181,27 +181,27 @@ export const pricing = {
   note: 'Every engagement starts with a free creative consultation.',
   tiers: [
     {
-      name: 'Basic',
-      priceMonthly: '$25',
-      priceYearly: '$29',
-      blurb: 'Ideal for simple portfolios with a clean, responsive layout.',
-      features: ['Single-page responsive portfolio', 'Clean template customization', 'Basic image gallery setup', 'Standard speed optimization', 'Email support only'],
+      name: 'Essentials',
+      priceMonthly: '$2,400',
+      priceYearly: '$2,040',
+      blurb: 'A focused monthly engagement for founders who need brand and web momentum without a full in-house team.',
+      features: ['One active project at a time', 'Brand or website design', 'Source files & brand guidelines', '2 revision rounds per deliverable', 'Email support'],
       featured: false,
     },
     {
-      name: 'Standard',
-      priceMonthly: '$49',
-      priceYearly: '$59',
-      blurb: 'Great for growing brands needing multi-page layouts and customization.',
-      features: ['Multi-page responsive site', 'Advanced design customization', 'Interactive gallery & sliders', 'SEO-friendly structure setup', 'Priority email support'],
+      name: 'Studio',
+      priceMonthly: '$4,800',
+      priceYearly: '$4,080',
+      blurb: 'Our most popular partnership — design, web and motion running in parallel with a dedicated creative lead.',
+      features: ['Two active projects at a time', 'Brand, web & motion design', 'Dedicated creative lead', 'Unlimited revision rounds', 'Priority Slack support'],
       featured: true,
     },
     {
-      name: 'Premium',
-      priceMonthly: '$99',
-      priceYearly: '$119',
-      blurb: 'Best for businesses needing custom design and full optimization.',
-      features: ['Fully custom brand & site design', 'Animated sections & micro-interactions', 'High-speed optimization + CDN', 'On-page SEO + content placement', 'Support via WhatsApp'],
+      name: 'Partner',
+      priceMonthly: '$9,500',
+      priceYearly: '$8,075',
+      blurb: 'A full creative department on demand for scaling brands with always-on design needs.',
+      features: ['Unlimited project queue', 'Full brand, web, motion & product', 'Embedded senior team', 'Strategy & art direction', 'Same-day Slack support'],
       featured: false,
     },
   ],
@@ -313,11 +313,11 @@ export const servicePage = {
 export const portfolioPage = {
   hero: { title: 'Portfolio', ticker: 'Portfolio 2025' },
   projects: [
-    { name: 'Chromore', year: '2025', tag: 'Brand identity', desc: 'A vibrant, minimalist identity for a design studio — built to captivate audiences and carry a clear brand message.', img: img.proj1, slug: 'chromore' },
-    { name: 'Gareos', year: '2025', tag: 'Branding & web', desc: 'Eco-friendly skincare branding that merges strategic thinking with refined design to express the brand clearly.', img: img.proj2, slug: 'gareos' },
-    { name: 'Movtreh', year: '2025', tag: 'Motion & photography', desc: 'Visual storytelling and smart execution shaping an experience that connects deeply and elevates the brand.', img: img.proj3, slug: 'movtreh' },
-    { name: 'Fuelteo', year: '2025', tag: 'Web design', desc: 'Creative direction and digital precision creating an experience that inspires trust and drives engagement.', img: img.proj4, slug: 'fuelteo' },
-    { name: 'Solvrae', year: '2025', tag: 'Brand & product', desc: 'Bold ideas and crafted execution forming an experience that attracts attention and tells the story.', img: img.thumbCreto, slug: 'solvrae' },
+    { name: 'Aurelia', year: '2025', tag: 'Brand identity · Packaging', desc: 'A warm, minimal identity and packaging system for a modern beauty label — built to feel considered on every shelf and screen.', img: img.proj1, slug: 'aurelia' },
+    { name: 'Kestrel', year: '2025', tag: 'Web design & development', desc: 'A fast, confident website for a fintech challenger, pairing sharp product storytelling with smooth, responsive performance.', img: img.proj2, slug: 'kestrel' },
+    { name: 'Superbloom', year: '2025', tag: 'Motion & photography', desc: 'A motion and photography language for a lifestyle brand — visual storytelling that connects deeply and moves with energy.', img: img.proj3, slug: 'superbloom' },
+    { name: 'Meridian', year: '2025', tag: 'Brand & product', desc: 'End-to-end brand and product design for a travel startup, bringing bold ideas and crafted execution into one clear story.', img: img.proj4, slug: 'meridian' },
+    { name: 'Halcyon', year: '2025', tag: 'Visual branding', desc: 'A cohesive visual system for a hospitality group — type, colour and art direction tuned to feel calm, premium and consistent.', img: img.thumbCreto, slug: 'halcyon' },
   ],
 }
 
