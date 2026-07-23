@@ -1,0 +1,72 @@
+.cta {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cta-outer {
+  width: 100%;
+  padding-inline: var(--gutter);
+}
+
+.cta-panel {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem 2rem;
+  isolation: isolate;
+}
+
+/* subtle accent radial glow */
+.cta-glow {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(60% 70% at 50% 118%, rgba(243, 53, 12, 0.28) 0%, rgba(243, 53, 12, 0) 60%),
+    radial-gradient(45% 55% at 50% -10%, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0) 60%);
+  pointer-events: none;
+}
+
+.cta-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 49.4rem;
+  width: 100%;
+}
+
+.cta-eyebrow {
+  color: var(--silver-gray);
+  margin-bottom: 1.75rem;
+}
+
+.cta-headline {
+  color: var(--white);
+  font-size: var(--big-3);
+  font-weight: 600;
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  max-width: 16ch;
+  margin: 0 0 2.75rem;
+}
+
+.cta-action {
+  display: inline-flex;
+}
+
+@media (max-width: 767px) {
+  .cta-panel {
+    padding: 5rem 1.25rem;
+  }
+  .cta-headline {
+    margin-bottom: 2.25rem;
+  }
+}

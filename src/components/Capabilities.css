@@ -1,0 +1,160 @@
+/* ============================================================
+   Capabilities — template rt-service-v2
+   Numbered service list + full-bleed inverted marquee band
+   ============================================================ */
+
+.caps {
+  background: var(--ivory);
+  overflow: hidden;
+}
+
+/* ---------- Marquee band (full-bleed inverted strip) ---------- */
+.caps-mq {
+  position: relative;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  background: var(--black);
+  color: var(--white);
+  padding-block: 1.4rem;
+  margin-bottom: var(--section-gap-sm);
+  border-block: 1px solid var(--line-white);
+}
+
+.caps-mq .marquee__track { gap: 0; }
+
+.caps-mq__row {
+  display: inline-flex;
+  align-items: center;
+  flex: none;
+}
+
+.caps-mq__item {
+  display: inline-flex;
+  align-items: center;
+  flex: none;
+}
+
+.caps-mq__word {
+  font-size: var(--big-4);
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--white);
+  white-space: nowrap;
+  padding-inline: 2.75rem;
+}
+
+.caps-mq__star {
+  color: var(--accent);
+  font-size: clamp(1.1rem, 2vw, 2rem);
+  line-height: 1;
+  flex: none;
+}
+
+/* ---------- Main two-column layout ---------- */
+.caps__inner { position: relative; }
+
+.caps__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 24rem) minmax(0, 1fr);
+  column-gap: var(--gap-xl);
+  row-gap: var(--gap-large);
+  align-items: start;
+}
+
+/* LEFT column */
+.caps__intro {
+  position: sticky;
+  top: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 24rem;
+}
+
+.caps__headline {
+  font-size: var(--h2);
+  line-height: 1.18;
+  letter-spacing: -0.02em;
+  color: var(--black);
+}
+
+/* RIGHT column — numbered list */
+.caps__list {
+  border-top: 1px solid var(--line);
+}
+
+.caps__row {
+  border-bottom: 1px solid var(--line);
+}
+
+.caps__link {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 1.75rem;
+  padding: 2rem 0.25rem;
+  color: var(--black);
+  transition: padding-left 0.4s var(--ease), color 0.35s var(--ease);
+}
+
+.caps__index {
+  font-family: ui-monospace, "SFMono-Regular", "Menlo", monospace;
+  font-size: var(--sub);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+}
+
+.caps__label {
+  font-size: var(--h3);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--black);
+  transition: color 0.35s var(--ease);
+}
+
+.caps__arrow {
+  display: grid;
+  place-items: center;
+  color: var(--black);
+  transition: transform 0.4s var(--ease), color 0.35s var(--ease);
+}
+
+/* Hover: indent + accent + arrow slides out */
+.caps__link:hover {
+  padding-left: 1.5rem;
+}
+.caps__link:hover .caps__label {
+  color: var(--accent);
+}
+.caps__link:hover .caps__arrow {
+  transform: translate(0.35rem, -0.35rem);
+  color: var(--accent);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 991px) {
+  .caps__grid {
+    grid-template-columns: 1fr;
+    row-gap: var(--gap-large);
+  }
+  .caps__intro {
+    position: static;
+    max-width: 34rem;
+  }
+  .caps__label { font-size: 1.5rem; }
+  .caps-mq__word { padding-inline: 2rem; }
+}
+
+@media (max-width: 767px) {
+  .caps__link {
+    grid-template-columns: auto 1fr auto;
+    gap: 1rem;
+    padding: 1.5rem 0.15rem;
+  }
+  .caps__label { font-size: 1.3rem; }
+  .caps__link:hover { padding-left: 0.6rem; }
+}

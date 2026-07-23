@@ -1,0 +1,81 @@
+/* ============================================================
+   Partners / works-with logos  (template: rt-logos-v1)
+   Two monochrome wordmark marquees, opposite directions.
+   ============================================================ */
+
+.partners {
+  padding-block: var(--section-gap-sm);
+  overflow: hidden;
+}
+
+.partners__head {
+  max-width: 48rem;
+  margin-inline: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-small, 1rem);
+}
+
+.partners__title {
+  font-size: var(--h2);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--black);
+  margin: 0;
+}
+
+.partners__rows {
+  margin-top: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+  /* Edge fade so wordmarks dissolve at the sides */
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    #000 12%,
+    #000 88%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    #000 12%,
+    #000 88%,
+    transparent 100%
+  );
+}
+
+.partners__word {
+  display: inline-flex;
+  align-items: center;
+  gap: 4rem;
+  font-size: clamp(1.4rem, 3vw, 2.4rem);
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--silver-gray);
+  white-space: nowrap;
+  transition: color 0.3s ease;
+}
+
+.partners__word:hover {
+  color: var(--black);
+}
+
+/* Accent slash separating each wordmark */
+.partners__word::after {
+  content: "/";
+  color: var(--accent);
+  font-weight: 600;
+  opacity: 0.55;
+}
+
+@media (max-width: 47.9375rem) {
+  .partners__rows { margin-top: 3rem; gap: 1.5rem; }
+  .partners__word { gap: 2.5rem; }
+}

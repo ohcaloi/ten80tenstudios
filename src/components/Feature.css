@@ -1,0 +1,96 @@
+/* ============================================================
+   Feature — rotating value statement (template rt-feature-v1)
+   ============================================================ */
+
+.feature {
+  background: var(--ivory);
+  overflow: hidden; /* clip floating portraits — no horizontal overflow */
+  padding-block: calc(var(--section-gap-sm) * 1.2);
+}
+
+.feature__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.feature__eyebrow {
+  margin-bottom: 3rem;
+}
+
+/* Stage holds the statement + absolutely-positioned floats */
+.feature__stage {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 3rem;
+}
+
+/* Rotating statement */
+.feature__statement {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 18ch;
+  min-height: calc(var(--big-4) * 3 * 1.15); /* stable height so lines don't jump */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.feature__line {
+  margin: 0;
+  font-size: var(--big-4);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.125rem;
+  color: var(--black);
+  text-align: center;
+  will-change: transform, opacity;
+}
+
+.feature__accent {
+  color: var(--accent);
+}
+
+/* ---------- Floating portraits ---------- */
+.feature__portrait {
+  position: absolute;
+  z-index: 1;
+  width: clamp(6rem, 9vw, 9.5rem);
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.18);
+  pointer-events: none;
+  user-select: none;
+}
+
+.feature__portrait--tl { top: 2%;  left: 4%; }
+.feature__portrait--tr { top: 6%;  right: 4%; }
+.feature__portrait--bl { bottom: 4%; left: 9%; }
+.feature__portrait--br { bottom: 2%; right: 9%; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 991px) {
+  .feature__portrait { width: clamp(5rem, 14vw, 7rem); }
+  .feature__portrait--tl { left: 0; }
+  .feature__portrait--br { right: 0; }
+}
+
+@media (max-width: 767px) {
+  .feature__statement { max-width: 15ch; }
+  /* hide 2 of the 4 floats on mobile */
+  .feature__portrait--tr,
+  .feature__portrait--bl { display: none; }
+  .feature__portrait--tl { top: -1%; left: -2%; }
+  .feature__portrait--br { bottom: -1%; right: -2%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .feature__line { will-change: auto; }
+}
