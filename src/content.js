@@ -81,9 +81,16 @@ export const hero = {
 export const partners = {
   eyebrow: 'Our partners',
   headline: 'We collaborate with forward-thinking brands to build lasting creative impact',
-  logos: [
-    'Aurelia', 'Kestrel', 'Superbloom', 'Meridian', 'Halcyon',
-    'Northbound', 'Verdant', 'Lumen', 'Atlas', 'Marlowe',
+  // 4 × 2 grid of logo cards that invert to black on hover
+  items: [
+    { name: 'Aurelia', logo: T + '6926eb448fc004952aca17f2_vertora-logo-one.svg' },
+    { name: 'Kestrel', logo: T + '6926eb449c977eef5051284f_vertora-logo-two.svg' },
+    { name: 'Superbloom', logo: T + '6926eb443d96d7354dd27bb5_vertora-logo-three.svg' },
+    { name: 'Meridian', logo: T + '6926eb443c8e1731c49fcf92_vertora-logo-four.svg' },
+    { name: 'Halcyon', logo: T + '6926eb44ff82d241af051a0e_vertora-logo-five.svg' },
+    { name: 'Northbound', logo: T + '6926eb442ffa4c2debbced85_vertora-logo-six.svg' },
+    { name: 'Verdant', logo: T + '6926eb44eac37615eb8a30b6_vertora-logo-seven.svg' },
+    { name: 'Lumen', logo: T + '6926eb447105177068658140_vertora-logo-eight.svg' },
   ],
 }
 
