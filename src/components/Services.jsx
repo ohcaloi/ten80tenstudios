@@ -1,57 +1,61 @@
 import './Services.css'
-import { useRef } from 'react'
-import { motion, useScroll, useTransform } from 'framer-motion'
-import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
 import { Reveal, SplitWords } from '../lib/Reveal'
-import { ArrowUpRight } from './ui/Icons'
 import { services } from '../content'
 
-/**
- * One sticky card in the stack. As the NEXT card scrolls up over it, this card
- * shrinks (1 -> 0.9) and dims (1 -> 0.6). The transform is applied to an inner
- * motion element so that if JS/framer fails, the card content is still fully
- * readable (graceful non-JS baseline). Under 768px / reduced-motion the CSS
- * turns off sticky + the transform is visually neutralised.
- */
-function ServiceCard({ card, index, dark }) {
-  const ref = useRef(null)
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ['start start', 'end start'],
-  })
-  const scale = useTransform(scrollYProgress, [0, 1], [1, 0.9])
-  const opacity = useTransform(scrollYProgress, [0, 1], [1, 0.6])
+const EASE = [0.16, 1, 0.3, 1]
 
+/** One service card: white by default, flips to charcoal on hover while the
+ *  thumbnail wrap expands from width 0 to reveal the image. */
+function Card({ card, delay }) {
   return (
-    <div
-      className="svc__card-slot"
-      ref={ref}
-      style={{ '--i': index, top: `calc(7rem + ${index * 1.6}rem)` }}
-    >
-      <motion.article
-        className={`svc__card${dark ? ' svc__card--dark' : ''}`}
-        style={{ scale, opacity }}
+    <Reveal dir="up" delay={delay} duration={0.75} className="svc__card">
+      <div className="svc__card-top">
+        <h3 className="svc__card-title">{card.title}</h3>
+        <span className="svc__card-imgwrap" aria-hidden>
+          <img src={card.img} alt="" loading="lazy" />
+        </span>
+      </div>
+      <p className="svc__card-desc">{card.desc}</p>
+    </Reveal>
+  )
+}
+
+/** Concentric dashed rings that scale in when the stage enters view. */
+function Rings() {
+  const ring = (cls, delay, scaleFrom) => (
+    <motion.span
+      className={`svc__ring ${cls}`}
+      initial={{ opacity: 0, scale: scaleFrom }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      viewport={{ once: true, amount: 0.3 }}
+      transition={{ duration: 1.1, ease: EASE, delay }}
+      aria-hidden
+    />
+  )
+  return (
+    <>
+      {ring('svc__ring--outer', 0.05, 0.8)}
+      {ring('svc__ring--mid', 0.15, 0.84)}
+      <motion.div
+        className="svc__ring svc__ring--inner"
+        initial={{ opacity: 0, scale: 0.88 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true, amount: 0.3 }}
+        transition={{ duration: 1.1, ease: EASE, delay: 0.25 }}
       >
-        <div className="svc__card-text">
-          <span className="svc__num">{card.num}</span>
-          <h3 className="svc__title">{card.title}</h3>
-          <p className="svc__desc">{card.desc}</p>
-          <Link className="svc__more" to="/service">
-            Learn more
-            <span className="svc__more-chip"><ArrowUpRight size={16} /></span>
-          </Link>
-        </div>
-        <div className="svc__card-media">
-          <img src={card.img} alt={card.title} loading="lazy" />
-        </div>
-      </motion.article>
-    </div>
+        <p className="svc__statement">
+          <SplitWords text={services.statement} delay={0.5} stagger={0.03} />
+        </p>
+      </motion.div>
+    </>
   )
 }
 
 export default function Services() {
+  const [a, b, c, d] = services.cards
   return (
-    <section className="svc" id="services">
+    <section className="svc section" id="services">
       <div className="container-lg svc__intro">
         <Reveal as="p" className="eyebrow svc__eyebrow" dir="up">
           {services.eyebrow}
@@ -62,10 +66,20 @@ export default function Services() {
       </div>
 
       <div className="container-lg">
-        <div className="svc__cards">
-          {services.cards.map((card, i) => (
-            <ServiceCard key={card.num} card={card} index={i} dark={i % 2 === 1} />
-          ))}
+        <div className="svc__stage">
+          <div className="svc__col svc__col--left">
+            <Card card={a} delay={0.05} />
+            <Card card={b} delay={0.15} />
+          </div>
+
+          <div className="svc__center">
+            <Rings />
+          </div>
+
+          <div className="svc__col svc__col--right">
+            <Card card={c} delay={0.1} />
+            <Card card={d} delay={0.2} />
+          </div>
         </div>
       </div>
     </section>

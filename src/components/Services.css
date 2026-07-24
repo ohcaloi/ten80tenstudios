@@ -1,176 +1,156 @@
 /* ============================================================
-   TEN80TEN — Services (sticky-stacking cards)
-   Source model: template .rt-cards (600vh sticky stack, 4 cards)
+   Services / "What we do" — concentric dashed rings with the
+   statement centred, service cards arranged around them.
+   Cards: white → charcoal on hover, thumbnail expands from 0.
    ============================================================ */
 
 .svc {
   position: relative;
-  padding-block: var(--section-gap-sm) 8rem;
+  padding-block: var(--section-gap-sm);
   background: transparent;
-  overflow: clip;
+  overflow-x: clip; /* decorative rings may extend past the container */
 }
 
-/* ---------- Intro ---------- */
 .svc__intro {
-  margin-bottom: 4.5rem;
-}
-.svc__eyebrow {
-  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-bottom: clamp(3rem, 6vw, 5rem);
+  max-width: 52rem;
 }
 .svc__headline {
-  font-size: var(--big-4);
+  font-size: clamp(1.7rem, 3.4vw, 2.75rem);
   font-weight: 600;
-  line-height: 1.05;
-  letter-spacing: -0.02em;
+  line-height: 1.16;
+  letter-spacing: -0.025em;
   color: var(--black);
-  max-width: 60rem;
 }
 
-/* ---------- Card stack ---------- */
-.svc__cards {
-  display: flex;
-  flex-direction: column;
-}
-
-/* Each slot supplies the scroll distance + the sticky anchor. */
-.svc__card-slot {
-  position: sticky;
-  top: 7rem;              /* overridden inline per-index to build the staircase */
-  min-height: 90vh;       /* ~90vh of scroll travel per card */
-  display: flex;
-  align-items: flex-start;
-}
-
-.svc__card {
-  width: 100%;
-  min-height: 60vh;
+/* ---------- Stage: cards | rings | cards ---------- */
+.svc__stage {
+  position: relative;
   display: grid;
-  grid-template-columns: 1fr minmax(20rem, 40%);
-  gap: 3rem;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  padding: 2.5rem;
-  border-radius: var(--radius);
-  background: var(--white);
-  border: 1px solid var(--line);
-  transform-origin: top center;
-  overflow: hidden;
+  gap: clamp(1rem, 3vw, 2.5rem);
 }
 
-/* Alternating inverted cards (02 & 04) */
-.svc__card--dark {
-  background: var(--black);
-  border-color: transparent;
-  color: var(--white);
-}
-.svc__card--dark .svc__title { color: var(--white); }
-.svc__card--dark .svc__desc { color: var(--light-gray); }
-.svc__card--dark .svc__more { color: var(--white); }
-.svc__card--dark .svc__more-chip { background: var(--white); color: var(--black); }
-
-/* ---------- Card text ---------- */
-.svc__card-text {
+.svc__col {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  max-width: 34rem;
+  gap: clamp(1rem, 2vw, 1.75rem);
+  z-index: 2;
+  max-width: 33rem;
 }
-.svc__num {
-  font-size: var(--sub);
-  font-weight: 600;
-  letter-spacing: 0.0675rem;
-  font-variant-numeric: tabular-nums;
-  color: var(--accent);
-  margin-bottom: 1.75rem;
-}
-.svc__title {
-  font-size: var(--h3);
-  font-weight: 600;
-  line-height: 1.15;
-  letter-spacing: -0.02em;
-  color: var(--black);
-  margin-bottom: 1.25rem;
-}
-.svc__desc {
-  font-size: 1.0625rem;
-  line-height: 1.6;
-  color: var(--dark-gray);
-  max-width: 30rem;
-  margin-bottom: 2rem;
-}
-.svc__more {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.6rem;
-  font-size: var(--sub);
-  font-weight: 600;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--black);
-}
-.svc__more-chip {
-  width: 1.9rem;
-  height: 1.9rem;
-  border-radius: 50%;
-  background: var(--black);
-  color: var(--white);
+.svc__col--right { margin-left: auto; }
+
+/* ---------- Concentric dashed rings ---------- */
+.svc__center {
+  position: relative;
+  width: clamp(17rem, 32vw, 25rem); /* inner ring ≈ Vertora's 400px */
+  aspect-ratio: 1;
   display: grid;
   place-items: center;
-  transition: transform 0.4s var(--ease);
+  z-index: 1;
 }
-.svc__more:hover .svc__more-chip { transform: rotate(45deg); }
-
-/* ---------- Card media ---------- */
-.svc__card-media {
-  align-self: stretch;
-  min-height: 360px;
-  border-radius: calc(var(--radius) - 0.75rem);
-  overflow: hidden;
+.svc__ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+  border: 1px dashed rgba(0, 0, 0, 0.2);
+  pointer-events: none;
 }
-.svc__card-media img {
+.svc__ring--outer { width: 180%; height: 180%; border-color: rgba(0, 0, 0, 0.2); }
+.svc__ring--mid   { width: 140%; height: 140%; border-color: rgba(0, 0, 0, 0.4); }
+.svc__ring--inner {
   width: 100%;
   height: 100%;
-  min-height: 360px;
+  border-color: var(--black);
+  background: var(--white);
+  display: grid;
+  place-items: center;
+  padding: clamp(1.5rem, 3vw, 2.75rem);
+  pointer-events: auto;
+}
+.svc__statement {
+  font-size: clamp(1.05rem, 2.1vw, 1.875rem); /* ≈30px like Vertora at desktop */
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: var(--black);
+  text-align: center;
+}
+
+/* ---------- Cards ---------- */
+.svc__card {
+  background: var(--white);
+  border-radius: 20px;
+  padding: clamp(1.4rem, 2.2vw, 2rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.75rem;
+  min-height: clamp(11rem, 16vw, 15rem);
+  transition: background-color 0.45s var(--ease);
+}
+.svc__card:hover { background-color: #3a3a3a; }
+
+.svc__card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.svc__card-title {
+  font-size: clamp(1.05rem, 1.5vw, 1.25rem);
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: var(--black);
+  max-width: 16ch;
+  transition: color 0.45s var(--ease);
+}
+.svc__card:hover .svc__card-title { color: var(--white); }
+
+/* thumbnail is collapsed to 0 and expands on hover (Vertora mechanic) */
+.svc__card-imgwrap {
+  flex: none;
+  width: 0;
+  height: 4.5rem;
+  overflow: hidden;
+  border-radius: 12px;
+  transition: width 0.45s var(--ease);
+}
+.svc__card:hover .svc__card-imgwrap { width: 6.75rem; }
+.svc__card-imgwrap img {
+  width: 6.75rem;
+  height: 100%;
   object-fit: cover;
+  display: block;
 }
 
-/* ============================================================
-   Responsive — tablet / mobile: normal stacked cards, no sticky
-   ============================================================ */
+.svc__card-desc {
+  font-size: 1rem;
+  line-height: 1.55;
+  color: var(--dark-gray);
+  transition: color 0.45s var(--ease);
+}
+.svc__card:hover .svc__card-desc { color: rgba(255, 255, 255, 0.72); }
+
+/* ---------- Responsive ---------- */
 @media (max-width: 991px) {
-  .svc__card {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-    min-height: 0;
-    padding: 2rem;
-  }
-  .svc__card-media { min-height: 300px; }
-  .svc__card-media img { min-height: 300px; }
+  .svc__stage { grid-template-columns: 1fr; gap: 2rem; }
+  .svc__center { order: -1; width: min(20rem, 78vw); margin-inline: auto; }
+  .svc__ring--outer { display: none; }
+  .svc__col, .svc__col--right { max-width: none; margin-left: 0; }
+}
+@media (max-width: 479px) {
+  .svc__ring--mid { display: none; }
+  .svc__card { min-height: 0; gap: 1.25rem; }
 }
 
-@media (max-width: 767px) {
-  .svc {
-    padding-block: 4.5rem 5rem;
-  }
-  .svc__intro { margin-bottom: 3rem; }
-  .svc__cards { gap: 1.5rem; }
-
-  /* Disable sticky stacking on small screens — simple readable stack. */
-  .svc__card-slot {
-    position: static;
-    top: auto !important;
-    min-height: 0;
-  }
-  .svc__card {
-    padding: 1.75rem;
-    border-radius: 1.25rem;
-  }
-}
-
-/* Reduced motion: keep sticky staircase but no scale/opacity surprises.
-   (framer transforms are inert; ensure a stable baseline.) */
 @media (prefers-reduced-motion: reduce) {
-  .svc__card {
-    transform: none !important;
-    opacity: 1 !important;
-  }
+  .svc__card, .svc__card-title, .svc__card-desc, .svc__card-imgwrap { transition: none; }
 }

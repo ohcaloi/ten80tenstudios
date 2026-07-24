@@ -107,6 +107,8 @@ export const about = {
 export const services = {
   eyebrow: 'What we do',
   headline: 'Innovative ideas and bold execution that drive measurable growth',
+  // sits inside the centre dashed circle
+  statement: 'We turn your creative vision into powerful digital brand experiences',
   cards: [
     {
       num: '01',
