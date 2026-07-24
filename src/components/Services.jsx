@@ -6,10 +6,12 @@ import { services } from '../content'
 const EASE = [0.16, 1, 0.3, 1]
 
 /** One service card: white by default, flips to charcoal on hover while the
- *  thumbnail wrap expands from width 0 to reveal the image. */
-function Card({ card, delay }) {
+ *  thumbnail wrap expands from width 0 to reveal the image.
+ *  Reveals on its OWN scroll position (amount 0.55) so the cards cascade
+ *  in one by one as you scroll rather than all at once. */
+function Card({ card }) {
   return (
-    <Reveal dir="up" delay={delay} duration={0.75} className="svc__card">
+    <Reveal dir="up" duration={0.7} amount={0.55} className="svc__card">
       <div className="svc__card-top">
         <h3 className="svc__card-title">{card.title}</h3>
         <span className="svc__card-imgwrap" aria-hidden>
@@ -68,17 +70,19 @@ export default function Services() {
       <div className="container-lg">
         <div className="svc__stage">
           <div className="svc__col svc__col--left">
-            <Card card={a} delay={0.05} />
-            <Card card={b} delay={0.15} />
+            <Card card={a} />
+            <Card card={b} />
           </div>
 
           <div className="svc__center">
             <Rings />
           </div>
 
+          {/* offset downward so its cards sit between the left ones and
+              therefore scroll into view on their own beat */}
           <div className="svc__col svc__col--right">
-            <Card card={c} delay={0.1} />
-            <Card card={d} delay={0.2} />
+            <Card card={c} />
+            <Card card={d} />
           </div>
         </div>
       </div>

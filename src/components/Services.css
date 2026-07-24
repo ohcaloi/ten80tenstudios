@@ -42,7 +42,11 @@
   z-index: 2;
   max-width: 33rem;
 }
-.svc__col--right { margin-left: auto; }
+/* Right column sits half a card lower, so the four cards interleave
+   vertically and each enters the viewport on its own — a one-by-one
+   cascade as you scroll instead of two pairs appearing together. */
+/* NB: the grid centres each column, so the visible offset is ~half this value. */
+.svc__col--right { margin-left: auto; margin-top: clamp(7rem, 21vw, 17rem); }
 
 /* ---------- Concentric dashed rings ---------- */
 .svc__center {
@@ -144,7 +148,7 @@
   .svc__stage { grid-template-columns: 1fr; gap: 2rem; }
   .svc__center { order: -1; width: min(20rem, 78vw); margin-inline: auto; }
   .svc__ring--outer { display: none; }
-  .svc__col, .svc__col--right { max-width: none; margin-left: 0; }
+  .svc__col, .svc__col--right { max-width: none; margin-left: 0; margin-top: 0; }
 }
 @media (max-width: 479px) {
   .svc__ring--mid { display: none; }
