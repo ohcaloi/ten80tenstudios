@@ -6,7 +6,7 @@
 .svc {
   position: relative;
   padding-block: var(--section-gap-sm) 8rem;
-  background: var(--ivory);
+  background: transparent;
   overflow: clip;
 }
 

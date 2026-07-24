@@ -4,7 +4,7 @@
    ============================================================ */
 
 .svp {
-  background: var(--ivory);
+  background: transparent;
 }
 
 /* ---------- 1 · HERO ---------- */
@@ -49,7 +49,7 @@
 
 /* ---------- 2 · HEADLINE + PILLARS ---------- */
 .svp-pillars {
-  background: var(--ivory);
+  background: transparent;
 }
 .svp-pillars__head {
   display: flex;

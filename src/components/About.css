@@ -4,7 +4,7 @@
    ============================================================ */
 
 .about {
-  background: var(--ivory);
+  background: transparent;
   overflow: hidden;
 }
 

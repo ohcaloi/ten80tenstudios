@@ -3,7 +3,7 @@
    ============================================================ */
 
 .feature {
-  background: var(--ivory);
+  background: transparent;
   overflow: hidden; /* clip floating portraits — no horizontal overflow */
   padding-block: calc(var(--section-gap-sm) * 1.2);
 }
