@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1250" width="1000" height="1250" role="img" aria-label="Meridian — Brand &amp; product">
+<defs>
+  <radialGradient id="glowc" cx="30%" cy="25%" r="80%">
+    <stop offset="0%" stop-color="rgba(240,135,58,0.55)"/>
+    <stop offset="45%" stop-color="rgba(242,193,90,0.18)"/>
+    <stop offset="100%" stop-color="rgba(240,135,58,0)"/>
+  </radialGradient>
+  <linearGradient id="gradc" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#f0873a"/>
+    <stop offset="100%" stop-color="#f2c15a"/>
+  </linearGradient>
+  <clipPath id="clipc"><rect width="1000" height="1250" rx="0"/></clipPath>
+</defs>
+<g clip-path="url(#clipc)">
+<rect width="1000" height="1250" fill="#141a3c"/><rect width="1000" height="1250" fill="url(#glowc)" opacity="0.9"/>
+<circle cx="815" cy="240" r="150" fill="none" stroke="rgba(243,238,231,0.14)" stroke-width="1.5"/>
+<circle cx="120" cy="1060" r="230" fill="none" stroke="rgba(243,238,231,0.1)" stroke-width="1.5"/>
+<text x="70" y="140" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#f3eee7" letter-spacing="2">04</text>
+<text x="930" y="140" text-anchor="end" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="600" fill="rgba(243,238,231,0.6)" letter-spacing="3">2023</text>
+<text x="500" y="720" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="620" font-weight="800" fill="rgba(243,238,231,0.06)" letter-spacing="-20">M</text>
+<text x="70" y="1090" font-family="'Helvetica Neue', Arial, sans-serif" font-size="128" font-weight="800" fill="#f3eee7" letter-spacing="-5">Meridian</text>
+<rect x="72" y="1130" width="62" height="6" fill="url(#gradc)"/>
+<text x="150" y="1140" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="rgba(243,238,231,0.72)" letter-spacing="1">Brand &amp; product</text>
+<text x="930" y="1140" text-anchor="end" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#f0873a" letter-spacing="4">TEN80TEN STUDIOS</text></g></svg>

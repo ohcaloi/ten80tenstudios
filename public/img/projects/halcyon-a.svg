@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Halcyon — Visual branding">
+<defs>
+  <radialGradient id="glowa" cx="30%" cy="25%" r="80%">
+    <stop offset="0%" stop-color="rgba(111,143,117,0.55)"/>
+    <stop offset="45%" stop-color="rgba(169,192,170,0.18)"/>
+    <stop offset="100%" stop-color="rgba(111,143,117,0)"/>
+  </radialGradient>
+  <linearGradient id="grada" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#6f8f75"/>
+    <stop offset="100%" stop-color="#a9c0aa"/>
+  </linearGradient>
+  <clipPath id="clipa"><rect width="1200" height="900" rx="0"/></clipPath>
+</defs>
+<g clip-path="url(#clipa)">
+<rect width="1200" height="900" fill="#e6eae2"/><rect width="1200" height="900" fill="url(#glowa)" opacity="0.7"/>
+<rect x="150" y="180" width="520" height="520" rx="30" fill="url(#grada)" opacity="0.92"/>
+<rect x="470" y="360" width="520" height="520" rx="30" fill="none" stroke="rgba(37,43,36,0.5)" stroke-width="2"/>
+<circle cx="470" cy="360" r="14" fill="#252b24"/>
+<text x="150" y="150" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="rgba(37,43,36,0.7)" letter-spacing="3">VISUAL BRANDING</text></g></svg>

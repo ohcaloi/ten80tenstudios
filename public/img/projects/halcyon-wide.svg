@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 800" width="1600" height="800" role="img" aria-label="Halcyon — Visual branding">
+<defs>
+  <radialGradient id="gloww" cx="30%" cy="25%" r="80%">
+    <stop offset="0%" stop-color="rgba(111,143,117,0.55)"/>
+    <stop offset="45%" stop-color="rgba(169,192,170,0.18)"/>
+    <stop offset="100%" stop-color="rgba(111,143,117,0)"/>
+  </radialGradient>
+  <linearGradient id="gradw" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#6f8f75"/>
+    <stop offset="100%" stop-color="#a9c0aa"/>
+  </linearGradient>
+  <clipPath id="clipw"><rect width="1600" height="800" rx="0"/></clipPath>
+</defs>
+<g clip-path="url(#clipw)">
+<rect width="1600" height="800" fill="#e6eae2"/><rect width="1600" height="800" fill="url(#gloww)" opacity="0.8"/>
+<circle cx="1350" cy="180" r="120" fill="url(#gradw)" opacity="0.9"/>
+<circle cx="1440" cy="640" r="60" fill="none" stroke="rgba(37,43,36,0.25)" stroke-width="2"/>
+<text x="60" y="620" font-family="'Helvetica Neue', Arial, sans-serif" font-size="720" font-weight="800" fill="#252b24" letter-spacing="-30">H</text>
+<text x="620" y="430" font-family="'Helvetica Neue', Arial, sans-serif" font-size="120" font-weight="800" fill="#252b24" letter-spacing="-4">Halcyon</text>
+<text x="628" y="500" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="rgba(37,43,36,0.7)" letter-spacing="2">VISUAL BRANDING</text></g></svg>

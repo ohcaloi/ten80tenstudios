@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1250" width="1000" height="1250" role="img" aria-label="Aurelia — Brand identity">
+<defs>
+  <radialGradient id="glowc" cx="30%" cy="25%" r="80%">
+    <stop offset="0%" stop-color="rgba(200,102,60,0.55)"/>
+    <stop offset="45%" stop-color="rgba(224,160,107,0.18)"/>
+    <stop offset="100%" stop-color="rgba(200,102,60,0)"/>
+  </radialGradient>
+  <linearGradient id="gradc" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#c8663c"/>
+    <stop offset="100%" stop-color="#e0a06b"/>
+  </linearGradient>
+  <clipPath id="clipc"><rect width="1000" height="1250" rx="0"/></clipPath>
+</defs>
+<g clip-path="url(#clipc)">
+<rect width="1000" height="1250" fill="#ece3d6"/><rect width="1000" height="1250" fill="url(#glowc)" opacity="0.75"/>
+<circle cx="815" cy="240" r="150" fill="none" stroke="rgba(43,33,26,0.14)" stroke-width="1.5"/>
+<circle cx="120" cy="1060" r="230" fill="none" stroke="rgba(43,33,26,0.1)" stroke-width="1.5"/>
+<text x="70" y="140" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#2b211a" letter-spacing="2">01</text>
+<text x="930" y="140" text-anchor="end" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="600" fill="rgba(43,33,26,0.6)" letter-spacing="3">2025</text>
+<text x="500" y="720" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="620" font-weight="800" fill="rgba(43,33,26,0.06)" letter-spacing="-20">A</text>
+<text x="70" y="1090" font-family="'Helvetica Neue', Arial, sans-serif" font-size="128" font-weight="800" fill="#2b211a" letter-spacing="-5">Aurelia</text>
+<rect x="72" y="1130" width="62" height="6" fill="url(#gradc)"/>
+<text x="150" y="1140" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="rgba(43,33,26,0.72)" letter-spacing="1">Brand identity</text>
+<text x="930" y="1140" text-anchor="end" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#c8663c" letter-spacing="4">TEN80TEN STUDIOS</text></g></svg>

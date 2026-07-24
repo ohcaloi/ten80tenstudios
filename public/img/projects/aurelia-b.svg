@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Aurelia — Brand identity">
+<defs>
+  <radialGradient id="glowb" cx="30%" cy="25%" r="80%">
+    <stop offset="0%" stop-color="rgba(200,102,60,0.55)"/>
+    <stop offset="45%" stop-color="rgba(224,160,107,0.18)"/>
+    <stop offset="100%" stop-color="rgba(200,102,60,0)"/>
+  </radialGradient>
+  <linearGradient id="gradb" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#c8663c"/>
+    <stop offset="100%" stop-color="#e0a06b"/>
+  </linearGradient>
+  <clipPath id="clipb"><rect width="1200" height="900" rx="0"/></clipPath>
+</defs>
+<g clip-path="url(#clipb)">
+<rect width="1200" height="900" fill="#ece3d6"/><rect width="1200" height="900" fill="url(#glowb)" opacity="0.65"/>
+<circle cx="600" cy="450" r="90" fill="none" stroke="rgba(200,102,60,0.5)" stroke-width="2"/><circle cx="600" cy="450" r="175" fill="none" stroke="rgba(200,102,60,0.42)" stroke-width="2"/><circle cx="600" cy="450" r="260" fill="none" stroke="rgba(200,102,60,0.33999999999999997)" stroke-width="2"/><circle cx="600" cy="450" r="345" fill="none" stroke="rgba(200,102,60,0.26)" stroke-width="2"/><circle cx="600" cy="450" r="430" fill="none" stroke="rgba(200,102,60,0.18)" stroke-width="2"/>
+<circle cx="600" cy="450" r="70" fill="url(#gradb)"/>
+<text x="600" y="470" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="800" fill="#ece3d6">A</text></g></svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Kestrel — Web design &amp; build">
+<defs>
+  <radialGradient id="glowb" cx="30%" cy="25%" r="80%">
+    <stop offset="0%" stop-color="rgba(61,123,255,0.55)"/>
+    <stop offset="45%" stop-color="rgba(122,165,255,0.18)"/>
+    <stop offset="100%" stop-color="rgba(61,123,255,0)"/>
+  </radialGradient>
+  <linearGradient id="gradb" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#3d7bff"/>
+    <stop offset="100%" stop-color="#7aa5ff"/>
+  </linearGradient>
+  <clipPath id="clipb"><rect width="1200" height="900" rx="0"/></clipPath>
+</defs>
+<g clip-path="url(#clipb)">
+<rect width="1200" height="900" fill="#0e1622"/><rect width="1200" height="900" fill="url(#glowb)" opacity="0.85"/>
+<circle cx="600" cy="450" r="90" fill="none" stroke="rgba(61,123,255,0.5)" stroke-width="2"/><circle cx="600" cy="450" r="175" fill="none" stroke="rgba(61,123,255,0.42)" stroke-width="2"/><circle cx="600" cy="450" r="260" fill="none" stroke="rgba(61,123,255,0.33999999999999997)" stroke-width="2"/><circle cx="600" cy="450" r="345" fill="none" stroke="rgba(61,123,255,0.26)" stroke-width="2"/><circle cx="600" cy="450" r="430" fill="none" stroke="rgba(61,123,255,0.18)" stroke-width="2"/>
+<circle cx="600" cy="450" r="70" fill="url(#gradb)"/>
+<text x="600" y="470" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="800" fill="#0e1622">K</text></g></svg>
