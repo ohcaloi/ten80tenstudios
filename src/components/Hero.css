@@ -35,34 +35,49 @@
 .hero__eyebrow { color: var(--silver-gray); margin-bottom: 2rem; }
 .hero__eyebrow::before { background: var(--accent); }
 
-.hero__heading { position: relative; width: 100%; }
-.hero__title {
-  font-size: var(--h1);
-  line-height: 0.92;
-  color: var(--white);
-  letter-spacing: -0.05em;
-  text-transform: none;
+/* ---- Split-headline stage: two words that open a gap for the photo pack ---- */
+.hero__stage {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: clamp(9rem, 24vh, 17rem);
 }
-.hero__word { display: inline-block; overflow: hidden; vertical-align: top; }
-.hero__word > span { display: inline-block; }
-
-.hero__float {
-  position: absolute;
-  width: clamp(70px, 9vw, 132px);
-  aspect-ratio: 3/4;
-  object-fit: cover;
-  border-radius: 12px;
+.hero__title-line {
+  position: relative;
   z-index: 2;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(0.35rem, 1.2vw, 1.1rem);
+  font-size: clamp(2.4rem, 8.5vw, 8rem);
+  line-height: 1;
+  color: var(--white);
+  letter-spacing: -0.04em;
+  white-space: nowrap;
 }
-/* rotation is applied by framer-motion (see Hero.jsx FLOATS) so the
-   "emerge from the middle" transform composes cleanly */
-.hero__float--l1 { left: 1%;  top: -78%; }
-.hero__float--l2 { left: 7%;  top: 14%; }
-.hero__float--l3 { left: 19%; top: -52%; width: clamp(56px, 6vw, 92px); }
-.hero__float--r1 { right: 1%;  top: -74%; }
-.hero__float--r2 { right: 7%;  top: 16%; }
-.hero__float--r3 { right: 19%; top: -50%; width: clamp(56px, 6vw, 92px); }
+.hero__word { display: inline-block; will-change: transform; }
+
+/* Centre pack of photos — fans into the gap between the words */
+.hero__pack {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 4;
+}
+.hero__pack-img {
+  position: absolute;
+  width: clamp(84px, 9vw, 130px);
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
+  will-change: transform, opacity;
+}
 
 .hero__bottom {
   position: relative;
@@ -93,12 +108,11 @@
 @media (max-width: 991px) {
   .hero__panel { height: auto; min-height: 0; padding: 7rem 0 2.5rem; }
   .hero__bottom { flex-direction: column; align-items: stretch; margin-top: 3rem; }
-  .hero__float--l3, .hero__float--r3 { display: none; }
   .hero__content { padding-top: 2rem; }
+  .hero__stage { min-height: clamp(7rem, 20vh, 11rem); }
 }
 @media (max-width: 767px) {
-  .hero__float { width: 64px; }
-  .hero__float--l1 { top: -3%; } .hero__float--r1 { top: -2%; }
-  .hero__float--l2, .hero__float--r2 { top: 30%; }
   .hero__services { min-width: 0; }
+  /* keep the photo pack proportional to the smaller headline */
+  .hero__pack { transform: scale(0.6); }
 }

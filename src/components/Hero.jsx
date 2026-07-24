@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import { motion, useReducedMotion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { hero, asset } from '../content'
@@ -6,62 +7,84 @@ import { ArrowUpRight } from './ui/Icons'
 import './Hero.css'
 
 const EASE = [0.25, 1, 0.5, 1]
-// gentle easeOut for a very smooth settle
 const SMOOTH = [0.16, 1, 0.3, 1]
+const EASE_IN = [0.5, 0, 0.75, 0]
 
-/**
- * Floating portrait cluster. Each picture starts small and invisible at the
- * CENTRE of the hero (fromX/fromY = vector pointing from its final spot back to
- * the middle) then glides out to its scattered position — the "showing from the
- * middle" reveal from the Vertora hero. rot = final tilt.
- */
-const FLOATS = [
-  { src: '/img/tpl/694b9417ddc7bead3c8533a8_Vertora-hero-rotate-image-three.webp', cls: 'hero__float--l1', rot: -8, fromX: 340, fromY: 150 },
-  { src: '/img/tpl/694b94177f8b4b0365e00b92_Vertora-hero-rotate-image-four.webp', cls: 'hero__float--l2', rot: 6, fromX: 300, fromY: -40 },
-  { src: '/img/tpl/694b9417a3c95891b75259ca_Vertora-hero-rotate-image-one.webp', cls: 'hero__float--l3', rot: -4, fromX: 210, fromY: 110 },
-  { src: '/img/tpl/694ba4cea1a84fe6a2530535_Vertora-rotate-image-ten.webp', cls: 'hero__float--r1', rot: 9, fromX: -340, fromY: 150 },
-  { src: '/img/tpl/694ba4cee6d68eb1e8beaffd_Vertora-rotate-image-seven.webp', cls: 'hero__float--r2', rot: -7, fromX: -300, fromY: -40 },
-  { src: '/img/tpl/694ba4ceb71a14e70737ea93_Vertora-rotate-image-six.webp', cls: 'hero__float--r3', rot: 5, fromX: -210, fromY: 110 },
+// The centre "pack" of photos — fanned spread (rotate + x offset per card).
+const PACK = [
+  { src: '/img/tpl/694b9417ddc7bead3c8533a8_Vertora-hero-rotate-image-three.webp', r: -16, x: -138 },
+  { src: '/img/tpl/694b94177f8b4b0365e00b92_Vertora-hero-rotate-image-four.webp', r: -9, x: -83 },
+  { src: '/img/tpl/694b9417a3c95891b75259ca_Vertora-hero-rotate-image-one.webp', r: -3, x: -28 },
+  { src: '/img/tpl/694ba4ceb71a14e70737ea93_Vertora-rotate-image-six.webp', r: 3, x: 28 },
+  { src: '/img/tpl/694ba4cee6d68eb1e8beaffd_Vertora-rotate-image-seven.webp', r: 9, x: 83 },
+  { src: '/img/tpl/694ba4cea1a84fe6a2530535_Vertora-rotate-image-ten.webp', r: 16, x: 138 },
 ]
 
-function Word({ children, delay }) {
-  return (
-    <span className="hero__word">
-      <motion.span
-        initial={{ y: '110%' }}
-        animate={{ y: 0 }}
-        transition={{ duration: 0.9, ease: EASE, delay }}
-      >
-        {children}
-      </motion.span>
-    </span>
-  )
+// Photos fan into the gap (shown), hold, then rise up and out (exit).
+const packVariants = {
+  hidden: { opacity: 0, scale: 0.2, y: 26, x: 0, rotate: 0 },
+  shown: (i) => ({
+    opacity: 1, scale: 1, y: 0, x: PACK[i].x, rotate: PACK[i].r,
+    transition: { duration: 0.6, ease: SMOOTH, delay: i * 0.05 },
+  }),
+  exit: (i) => ({
+    opacity: 0, scale: 0.5, y: -110, rotate: PACK[i].r * 0.4,
+    transition: { duration: 0.5, ease: EASE_IN, delay: i * 0.03 },
+  }),
 }
 
-function FloatImg({ src, className, rot, fromX, fromY, delay, reduce }) {
+function Word({ children, side, open }) {
+  // Words split apart to open a gap in the middle, then close again.
+  const target = open ? (side === 'left' ? '-8.5vw' : '8.5vw') : '0vw'
   return (
-    <motion.img
-      src={src}
-      alt=""
-      aria-hidden
-      className={`hero__float ${className}`}
-      initial={
-        reduce
-          ? { opacity: 0 }
-          : { opacity: 0, scale: 0.2, x: fromX, y: fromY, rotate: rot * 0.3 }
-      }
-      animate={
-        reduce
-          ? { opacity: 1 }
-          : { opacity: 1, scale: 1, x: 0, y: 0, rotate: rot }
-      }
-      transition={{ duration: 1.15, ease: SMOOTH, delay: reduce ? 0 : delay }}
-    />
+    <motion.span
+      className={`hero__word hero__word--${side}`}
+      animate={{ x: target }}
+      transition={{ duration: 0.8, ease: SMOOTH }}
+    >
+      {children}
+    </motion.span>
   )
 }
 
 export default function Hero() {
   const reduce = useReducedMotion()
+  // phase: 'closed' (words together, no photos) → 'open' (gap opens) →
+  //        'show' (photos fan in + hold) → 'retract' (photos rise out) → loop
+  const [phase, setPhase] = useState('closed')
+
+  useEffect(() => {
+    if (reduce) {
+      setPhase('show')
+      return
+    }
+    let alive = true
+    const wait = (ms) => new Promise((res) => setTimeout(res, ms))
+    ;(async () => {
+      // small beat before the first run so the page settles
+      await wait(600)
+      while (alive) {
+        setPhase('open')
+        await wait(850) // words split open
+        if (!alive) break
+        setPhase('show')
+        await wait(700 + 2000) // photos fan in, then hold ~2s
+        if (!alive) break
+        setPhase('retract')
+        await wait(650) // photos rise up and out
+        if (!alive) break
+        setPhase('closed')
+        await wait(850 + 1000) // words close, then a pause before repeating
+      }
+    })()
+    return () => {
+      alive = false
+    }
+  }, [reduce])
+
+  const wordsOpen = phase === 'open' || phase === 'show' || phase === 'retract'
+  const packState = phase === 'show' ? 'shown' : phase === 'retract' ? 'exit' : 'hidden'
+
   return (
     <section className="hero" id="home">
       <div
@@ -79,21 +102,28 @@ export default function Hero() {
             {hero.eyebrow}
           </motion.span>
 
-          <div className="hero__heading">
-            {FLOATS.map((f, i) => (
-              <FloatImg
-                key={f.cls}
-                src={asset(f.src)}
-                className={f.cls}
-                rot={f.rot}
-                fromX={f.fromX}
-                fromY={f.fromY}
-                delay={0.35 + i * 0.1}
-                reduce={reduce}
-              />
-            ))}
-            <h1 className="hero__title"><Word delay={0.2}>{hero.titleTop}</Word></h1>
-            <h1 className="hero__title"><Word delay={0.35}>{hero.titleBottom}</Word></h1>
+          <div className="hero__stage">
+            {/* Split headline: two words that open a gap in the middle */}
+            <h1 className="hero__title-line">
+              <Word side="left" open={wordsOpen}>{hero.titleTop}</Word>
+              <Word side="right" open={wordsOpen}>{hero.titleBottom}</Word>
+            </h1>
+
+            {/* The pack of photos that fans into the centre gap */}
+            <div className="hero__pack" aria-hidden>
+              {PACK.map((p, i) => (
+                <motion.img
+                  key={p.src}
+                  className="hero__pack-img"
+                  src={asset(p.src)}
+                  alt=""
+                  custom={i}
+                  variants={packVariants}
+                  initial="hidden"
+                  animate={packState}
+                />
+              ))}
+            </div>
           </div>
 
           <div className="hero__bottom">
@@ -101,7 +131,7 @@ export default function Hero() {
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.7, delay: 0.7 }}
+                transition={{ duration: 0.7, delay: 0.5 }}
               >
                 {hero.lead}
               </motion.p>
@@ -113,7 +143,7 @@ export default function Hero() {
                   key={label}
                   initial={{ opacity: 0, x: 20 }}
                   animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, delay: 0.8 + i * 0.1 }}
+                  transition={{ duration: 0.6, delay: 0.6 + i * 0.1 }}
                 >
                   <Link to={href}><span>{label}</span><ArrowUpRight size={16} /></Link>
                 </motion.li>
