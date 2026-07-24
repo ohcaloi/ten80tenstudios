@@ -55,12 +55,14 @@
   z-index: 2;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
 }
-.hero__float--l1 { left: 1%;  top: -78%; transform: rotate(-8deg); }
-.hero__float--l2 { left: 7%;  top: 14%;  transform: rotate(6deg); }
-.hero__float--l3 { left: 19%; top: -52%; transform: rotate(-4deg); width: clamp(56px, 6vw, 92px); }
-.hero__float--r1 { right: 1%;  top: -74%; transform: rotate(9deg); }
-.hero__float--r2 { right: 7%;  top: 16%;  transform: rotate(-7deg); }
-.hero__float--r3 { right: 19%; top: -50%; transform: rotate(5deg); width: clamp(56px, 6vw, 92px); }
+/* rotation is applied by framer-motion (see Hero.jsx FLOATS) so the
+   "emerge from the middle" transform composes cleanly */
+.hero__float--l1 { left: 1%;  top: -78%; }
+.hero__float--l2 { left: 7%;  top: 14%; }
+.hero__float--l3 { left: 19%; top: -52%; width: clamp(56px, 6vw, 92px); }
+.hero__float--r1 { right: 1%;  top: -74%; }
+.hero__float--r2 { right: 7%;  top: 16%; }
+.hero__float--r3 { right: 19%; top: -50%; width: clamp(56px, 6vw, 92px); }
 
 .hero__bottom {
   position: relative;
