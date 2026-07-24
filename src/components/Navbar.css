@@ -6,23 +6,39 @@
   transition: padding 0.4s var(--ease);
 }
 .nav--scrolled { padding-top: 0.5rem; }
-/* 3-column layout: logo left · menu centered (Vertora placement) · actions right */
+/* 3-column layout: logo left · menu centered (Vertora placement) · actions right.
+   Capsule styling lives here in a transparent resting state so the scrolled
+   pill fades/eases in smoothly rather than snapping. */
 .nav__inner {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
   gap: 2rem;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: rgba(248, 247, 243, 0);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0);
+  transition:
+    background 0.6s var(--ease),
+    backdrop-filter 0.6s var(--ease),
+    -webkit-backdrop-filter 0.6s var(--ease),
+    border-color 0.6s var(--ease),
+    box-shadow 0.6s var(--ease),
+    max-width 0.6s var(--ease),
+    padding 0.6s var(--ease);
 }
 .nav--scrolled .nav__inner {
   background: rgba(248, 247, 243, 0.72);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
-  border: 1px solid var(--line);
-  border-radius: 999px;
+  border-color: var(--line);
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.07);
   padding: 0.5rem 0.6rem 0.5rem 1.4rem;
   max-width: 68rem;
 }
-.nav__brand { justify-self: start; display: inline-flex; align-items: center; gap: 0.6rem; font-weight: 600; color: var(--black); font-size: 1.15rem; white-space: nowrap; }
+.nav__brand { justify-self: start; display: inline-flex; align-items: center; gap: 0.6rem; font-weight: 600; color: var(--black); font-size: 1.15rem; white-space: nowrap; transition: color 0.5s var(--ease); }
 .nav__brand img { width: 2rem; height: 2rem; object-fit: contain; }
 .nav__links { justify-self: center; display: flex; gap: 2rem; }
 .nav__links a { font-size: 0.98rem; color: var(--dark-gray); transition: color 0.25s; }
@@ -88,4 +104,8 @@
 @media (max-width: 991px) {
   .nav__links, .nav__cta { display: none; }
   .nav__burger { display: flex; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav__inner, .nav__brand, .nav__links a { transition: none; }
 }
