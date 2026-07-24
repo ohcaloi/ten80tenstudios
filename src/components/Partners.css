@@ -60,11 +60,15 @@
   text-transform: uppercase;
   color: var(--silver-gray);
   white-space: nowrap;
-  transition: color 0.3s ease;
+  transition: color 0.35s ease, opacity 0.35s ease, transform 0.35s var(--ease);
 }
 
+/* Hovering the row dims the others so the focused name pops (Vertora focus). */
+.partners__rows:hover .partners__word { opacity: 0.4; }
 .partners__word:hover {
   color: var(--black);
+  opacity: 1;
+  transform: scale(1.05);
 }
 
 /* Accent slash separating each wordmark */

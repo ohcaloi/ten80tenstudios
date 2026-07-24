@@ -10,32 +10,34 @@ const EASE = [0.25, 1, 0.5, 1]
 const SMOOTH = [0.16, 1, 0.3, 1]
 const EASE_IN = [0.5, 0, 0.75, 0]
 
-// The centre "pack" of photos — fanned spread (rotate + x offset per card).
+// The centre "pack" of photos — a fanned spread (rotate + x offset per card).
+// Larger than before, and each drops straight down into its fanned column.
 const PACK = [
-  { src: '/img/tpl/694b9417ddc7bead3c8533a8_Vertora-hero-rotate-image-three.webp', r: -16, x: -138 },
-  { src: '/img/tpl/694b94177f8b4b0365e00b92_Vertora-hero-rotate-image-four.webp', r: -9, x: -83 },
-  { src: '/img/tpl/694b9417a3c95891b75259ca_Vertora-hero-rotate-image-one.webp', r: -3, x: -28 },
-  { src: '/img/tpl/694ba4ceb71a14e70737ea93_Vertora-rotate-image-six.webp', r: 3, x: 28 },
-  { src: '/img/tpl/694ba4cee6d68eb1e8beaffd_Vertora-rotate-image-seven.webp', r: 9, x: 83 },
-  { src: '/img/tpl/694ba4cea1a84fe6a2530535_Vertora-rotate-image-ten.webp', r: 16, x: 138 },
+  { src: '/img/tpl/694b9417ddc7bead3c8533a8_Vertora-hero-rotate-image-three.webp', r: -15, x: -150 },
+  { src: '/img/tpl/694b94177f8b4b0365e00b92_Vertora-hero-rotate-image-four.webp', r: -9, x: -90 },
+  { src: '/img/tpl/694b9417a3c95891b75259ca_Vertora-hero-rotate-image-one.webp', r: -3, x: -30 },
+  { src: '/img/tpl/694ba4ceb71a14e70737ea93_Vertora-rotate-image-six.webp', r: 3, x: 30 },
+  { src: '/img/tpl/694ba4cee6d68eb1e8beaffd_Vertora-rotate-image-seven.webp', r: 9, x: 90 },
+  { src: '/img/tpl/694ba4cea1a84fe6a2530535_Vertora-rotate-image-ten.webp', r: 15, x: 150 },
 ]
+const DROP_FROM = -260 // photos rest this far above the gap (drop in / rise out)
 
-// Photos fan into the gap (shown), hold, then rise up and out (exit).
+// Photos drop straight down one-by-one from above (shown), hold, then rise back up (exit).
 const packVariants = {
-  hidden: { opacity: 0, scale: 0.2, y: 26, x: 0, rotate: 0 },
+  hidden: (i) => ({ opacity: 0, y: DROP_FROM, scale: 0.98, x: PACK[i].x, rotate: PACK[i].r }),
   shown: (i) => ({
-    opacity: 1, scale: 1, y: 0, x: PACK[i].x, rotate: PACK[i].r,
-    transition: { duration: 0.6, ease: SMOOTH, delay: i * 0.05 },
+    opacity: 1, y: 0, scale: 1, x: PACK[i].x, rotate: PACK[i].r,
+    transition: { duration: 0.62, ease: SMOOTH, delay: i * 0.13 },
   }),
   exit: (i) => ({
-    opacity: 0, scale: 0.5, y: -110, rotate: PACK[i].r * 0.4,
-    transition: { duration: 0.5, ease: EASE_IN, delay: i * 0.03 },
+    opacity: 0, y: DROP_FROM, scale: 0.98, x: PACK[i].x, rotate: PACK[i].r,
+    transition: { duration: 0.5, ease: EASE_IN, delay: i * 0.1 },
   }),
 }
 
 function Word({ children, side, open }) {
   // Words split apart to open a gap in the middle, then close again.
-  const target = open ? (side === 'left' ? '-8.5vw' : '8.5vw') : '0vw'
+  const target = open ? (side === 'left' ? '-10vw' : '10vw') : '0vw'
   return (
     <motion.span
       className={`hero__word hero__word--${side}`}
