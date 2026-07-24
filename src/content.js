@@ -4,8 +4,13 @@
    all copy is original, written for Ten80Ten Studios.
    ============================================================ */
 
-const T = '/img/tpl/'
-const P = '/img/projects/'
+/** Resolve a public asset against the deploy base (works at site root or a
+ *  GitHub Pages project subpath). Pass a root-absolute path like '/img/x.png'. */
+const BASE = import.meta.env.BASE_URL || '/'
+export const asset = (p) => BASE + String(p).replace(/^\//, '')
+
+const T = asset('/img/tpl/')
+const P = asset('/img/projects/')
 /** Original per-project poster art (authored SVG). */
 export const poster = (slug, kind = 'cover') => `${P}${slug}-${kind}.svg`
 export const img = {

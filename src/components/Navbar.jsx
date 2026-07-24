@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Link, NavLink, useLocation } from 'react-router-dom'
-import { nav, brand } from '../content'
+import { nav, brand, asset } from '../content'
 import { Button } from './ui/Button'
 import './Navbar.css'
 
@@ -31,7 +31,7 @@ export default function Navbar() {
       <header className={`nav ${scrolled ? 'nav--scrolled' : ''}`}>
         <div className="nav__inner container-lg">
           <Link className="nav__brand" to="/" onClick={() => setOpen(false)}>
-            <img src="/img/ten80ten-mark-512.png" alt="Ten80Ten Studios" />
+            <img src={asset('/img/ten80ten-mark-512.png')} alt="Ten80Ten Studios" />
             <span>Ten80Ten<sup>®</sup></span>
           </Link>
 

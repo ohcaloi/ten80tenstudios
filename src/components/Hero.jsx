@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import { hero } from '../content'
+import { hero, asset } from '../content'
 import { Button } from './ui/Button'
 import { ArrowUpRight } from './ui/Icons'
 import './Hero.css'
@@ -64,10 +64,10 @@ export default function Hero() {
 
           <div className="hero__heading">
             {LEFT.map((s, i) => (
-              <FloatImg key={s} src={s} className={`hero__float--l${i + 1}`} delay={0.5 + i * 0.12} />
+              <FloatImg key={s} src={asset(s)} className={`hero__float--l${i + 1}`} delay={0.5 + i * 0.12} />
             ))}
             {RIGHT.map((s, i) => (
-              <FloatImg key={s} src={s} className={`hero__float--r${i + 1}`} delay={0.6 + i * 0.12} />
+              <FloatImg key={s} src={asset(s)} className={`hero__float--r${i + 1}`} delay={0.6 + i * 0.12} />
             ))}
             <h1 className="hero__title"><Word delay={0.2}>{hero.titleTop}</Word></h1>
             <h1 className="hero__title"><Word delay={0.35}>{hero.titleBottom}</Word></h1>

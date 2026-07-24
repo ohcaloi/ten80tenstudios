@@ -2,7 +2,7 @@ import './Feature.css'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useState, useEffect } from 'react'
 import { Reveal } from '../lib/Reveal'
-import { feature } from '../content'
+import { feature, asset } from '../content'
 
 const EASE = [0.25, 1, 0.5, 1]
 
@@ -52,7 +52,7 @@ export default function Feature() {
           {PORTRAITS.map((p, i) => (
             <motion.img
               key={i}
-              src={p.src}
+              src={asset(p.src)}
               alt=""
               aria-hidden="true"
               loading="lazy"

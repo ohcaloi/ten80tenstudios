@@ -2,7 +2,7 @@ import './Footer.css'
 import { Link } from 'react-router-dom'
 import { Reveal } from '../lib/Reveal'
 import { Button } from './ui/Button'
-import { footer, brand } from '../content'
+import { footer, brand, asset } from '../content'
 
 /** Internal routes use client-side nav; hashes/externals stay as <a>. */
 function FLink({ href, className, children }) {
@@ -20,7 +20,7 @@ export default function Footer() {
         <div className="footer-top">
           <Reveal dir="up" className="footer-brand">
             <Link className="footer-mark" to="/" aria-label={brand.name}>
-              <img src="/img/ten80ten-mark-512.png" alt="" width={40} height={40} />
+              <img src={asset('/img/ten80ten-mark-512.png')} alt="" width={40} height={40} />
               <span className="footer-wordmark-sm">{brand.name}</span>
             </Link>
             <p className="footer-blurb">{footer.blurb}</p>

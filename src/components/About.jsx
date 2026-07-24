@@ -2,9 +2,9 @@ import './About.css'
 import { Reveal } from '../lib/Reveal'
 import { Counter } from '../lib/Counter'
 import { Button } from './ui/Button'
-import { about, brand } from '../content'
+import { about, brand, asset } from '../content'
 
-const IMG = '/img/tpl/6927fa39f319ce7615bbb20b_vertora-about-section-image.webp'
+const IMG = asset('/img/tpl/6927fa39f319ce7615bbb20b_vertora-about-section-image.webp')
 
 /** rt-about-v1 — About + animated counter. Two-column: pull-quote left, image card + stat right. */
 export default function About() {
