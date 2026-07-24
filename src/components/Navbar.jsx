@@ -28,11 +28,15 @@ export default function Navbar() {
 
   return (
     <>
-      <header className={`nav ${scrolled ? 'nav--scrolled' : ''}`}>
+      <header
+        className={`nav ${scrolled ? 'nav--scrolled' : ''} ${
+          !scrolled && location.pathname === '/' ? 'nav--on-dark' : ''
+        }`}
+      >
         <div className="nav__inner container-lg">
           <Link className="nav__brand" to="/" onClick={() => setOpen(false)}>
             <img src={asset('/img/ten80ten-mark-512.png')} alt="Ten80Ten Studios" />
-            <span>Ten80Ten<sup>®</sup></span>
+            <span>Ten80Ten Studios</span>
           </Link>
 
           <nav className="nav__links">

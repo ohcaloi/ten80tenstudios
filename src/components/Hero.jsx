@@ -50,7 +50,10 @@ function FloatImg({ src, className, delay }) {
 export default function Hero() {
   return (
     <section className="hero" id="home">
-      <div className="hero__panel">
+      <div
+        className="hero__panel hero__panel--wallpaper"
+        style={{ backgroundImage: `url(${asset('/img/herobackground.png')})` }}
+      >
         <div className="hero__overlay" />
         <div className="hero__content container-lg">
           <motion.span
