@@ -103,11 +103,13 @@ export const partners = {
 
 export const about = {
   eyebrow: 'About us',
-  quote:
-    'Working with Ten80Ten Studios completely transformed our brand. Their creativity, strategy and execution exceeded expectations at every step.',
-  stat: { value: 18, suffix: '', label: 'Years of creative experience' },
-  body:
-    'Ten80Ten Studios is a small, senior team of designers, developers and directors. No account layers, no hand-offs — you work directly with the people making the work, from first sketch to final launch.',
+  headline: 'Innovative ideas and bold execution that drive measurable growth',
+  // two-tone pull quote: first part solid, remainder muted
+  quoteStrong: 'Working with Ten80Ten Studios completely transformed our brand. Their creativity, strategy',
+  quoteMuted: ' and execution exceeded expectations at every step.',
+  stat: { value: 15, suffix: '+', label: 'Years of experience' },
+  img: img.portrait2,
+  cta: { label: "Let's talk", href: '/contact' },
 }
 
 // Sticky-stacking numbered service cards (01–04)

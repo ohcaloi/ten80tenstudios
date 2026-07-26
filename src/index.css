@@ -148,6 +148,45 @@ ul { list-style: none; }
 .btn--accent { --btn-bg: var(--accent); --btn-fg: var(--white); }
 .btn--outline { --btn-bg: transparent; --btn-fg: var(--black); border: 1px solid var(--line); }
 
+/* ---------- "Let's talk" CTA: small orange chip that floods the whole pill
+   with orange on hover. Base colour comes from the variant. ---------- */
+.btn--talk {
+  position: relative;
+  overflow: hidden;
+  align-self: flex-start; /* hug content, don't stretch in a flex column */
+  gap: 0.6rem;
+  padding: 0.35rem 0.35rem 0.35rem 1.15rem;
+  font-size: 0.95rem;
+  transition: transform 0.35s var(--ease), color 0.4s var(--ease);
+}
+.btn--talk .btn-swap { position: relative; z-index: 2; }
+.btn.btn--talk .btn-chip {
+  position: relative;
+  z-index: 2;
+  width: 1.75rem;
+  height: 1.75rem;
+  background: var(--accent);
+  color: var(--white);
+  transition: transform 0.4s var(--ease), background 0.4s var(--ease), color 0.4s var(--ease);
+}
+.btn--talk::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  right: 0.5rem;
+  top: 50%;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  background: var(--accent);
+  transform: translateY(-50%) scale(1);
+  transition: transform 0.55s var(--ease);
+  pointer-events: none;
+}
+.btn--talk:hover::before { transform: translateY(-50%) scale(24); }
+.btn--talk:hover { color: var(--white); }
+.btn.btn--talk:hover .btn-chip { background: var(--white); color: var(--accent); }
+
 /* sliding dual-label (label swaps up on hover) */
 .btn-swap { display: inline-grid; height: 1.2em; overflow: hidden; }
 .btn-swap span { grid-area: 1/1; transition: transform 0.4s var(--ease); }
