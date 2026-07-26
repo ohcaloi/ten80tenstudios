@@ -202,18 +202,28 @@ export const statements = {
 
 export const stats = {
   eyebrow: 'Measurable outcomes',
-  headline: 'Driving growth with strategies tailored for success',
-  items: [
-    { value: 120, suffix: '+', label: 'Brands shaped across four continents' },
-    { value: 4, suffix: '.9', label: 'Average client rating' },
-    { value: 98, suffix: '%', label: 'On-time project delivery' },
+  headline: 'Innovative ideas and bold execution that drive measurable growth',
+  bar: {
+    heading: 'Driving growth with strategies tailored for success',
+    metric: { value: 85, suffix: '%', label: 'Analyze and monitor business reporting data' },
+    rating: { value: '4.5', score: 4.5, label: 'Top rated company' },
+  },
+  // bento cards
+  featured: {
+    value: 95, suffix: '%', statLabel: 'Faster project delivery',
+    quote: 'The team delivered our website ahead of schedule with clear communication and great attention to detail.',
+    name: 'Flossie Gruz', role: 'Product Manager', avatar: img.profile1,
+  },
+  satisfaction: {
+    value: 99, suffix: '%', statLabel: 'Client satisfaction rate',
+    quote: 'From strategy to launch, everything felt seamless. The design, performance and overall experience exceeded our expectations and goals.',
+    name: 'Lincoln Dias', role: 'Founder & CEO', avatar: img.reviewer,
+  },
+  small: [
+    { quote: 'They quickly understood our vision and turned it into a strong digital experience.', name: 'Aggy Galkin', role: 'Marketing Lead', avatar: img.profile2, dark: false },
+    { quote: 'A seamless process with a polished, fast and easy-to-manage result.', name: 'Davis Bergson', role: 'Creative Director', avatar: img.profile3, dark: true },
   ],
-  testimonials: [
-    { quote: 'The team delivered our website ahead of schedule with clear communication and great attention to detail.', role: 'Flossie Gruz', tag: 'Product Manager' },
-    { quote: 'They quickly understood our vision and turned it into a strong, distinctive digital experience.', role: 'Aggy Galkin', tag: 'Marketing Lead' },
-    { quote: 'A seamless process with a polished, fast and easy-to-manage result. Exactly what we hoped for.', role: 'Davis Bergson', tag: 'Creative Director' },
-  ],
-  big: { value: 96, suffix: '%', label: 'Client satisfaction rate' },
+  image: img.reviewBox,
 }
 
 export const pricing = {
