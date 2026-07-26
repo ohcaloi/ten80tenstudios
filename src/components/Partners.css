@@ -42,8 +42,8 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 12rem;
-  height: 5.25rem;
+  width: 13rem;
+  height: 6.25rem;
   padding: 0 1.5rem;
   background: var(--white);
   border-radius: 18px;
@@ -52,8 +52,8 @@
 .partners__card:hover { background-color: var(--black); }
 
 .partners__logo {
-  width: 3.75rem;
-  height: 3.75rem;
+  width: 4.75rem;
+  height: 4.75rem;
   object-fit: contain;
   flex: none;
 }
@@ -62,7 +62,7 @@
   .partners__head { grid-template-columns: 1fr; gap: 1rem; }
 }
 @media (max-width: 479px) {
-  .partners__card { width: 10rem; height: 4.75rem; padding: 0 1.25rem; }
+  .partners__card { width: 11rem; height: 5.5rem; padding: 0 1.25rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
