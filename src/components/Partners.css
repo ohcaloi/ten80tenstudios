@@ -52,8 +52,8 @@
 .partners__card:hover { background-color: var(--black); }
 
 .partners__logo {
-  width: 2.75rem;
-  height: 2.75rem;
+  width: 3.75rem;
+  height: 3.75rem;
   object-fit: contain;
   flex: none;
 }
