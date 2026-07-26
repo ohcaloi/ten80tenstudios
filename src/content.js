@@ -172,16 +172,16 @@ export const work = {
 export const capabilities = {
   eyebrow: 'Full-service creative',
   headline: 'Innovative ideas and bold execution that drive measurable growth',
-  list: [
-    'Interactive design experiences',
-    'Motion graphics production',
-    'Website design & development',
-    'Digital marketing solutions',
-    'Packaging design innovation',
-  ],
-  marquee: [
-    'High-quality graphic solutions', 'Motion graphics & animation', 'Full-service creative',
-    'High-impact visual campaigns', 'Premium creative consulting', 'Studio video editing',
+  caption:
+    'We combine forward-thinking ideas with flawless execution, ensuring every campaign, design or strategy not only looks great.',
+  cta: { label: "Let's talk", href: '/contact' },
+  // scroll-driven list: the active row swaps the left image
+  items: [
+    { label: 'Interactive design experiences', img: img.proj1 },
+    { label: 'Motion graphics production', img: img.proj3 },
+    { label: 'Website design & development', img: img.proj2 },
+    { label: 'Digital marketing solutions', img: img.proj4 },
+    { label: 'Packaging design innovation', img: img.card },
   ],
 }
 

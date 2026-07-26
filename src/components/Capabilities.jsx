@@ -1,76 +1,87 @@
 import './Capabilities.css'
-import { motion } from 'framer-motion'
+import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Reveal } from '../lib/Reveal'
-import { Marquee } from './ui/Marquee'
-import { ArrowUpRight } from './ui/Icons'
+import { Button } from './ui/Button'
+import { ArrowRight } from './ui/Icons'
 import { capabilities } from '../content'
 
-const EASE = [0.25, 1, 0.5, 1]
-
-function MarqueeBand({ items }) {
-  const row = items.map((word, i) => (
-    <span className="caps-mq__item" key={i}>
-      <span className="caps-mq__word">{word}</span>
-      <span className="caps-mq__star" aria-hidden>✳</span>
-    </span>
-  ))
-  return (
-    <div className="caps-mq" aria-hidden>
-      <Marquee duration={38} gap="0rem">
-        <div className="caps-mq__row">{row}</div>
-      </Marquee>
-    </div>
-  )
-}
-
+/**
+ * Full-service creative — scroll-driven list (Vertora rt-service-v1).
+ * Left column is sticky (image + caption); as each numbered row on the
+ * right crosses the viewport centre it becomes the active black pill and
+ * the left image cross-fades to match. IntersectionObserver, not clicks.
+ */
 export default function Capabilities() {
-  const { eyebrow, headline, list, marquee } = capabilities
+  const { eyebrow, headline, caption, cta, items } = capabilities
+  const [active, setActive] = useState(0)
+  const listRef = useRef(null)
+
+  useEffect(() => {
+    const rows = listRef.current?.querySelectorAll('.caps__row')
+    if (!rows?.length) return
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) setActive(Number(e.target.dataset.i))
+        })
+      },
+      { rootMargin: '-48% 0px -48% 0px', threshold: 0 }
+    )
+    rows.forEach((r) => io.observe(r))
+    return () => io.disconnect()
+  }, [])
 
   return (
     <section className="caps section" id="capabilities">
-      {/* Full-bleed inverted marquee band */}
-      <MarqueeBand items={marquee} />
+      <div className="container-lg">
+        {/* Header: heading + CTA */}
+        <div className="caps__top">
+          <Reveal dir="up" as="h2" className="caps__headline">{headline}</Reveal>
+          <Reveal dir="up" delay={0.1} className="caps__cta">
+            <Button label={cta.label} href={cta.href} variant="accent" />
+          </Reveal>
+        </div>
 
-      <div className="container-lg caps__inner">
-        <div className="caps__grid">
-          {/* LEFT — eyebrow + headline */}
-          <div className="caps__intro">
-            <Reveal dir="up">
-              <span className="eyebrow">{eyebrow}</span>
-            </Reveal>
-            <Reveal dir="up" delay={0.08}>
-              <h2 className="caps__headline">{headline}</h2>
-            </Reveal>
+        <div className="caps__body">
+          {/* Sticky left: swapping image + caption */}
+          <div className="caps__left">
+            <div className="caps__media">
+              {items.map((it, i) => (
+                <img
+                  key={it.label}
+                  src={it.img}
+                  alt=""
+                  loading="lazy"
+                  className={`caps__img${i === active ? ' is-active' : ''}`}
+                />
+              ))}
+            </div>
+            <p className="caps__caption">
+              <span className="eyebrow caps__eyebrow">{eyebrow}</span>
+              {caption}
+            </p>
           </div>
 
-          {/* RIGHT — numbered capability list */}
-          <ol className="caps__list">
-            {list.map((item, i) => {
+          {/* Right: numbered rows */}
+          <div className="caps__list" ref={listRef}>
+            {items.map((it, i) => {
               const num = String(i + 1).padStart(2, '0')
               return (
-                <Reveal
-                  as="li"
-                  key={item}
-                  dir="up"
-                  delay={i * 0.07}
-                  className="caps__row"
+                <Link
+                  to="/service"
+                  key={it.label}
+                  data-i={i}
+                  className={`caps__row${i === active ? ' is-active' : ''}`}
+                  onMouseEnter={() => setActive(i)}
                 >
-                  <Link className="caps__link" to="/service">
-                    <span className="caps__index">({num})</span>
-                    <span className="caps__label">{item}</span>
-                    <motion.span
-                      className="caps__arrow"
-                      aria-hidden
-                      whileHover={{ rotate: 0 }}
-                    >
-                      <ArrowUpRight size={26} stroke={1.75} />
-                    </motion.span>
-                  </Link>
-                </Reveal>
+                  <span className="caps__num">({num})</span>
+                  <span className="caps__label">{it.label}</span>
+                  <span className="caps__arrow" aria-hidden><ArrowRight size={22} /></span>
+                </Link>
               )
             })}
-          </ol>
+          </div>
         </div>
       </div>
     </section>

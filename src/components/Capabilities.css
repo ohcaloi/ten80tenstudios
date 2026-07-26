@@ -1,6 +1,7 @@
 /* ============================================================
-   Capabilities — template rt-service-v2
-   Numbered service list + full-bleed inverted marquee band
+   Full-service creative — scroll-driven list (Vertora rt-service-v1)
+   Sticky left image + caption; numbered rows on the right where the
+   active row is a black pill and swaps the left image on scroll.
    ============================================================ */
 
 .caps {
@@ -8,153 +9,124 @@
   overflow: hidden;
 }
 
-/* ---------- Marquee band (full-bleed inverted strip) ---------- */
-.caps-mq {
-  position: relative;
-  left: 50%;
-  width: 100vw;
-  transform: translateX(-50%);
-  background: var(--black);
-  color: var(--white);
-  padding-block: 1.4rem;
-  margin-bottom: var(--section-gap-sm);
-  border-block: 1px solid var(--line-white);
+/* Header */
+.caps__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: clamp(2.5rem, 5vw, 4rem);
 }
-
-.caps-mq .marquee__track { gap: 0; }
-
-.caps-mq__row {
-  display: inline-flex;
-  align-items: center;
-  flex: none;
-}
-
-.caps-mq__item {
-  display: inline-flex;
-  align-items: center;
-  flex: none;
-}
-
-.caps-mq__word {
-  font-size: var(--big-4);
+.caps__headline {
+  font-size: clamp(1.7rem, 3.4vw, 2.75rem);
   font-weight: 600;
-  line-height: 1;
-  letter-spacing: -0.03em;
-  color: var(--white);
-  white-space: nowrap;
-  padding-inline: 2.75rem;
+  line-height: 1.16;
+  letter-spacing: -0.025em;
+  color: var(--black);
+  max-width: 34rem;
 }
+.caps__cta { flex: none; }
 
-.caps-mq__star {
-  color: var(--accent);
-  font-size: clamp(1.1rem, 2vw, 2rem);
-  line-height: 1;
-  flex: none;
-}
-
-/* ---------- Main two-column layout ---------- */
-.caps__inner { position: relative; }
-
-.caps__grid {
+/* Body: sticky left | list right */
+.caps__body {
   display: grid;
-  grid-template-columns: minmax(0, 24rem) minmax(0, 1fr);
-  column-gap: var(--gap-xl);
-  row-gap: var(--gap-large);
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: clamp(1.5rem, 4vw, 4rem);
   align-items: start;
 }
 
-/* LEFT column */
-.caps__intro {
+/* ---- Sticky left: swapping image + caption ---- */
+.caps__left {
   position: sticky;
-  top: 6rem;
+  top: 7.5rem;
+  align-self: start;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.75rem;
+}
+.caps__media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 3.4;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--light-gray);
+}
+.caps__img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transform: scale(1.04);
+  transition: opacity 0.6s var(--ease), transform 0.8s var(--ease);
+}
+.caps__img.is-active { opacity: 1; transform: scale(1); }
+
+.caps__caption {
+  font-size: clamp(1rem, 1.4vw, 1.2rem);
+  line-height: 1.55;
+  font-weight: 600;
+  color: var(--black);
   max-width: 24rem;
 }
+.caps__eyebrow { display: flex; margin-bottom: 1rem; }
 
-.caps__headline {
-  font-size: var(--h2);
-  line-height: 1.18;
-  letter-spacing: -0.02em;
-  color: var(--black);
-}
-
-/* RIGHT column — numbered list */
-.caps__list {
-  border-top: 1px solid var(--line);
-}
-
+/* ---- Right: numbered rows ---- */
+.caps__list { display: flex; flex-direction: column; }
 .caps__row {
-  border-bottom: 1px solid var(--line);
-}
-
-.caps__link {
+  position: relative;
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: 5rem 1fr auto;
   align-items: center;
-  gap: 1.75rem;
-  padding: 2rem 0.25rem;
+  gap: 1.5rem;
+  padding: clamp(1.6rem, 3vw, 2.4rem) clamp(1.25rem, 2.5vw, 2.25rem);
+  border-bottom: 1px solid var(--line);
   color: var(--black);
-  transition: padding-left 0.4s var(--ease), color 0.35s var(--ease);
+  border-radius: 999px;
+  transition: background-color 0.4s var(--ease), color 0.4s var(--ease);
 }
+.caps__row:first-child { border-top: 1px solid var(--line); }
+.caps__row.is-active {
+  background: var(--black);
+  color: var(--white);
+  border-color: transparent;
+}
+.caps__row.is-active + .caps__row { border-top-color: transparent; }
 
-.caps__index {
-  font-family: ui-monospace, "SFMono-Regular", "Menlo", monospace;
-  font-size: var(--sub);
+.caps__num {
+  font-size: 1.05rem;
   font-weight: 600;
-  letter-spacing: 0.04em;
-  color: var(--accent);
+  color: inherit;
 }
-
 .caps__label {
-  font-size: var(--h3);
+  font-size: clamp(1.1rem, 1.7vw, 1.4rem);
   font-weight: 600;
-  line-height: 1.2;
-  letter-spacing: -0.02em;
-  color: var(--black);
-  transition: color 0.35s var(--ease);
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: inherit;
 }
-
 .caps__arrow {
   display: grid;
   place-items: center;
-  color: var(--black);
-  transition: transform 0.4s var(--ease), color 0.35s var(--ease);
+  color: inherit;
+  transition: transform 0.4s var(--ease);
 }
+.caps__row.is-active .caps__arrow { transform: translateX(4px); }
 
-/* Hover: indent + accent + arrow slides out */
-.caps__link:hover {
-  padding-left: 1.5rem;
-}
-.caps__link:hover .caps__label {
-  color: var(--accent);
-}
-.caps__link:hover .caps__arrow {
-  transform: translate(0.35rem, -0.35rem);
-  color: var(--accent);
-}
-
-/* ---------- Responsive ---------- */
+/* ---- Responsive ---- */
 @media (max-width: 991px) {
-  .caps__grid {
-    grid-template-columns: 1fr;
-    row-gap: var(--gap-large);
-  }
-  .caps__intro {
-    position: static;
-    max-width: 34rem;
-  }
-  .caps__label { font-size: 1.5rem; }
-  .caps-mq__word { padding-inline: 2rem; }
+  .caps__body { grid-template-columns: 1fr; gap: 2rem; }
+  .caps__left { position: static; }
+  .caps__media { aspect-ratio: 16 / 10; max-height: 22rem; }
+  .caps__top { flex-direction: column; }
+}
+@media (max-width: 560px) {
+  .caps__row { grid-template-columns: auto 1fr auto; gap: 0.85rem; padding: 1.4rem 1.25rem; }
+  .caps__label { text-align: left; }
 }
 
-@media (max-width: 767px) {
-  .caps__link {
-    grid-template-columns: auto 1fr auto;
-    gap: 1rem;
-    padding: 1.5rem 0.15rem;
-  }
-  .caps__label { font-size: 1.3rem; }
-  .caps__link:hover { padding-left: 0.6rem; }
+@media (prefers-reduced-motion: reduce) {
+  .caps__img, .caps__row, .caps__arrow { transition: none; }
 }
