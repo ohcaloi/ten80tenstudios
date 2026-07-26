@@ -9,25 +9,29 @@
   overflow: hidden;
 }
 
+.stm {
+  padding-block: clamp(5rem, 12vw, 11rem);
+}
 .stm__list {
   position: relative;
   display: flex;
   flex-direction: column;
+  /* generous spacing so each line gets its own scroll cycle */
+  gap: clamp(1.5rem, 4.5vw, 4rem);
 }
 
-/* each line gets its own perspective so it flips up cleanly */
-.stm__row-perspective { perspective: 1200px; }
-.stm__row-tilt { transform-origin: center top; transform-style: preserve-3d; }
+/* each line gets its own perspective so it comes forward cleanly */
+.stm__row-perspective { perspective: 1000px; }
+.stm__row-tilt { transform-style: preserve-3d; will-change: transform, filter, opacity; }
 
 .stm__row {
   display: block;
   font-size: clamp(2rem, 6.4vw, 5.25rem);
   font-weight: 600;
-  line-height: 1.16;
+  line-height: 1.08;
   letter-spacing: -0.03em;
   color: var(--black);
-  padding-block: clamp(0.35rem, 0.8vw, 0.7rem);
-  transition: color 0.35s var(--ease), opacity 0.35s var(--ease);
+  transition: color 0.35s var(--ease);
 }
 .stm__row:hover { color: var(--accent); }
 /* dim the others so the hovered line stands out (desktop) */
