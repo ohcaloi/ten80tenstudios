@@ -185,6 +185,19 @@ export const capabilities = {
   ],
 }
 
+// Big-text statement list (Vertora rt-service-v2): each line tilts in on
+// scroll; a cursor-following image appears on hover.
+export const statements = {
+  items: [
+    { text: 'High-quality graphic solutions', img: img.proj1 },
+    { text: 'Motion graphics & animation', img: img.proj3 },
+    { text: 'Full-service creative solutions', img: img.portrait1 },
+    { text: 'High-impact visual campaigns', img: img.proj2 },
+    { text: 'Premium creative consulting', img: img.portrait2 },
+    { text: 'Studio video editing', img: img.proj4 },
+  ],
+}
+
 export const stats = {
   eyebrow: 'Measurable outcomes',
   headline: 'Driving growth with strategies tailored for success',

@@ -4,6 +4,7 @@ import About from '../components/About'
 import Services from '../components/Services'
 import Work from '../components/Work'
 import Capabilities from '../components/Capabilities'
+import Statements from '../components/Statements'
 import Reviews from '../components/Reviews'
 import Pricing from '../components/Pricing'
 import Faq from '../components/Faq'
@@ -18,6 +19,7 @@ export default function Home() {
       <Services />
       <Work />
       <Capabilities />
+      <Statements />
       <Reviews />
       <Pricing />
       <Faq />
