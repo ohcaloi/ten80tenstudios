@@ -6,7 +6,7 @@ import Cta from '../components/Cta'
 import { aboutPage, img } from '../content'
 
 export default function About() {
-  const { hero, stats, statement, capabilities, research, awardsEyebrow, awardsTitle, awards, values, team } = aboutPage
+  const { hero, stats, statement, capabilities, research, awardsEyebrow, awardsTitle, awards, values } = aboutPage
 
   return (
     <div className="abt">
@@ -142,37 +142,6 @@ export default function About() {
                 <span className="abt-value__num">{String(i + 1).padStart(2, '0')}</span>
                 <h3 className="abt-value__title">{c.title}</h3>
                 <p className="abt-value__text">{c.text}</p>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 7 — TEAM */}
-      <section className="abt-team">
-        <div className="container-lg">
-          <div className="abt-team__head">
-            <Reveal as="span" dir="up" className="eyebrow">The team</Reveal>
-            <Reveal as="h2" dir="up" delay={0.08} className="abt-team__title">
-              The specialists behind the work
-            </Reveal>
-          </div>
-
-          <div className="abt-team__grid">
-            {team.map((m, i) => (
-              <Reveal key={m.name} dir="up" delay={i * 0.1} className="abt-member">
-                <div className="abt-member__media">
-                  <img className="abt-member__img" src={m.img} alt={m.name} loading="lazy" />
-                </div>
-                <div className="abt-member__body">
-                  <h3 className="abt-member__name">{m.name}</h3>
-                  <span className="abt-member__role">{m.role}</span>
-                  <div className="abt-member__skills">
-                    {m.skills.map((sk) => (
-                      <span className="abt-member__chip" key={sk}>{sk}</span>
-                    ))}
-                  </div>
-                </div>
               </Reveal>
             ))}
           </div>

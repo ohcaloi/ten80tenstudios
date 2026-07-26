@@ -353,11 +353,6 @@ export const aboutPage = {
       { title: 'Partnership', text: 'Forging valuable, lasting collaborations with every brand we work with.' },
     ],
   },
-  team: [
-    { name: 'Ava Reyes', role: 'Creative Director', img: img.profile1, skills: ['Art direction', 'Brand', 'Strategy'] },
-    { name: 'Marcus Lang', role: 'Design Lead', img: img.profile2, skills: ['UI/UX', 'Systems', 'Type'] },
-    { name: 'Noa Feldman', role: 'Motion Director', img: img.profile3, skills: ['Motion', '3D', 'Film'] },
-  ],
 }
 
 export const servicePage = {
