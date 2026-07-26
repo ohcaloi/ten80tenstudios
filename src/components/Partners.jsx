@@ -1,9 +1,24 @@
 import './Partners.css'
 import { Reveal } from '../lib/Reveal'
+import { Marquee } from './ui/Marquee'
 import { partners } from '../content'
 
-/** Partners — 4×2 grid of logo cards that invert to black on hover. */
+function ToolCard({ item }) {
+  return (
+    <div className="partners__card">
+      <img className="partners__logo" src={item.logo} alt={item.name} loading="lazy" />
+      <span className="partners__name">{item.name}</span>
+    </div>
+  )
+}
+
+/** Our toolkit — scrolling marquees of tool cards that flip to black on hover
+ *  (the marquee pauses on hover so a card can be targeted). */
 export default function Partners() {
+  const half = Math.ceil(partners.items.length / 2)
+  const rowA = partners.items.slice(0, half)
+  const rowB = partners.items.slice(half)
+
   return (
     <section className="partners section" id="partners">
       <div className="container-lg">
@@ -15,21 +30,16 @@ export default function Partners() {
             {partners.headline}
           </Reveal>
         </div>
-
-        <div className="partners__grid">
-          {partners.items.map((p, i) => (
-            <Reveal
-              key={p.name}
-              dir="up"
-              delay={(i % 4) * 0.06 + Math.floor(i / 4) * 0.08}
-              className="partners__card"
-            >
-              <img className="partners__logo" src={p.logo} alt="" loading="lazy" />
-              <span className="partners__name">{p.name}</span>
-            </Reveal>
-          ))}
-        </div>
       </div>
+
+      <Reveal dir="up" delay={0.1} className="partners__marquee">
+        <Marquee duration={38} gap="1rem">
+          {rowA.map((it) => <ToolCard key={it.name} item={it} />)}
+        </Marquee>
+        <Marquee duration={46} gap="1rem" reverse>
+          {rowB.map((it) => <ToolCard key={it.name} item={it} />)}
+        </Marquee>
+      </Reveal>
     </section>
   )
 }

@@ -78,19 +78,26 @@ export const hero = {
   location: 'Los Angeles · Working worldwide',
 }
 
+const TOOL = asset('/img/tool-logos/')
 export const partners = {
-  eyebrow: 'Our partners',
-  headline: 'We collaborate with forward-thinking brands to build lasting creative impact',
-  // 4 × 2 grid of logo cards that invert to black on hover
+  eyebrow: 'Our toolkit',
+  headline: 'Using professional creative software, we bring ideas to life through exceptional design, motion, and visual storytelling.',
+  // Scrolling marquee of tool cards that flip to black on hover.
   items: [
-    { name: 'Aurelia', logo: T + '6926eb448fc004952aca17f2_vertora-logo-one.svg' },
-    { name: 'Kestrel', logo: T + '6926eb449c977eef5051284f_vertora-logo-two.svg' },
-    { name: 'Superbloom', logo: T + '6926eb443d96d7354dd27bb5_vertora-logo-three.svg' },
-    { name: 'Meridian', logo: T + '6926eb443c8e1731c49fcf92_vertora-logo-four.svg' },
-    { name: 'Halcyon', logo: T + '6926eb44ff82d241af051a0e_vertora-logo-five.svg' },
-    { name: 'Northbound', logo: T + '6926eb442ffa4c2debbced85_vertora-logo-six.svg' },
-    { name: 'Verdant', logo: T + '6926eb44eac37615eb8a30b6_vertora-logo-seven.svg' },
-    { name: 'Lumen', logo: T + '6926eb447105177068658140_vertora-logo-eight.svg' },
+    { name: 'Adobe Express', logo: TOOL + 'Adobe-Express.png' },
+    { name: 'Canva', logo: TOOL + 'Canva.png' },
+    { name: 'Notion', logo: TOOL + 'Notion.png' },
+    { name: 'Dropbox', logo: TOOL + 'Dropbox.png' },
+    { name: 'Google Drive', logo: TOOL + 'Gdrive.png' },
+    { name: 'WordPress', logo: TOOL + 'Wordpress.png' },
+    { name: 'Wix', logo: TOOL + 'Wix.png' },
+    { name: 'Squarespace', logo: TOOL + 'Squarespacee.png' },
+    { name: 'Shopify', logo: TOOL + 'Shopify.png' },
+    { name: 'Slack', logo: TOOL + 'Slack.png' },
+    { name: 'Trello', logo: TOOL + 'Trello.png' },
+    { name: 'Asana', logo: TOOL + 'Asana.png' },
+    { name: 'Later', logo: TOOL + 'Later.png' },
+    { name: 'Buffer', logo: TOOL + 'Buffer.png' },
   ],
 }
 
