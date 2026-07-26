@@ -26,14 +26,17 @@ function StatementRow({ item, i, hovered, setHovered, reduce }) {
     target: ref,
     offset: ['start end', 'end start'],
   })
-  const rotateY = useTransform(scrollYProgress, [0, 0.5, 1], [26, 0, -26])
-  const rotateX = useTransform(scrollYProgress, [0, 0.5, 1], [14, 0, -14])
-  const scale = useTransform(scrollYProgress, [0, 0.5, 1], [0.88, 1, 0.88])
-  const opacity = useTransform(scrollYProgress, [0, 0.22, 0.72, 1], [0, 1, 1, 0])
-  const blur = useTransform(scrollYProgress, [0, 0.5, 1], [14, 0, 14])
+  // Forward & sharp in the lower-focus zone (~0.42), then rotates back and
+  // recedes UP into the distance (smaller, blurred, drifting up) as it leaves.
+  const rotateX = useTransform(scrollYProgress, [0, 0.42, 1], [-8, 0, 48])
+  const rotateY = useTransform(scrollYProgress, [0, 0.42, 1], [15, 0, -6])
+  const scale = useTransform(scrollYProgress, [0, 0.42, 1], [0.9, 1, 0.58])
+  const yPos = useTransform(scrollYProgress, [0, 0.42, 1], [36, 0, -90])
+  const opacity = useTransform(scrollYProgress, [0, 0.42, 0.72, 1], [0.12, 1, 1, 0])
+  const blur = useTransform(scrollYProgress, [0, 0.42, 1], [6, 0, 9])
   const filter = useMotionTemplate`blur(${blur}px)`
 
-  const style = reduce ? undefined : { rotateX, rotateY, scale, opacity, filter }
+  const style = reduce ? undefined : { rotateX, rotateY, scale, y: yPos, opacity, filter }
 
   return (
     <div className="stm__row-perspective" ref={ref}>

@@ -16,19 +16,24 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  /* generous spacing so each line gets its own scroll cycle */
-  gap: clamp(1.5rem, 4.5vw, 4rem);
+  /* tighter spacing — lines sit close, like the reference */
+  gap: clamp(0.1rem, 0.5vw, 0.5rem);
 }
 
-/* each line gets its own perspective so it comes forward cleanly */
-.stm__row-perspective { perspective: 1000px; }
-.stm__row-tilt { transform-style: preserve-3d; will-change: transform, filter, opacity; }
+/* each line gets its own perspective; pivots from its base so it lifts and
+   tilts back (receding up) as it leaves */
+.stm__row-perspective { perspective: 1100px; }
+.stm__row-tilt {
+  transform-style: preserve-3d;
+  transform-origin: center bottom;
+  will-change: transform, filter, opacity;
+}
 
 .stm__row {
   display: block;
   font-size: clamp(2rem, 6.4vw, 5.25rem);
   font-weight: 600;
-  line-height: 1.08;
+  line-height: 1.02;
   letter-spacing: -0.03em;
   color: var(--black);
   transition: color 0.35s var(--ease);
