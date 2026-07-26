@@ -101,14 +101,18 @@
   --btn-fg: var(--black);
   position: relative;
   overflow: hidden;
+  align-self: flex-start; /* don't stretch to the column width */
+  gap: 0.6rem;
+  padding: 0.35rem 0.35rem 0.35rem 1.15rem;
+  font-size: 0.95rem;
   transition: transform 0.35s var(--ease), color 0.4s var(--ease);
 }
 .hero__talk .btn-swap { position: relative; z-index: 2; }
 .btn.hero__talk .btn-chip {
   position: relative;
   z-index: 2;
-  width: 2rem;
-  height: 2rem;
+  width: 1.75rem;
+  height: 1.75rem;
   background: var(--accent);
   color: var(--white);
   transition: transform 0.4s var(--ease), background 0.4s var(--ease), color 0.4s var(--ease);
@@ -120,8 +124,8 @@
   z-index: 0;
   right: 0.5rem;
   top: 50%;
-  width: 2rem;
-  height: 2rem;
+  width: 1.75rem;
+  height: 1.75rem;
   border-radius: 50%;
   background: var(--accent);
   transform: translateY(-50%) scale(1);
