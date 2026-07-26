@@ -7,7 +7,6 @@ function ToolCard({ item }) {
   return (
     <div className="partners__card">
       <img className="partners__logo" src={item.logo} alt={item.name} loading="lazy" />
-      <span className="partners__name">{item.name}</span>
     </div>
   )
 }
