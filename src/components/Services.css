@@ -38,7 +38,7 @@
 .svc__col {
   display: flex;
   flex-direction: column;
-  gap: clamp(1rem, 2vw, 1.75rem);
+  gap: clamp(2.5rem, 6vw, 5rem); /* wide gaps so cards reveal one-by-one on scroll */
   z-index: 2;
   max-width: 33rem;
 }

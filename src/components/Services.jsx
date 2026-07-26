@@ -46,9 +46,15 @@ function Rings() {
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 1.1, ease: EASE, delay: 0.25 }}
       >
-        <p className="svc__statement">
-          <SplitWords text={services.statement} delay={0.5} stagger={0.03} />
-        </p>
+        <motion.p
+          className="svc__statement"
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.4 }}
+          transition={{ duration: 0.7, ease: EASE, delay: 0.35 }}
+        >
+          {services.statement}
+        </motion.p>
       </motion.div>
     </>
   )

@@ -2,7 +2,6 @@ import Hero from '../components/Hero'
 import Partners from '../components/Partners'
 import About from '../components/About'
 import Services from '../components/Services'
-import Feature from '../components/Feature'
 import Work from '../components/Work'
 import Capabilities from '../components/Capabilities'
 import Reviews from '../components/Reviews'
@@ -17,7 +16,6 @@ export default function Home() {
       <Partners />
       <About />
       <Services />
-      <Feature />
       <Work />
       <Capabilities />
       <Reviews />

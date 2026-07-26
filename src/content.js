@@ -158,11 +158,13 @@ export const work = {
   eyebrow: 'Featured work',
   headline:
     'We blend creativity with technical craft to build experiences that captivate audiences and carry your brand message',
+  // rotating circular-text award badge (logo in the centre)
+  badge: { ring: 'AWARD-WINNING STUDIO · SINCE 2016 · ', logo: asset('/img/ten80ten-mark-512.png') },
   projects: [
-    { name: 'Aurelia', year: '2025', tag: 'Brand identity · Packaging', img: poster('aurelia'), slug: 'aurelia' },
-    { name: 'Kestrel', year: '2024', tag: 'Web design & development', img: poster('kestrel'), slug: 'kestrel' },
-    { name: 'Superbloom', year: '2024', tag: 'Motion & photography', img: poster('superbloom'), slug: 'superbloom' },
-    { name: 'Meridian', year: '2023', tag: 'Brand & product', img: poster('meridian'), slug: 'meridian' },
+    { name: 'Aurelia', year: '2025', tag: 'Brand identity · Packaging', img: img.proj1, slug: 'aurelia' },
+    { name: 'Kestrel', year: '2024', tag: 'Web design & development', img: img.proj2, slug: 'kestrel' },
+    { name: 'Superbloom', year: '2024', tag: 'Motion & photography', img: img.proj3, slug: 'superbloom' },
+    { name: 'Meridian', year: '2023', tag: 'Brand & product', img: img.proj4, slug: 'meridian' },
   ],
 }
 
