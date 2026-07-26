@@ -137,7 +137,7 @@ export default function Hero() {
               >
                 {hero.lead}
               </motion.p>
-              <Button label={hero.primary.label} href={hero.primary.href} variant="light" />
+              <Button label={hero.primary.label} href={hero.primary.href} variant="light" className="hero__talk" />
             </div>
             <ul className="hero__services">
               {hero.services.map(([label, href], i) => (
