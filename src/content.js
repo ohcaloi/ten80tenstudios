@@ -324,6 +324,15 @@ export const aboutPage = {
     'Branding identity', 'UI/UX design', 'Web development', 'Visual design', 'Photography',
     'Product design', '3D visualisation', 'Art direction', 'Motion design',
   ],
+  research: {
+    headline: 'Crafting unique strategies that turn visions into powerful results',
+    tag: 'Market research',
+    body: 'We work closely with you to turn goals into digital experiences that combine strategy, design and technology.',
+    stat: { value: '100%', label: 'Satisfied clients' },
+    quote: 'A seamless process with a polished, fast and easy-to-manage result.',
+    image: img.aboutOne,
+  },
+  awardsEyebrow: 'Our strategy meets bold creativity',
   awardsTitle: 'Award-winning ideas driving impact and innovation',
   awards: [
     { year: '2019', name: 'The Webby Awards', note: 'Honoree' },
@@ -333,6 +342,17 @@ export const aboutPage = {
     { year: '2020', name: 'CSS Design Awards', note: 'Best Innovation' },
     { year: '2021', name: 'Awwwards', note: 'Developer Award' },
   ],
+  values: {
+    headline: 'Designing identity with purposeful vision',
+    sub: 'We create impactful brand experiences by combining design, strategy and innovation to bring your vision to life.',
+    cards: [
+      { title: 'Design', text: 'Crafting visuals that resonate and stay with people.' },
+      { title: 'Branding', text: 'Creating standout brands built to last.' },
+      { title: 'Strategy', text: 'Turning insight into a clear, confident creative direction.' },
+      { title: 'Best ideas', text: 'Generating innovative ideas that elevate your digital presence.' },
+      { title: 'Partnership', text: 'Forging valuable, lasting collaborations with every brand we work with.' },
+    ],
+  },
   team: [
     { name: 'Ava Reyes', role: 'Creative Director', img: img.profile1, skills: ['Art direction', 'Brand', 'Strategy'] },
     { name: 'Marcus Lang', role: 'Design Lead', img: img.profile2, skills: ['UI/UX', 'Systems', 'Type'] },

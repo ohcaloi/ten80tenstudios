@@ -6,7 +6,7 @@ import Cta from '../components/Cta'
 import { aboutPage, img } from '../content'
 
 export default function About() {
-  const { hero, stats, statement, capabilities, awardsTitle, awards, team } = aboutPage
+  const { hero, stats, statement, capabilities, research, awardsEyebrow, awardsTitle, awards, values, team } = aboutPage
 
   return (
     <div className="abt">
@@ -79,12 +79,33 @@ export default function About() {
         </div>
       </section>
 
-      {/* 4 — AWARDS */}
+      {/* 4 — RESEARCH / STRATEGY CARD */}
+      <section className="abt-research">
+        <div className="container-lg abt-research__grid">
+          <Reveal dir="up" as="h2" className="abt-research__head">
+            {research.headline}
+          </Reveal>
+          <Reveal dir="scale" delay={0.1} className="abt-research__card">
+            <img className="abt-research__img" src={research.image} alt="" loading="lazy" />
+            <div className="abt-research__body">
+              <span className="eyebrow abt-research__tag">{research.tag}</span>
+              <p className="abt-research__text">{research.body}</p>
+              <div className="abt-research__stat">
+                <span className="abt-research__stat-value">{research.stat.value}</span>
+                <span className="abt-research__stat-label">{research.stat.label}</span>
+              </div>
+              <blockquote className="abt-research__quote">“{research.quote}”</blockquote>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* 5 — AWARDS */}
       <section className="abt-awards">
         <div className="container-lg">
           <div className="abt-awards__grid">
             <div className="abt-awards__head">
-              <Reveal as="span" dir="up" className="eyebrow">Recognition</Reveal>
+              <Reveal as="span" dir="up" className="eyebrow">{awardsEyebrow}</Reveal>
               <Reveal as="h2" dir="up" delay={0.08} className="abt-awards__title">
                 {awardsTitle}
               </Reveal>
@@ -104,7 +125,30 @@ export default function About() {
         </div>
       </section>
 
-      {/* 5 — TEAM */}
+      {/* 6 — VALUES */}
+      <section className="abt-values">
+        <div className="container-lg">
+          <div className="abt-values__head">
+            <Reveal as="h2" dir="up" className="abt-values__title">
+              <SplitWords text={values.headline} stagger={0.03} />
+            </Reveal>
+            <Reveal as="p" dir="up" delay={0.1} className="abt-values__sub">
+              {values.sub}
+            </Reveal>
+          </div>
+          <div className="abt-values__grid">
+            {values.cards.map((c, i) => (
+              <Reveal key={c.title} dir="up" delay={i * 0.06} className="abt-value">
+                <span className="abt-value__num">{String(i + 1).padStart(2, '0')}</span>
+                <h3 className="abt-value__title">{c.title}</h3>
+                <p className="abt-value__text">{c.text}</p>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 7 — TEAM */}
       <section className="abt-team">
         <div className="container-lg">
           <div className="abt-team__head">
