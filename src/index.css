@@ -5,7 +5,7 @@
 
 :root {
   /* Colors */
-  --ivory: #f8f7f3;
+  --ivory: #f4f4f2;   /* cooler, cleaner near-white (kprverse-style, less warm) */
   --dark-gray: #4d4d4d;
   --black: #000000;
   --white: #ffffff;
@@ -17,6 +17,7 @@
 
   /* Fonts */
   --font: "Inter Tight", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
 
   /* Type scale (exact from template) */
   --h1: clamp(2.5rem, 10vw, 13.75rem);
@@ -73,12 +74,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font);
-  font-weight: 600;
+  font-weight: 700;               /* bolder display weight (kprverse-style) */
   color: var(--black);
-  line-height: 1.1;
-  letter-spacing: -0.02em;
+  line-height: 1.06;
+  letter-spacing: -0.035em;
 }
-h1 { font-size: var(--h1); line-height: 1; letter-spacing: -0.04em; }
+h1 { font-size: var(--h1); line-height: 1; letter-spacing: -0.05em; }
 h2 { font-size: var(--h2); line-height: 1.25; }
 h3 { font-size: var(--h3); line-height: 1.33; }
 h4 { font-size: var(--h4); line-height: 1.41; }
@@ -95,10 +96,11 @@ ul { list-style: none; }
 
 /* ---------- Eyebrow / mono label ---------- */
 .eyebrow {
-  font-size: var(--sub);
-  font-weight: 600;
-  line-height: 1.71;
-  letter-spacing: 0.0675rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--dark-gray);
   display: inline-flex;
