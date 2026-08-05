@@ -1,7 +1,8 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useLenis } from './lib/useLenis'
+import Preloader from './components/Preloader'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
@@ -48,8 +49,17 @@ const PAGE_EASE = [0.25, 1, 0.5, 1]
 export default function App() {
   useLenis()
   const location = useLocation()
+  const [loading, setLoading] = useState(true)
+
+  // lock scroll while the intro screen is up
+  useEffect(() => {
+    document.body.style.overflow = loading ? 'hidden' : ''
+    return () => { document.body.style.overflow = '' }
+  }, [loading])
+
   return (
     <>
+      {loading && <Preloader onComplete={() => setLoading(false)} />}
       <ScrollToTop />
       <ScrollProgress />
       <Navbar />

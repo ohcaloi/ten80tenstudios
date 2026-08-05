@@ -1,0 +1,100 @@
+/* ============================================================
+   Preloader — dark intro screen; logo fades from grayscale to
+   full colour as it "loads", then wipes up to reveal the page.
+   ============================================================ */
+
+.preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #0d0d0f;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  /* faint dot grid, matching the site */
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.05) 1.1px, transparent 1.3px);
+  background-size: 26px 26px;
+  transform: translateY(0);
+  transition: transform 0.95s cubic-bezier(0.76, 0, 0.24, 1);
+}
+/* wipe up to reveal the page */
+.preloader--exit { transform: translateY(-100%); }
+
+@media (prefers-reduced-motion: reduce) {
+  .preloader { transition: opacity 0.4s ease; }
+  .preloader--exit { transform: none; opacity: 0; }
+}
+
+.preloader__plus {
+  position: absolute;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 300;
+  color: var(--accent);
+  line-height: 1;
+  pointer-events: none;
+}
+
+.preloader__center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.1rem;
+  text-align: center;
+}
+.preloader__logo {
+  width: clamp(5.5rem, 12vw, 9rem);
+  height: auto;
+  object-fit: contain;
+  will-change: filter, transform;
+}
+.preloader__word {
+  font-size: clamp(1.4rem, 3vw, 2.1rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--white);
+}
+.preloader__tag {
+  font-size: 0.8rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* progress at the bottom */
+.preloader__foot {
+  position: absolute;
+  left: 0; right: 0; bottom: clamp(2rem, 6vh, 4rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-inline: 2rem;
+}
+.preloader__count {
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  color: var(--white);
+}
+.preloader__count sup { font-size: 0.4em; margin-left: 0.15em; color: var(--accent); }
+.preloader__bar {
+  width: min(22rem, 60vw);
+  height: 2px;
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.preloader__bar-fill {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  transition: width 0.2s linear;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .preloader__bar-fill { transition: none; }
+}
